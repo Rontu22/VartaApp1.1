@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
 import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
 
 data class TimelineItemFactoryParams(

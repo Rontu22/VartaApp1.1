@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package varta.cdac.app.features.roomdirectory.createroom
 
 import android.net.Uri
 import android.os.Bundle
@@ -29,17 +29,17 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.databinding.FragmentCreateRoomBinding
-import im.vector.app.features.roomdirectory.RoomDirectorySharedAction
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.GalleryOrCameraDialogHelper
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.databinding.FragmentCreateRoomBinding
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedAction
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedActionViewModel
 import kotlinx.parcelize.Parcelize
 
 import org.matrix.android.sdk.api.session.room.failure.CreateRoomFailure

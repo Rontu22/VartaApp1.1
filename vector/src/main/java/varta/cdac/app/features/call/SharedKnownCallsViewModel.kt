@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.call.webrtc.WebRtcCall
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
 import org.matrix.android.sdk.api.session.call.MxCall
 import javax.inject.Inject
 

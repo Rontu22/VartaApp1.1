@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="1"
         tools:text="@string/invite_people_to_your_space_desc" />
 
-    <im.vector.app.features.spaces.create.WizardButtonView
+    <varta.cdac.app.features.spaces.create.WizardButtonView
         android:id="@+id/inviteByMailButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         app:iconTint="?vctr_content_secondary"
         app:title="@string/invite_by_email" />
 
-    <im.vector.app.features.spaces.create.WizardButtonView
+    <varta.cdac.app.features.spaces.create.WizardButtonView
         android:id="@+id/inviteByMxidButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
         app:iconTint="?vctr_content_secondary"
         app:title="@string/invite_by_mxid" />
 
-    <im.vector.app.features.spaces.create.WizardButtonView
+    <varta.cdac.app.features.spaces.create.WizardButtonView
         android:id="@+id/inviteByLinkButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

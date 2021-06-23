@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package varta.cdac.app.core.utils
 
 import android.content.Context
 import android.media.Ringtone
 import android.media.RingtoneManager
 import android.net.Uri
 import androidx.core.content.edit
-import im.vector.app.core.di.DefaultSharedPreferences
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.features.settings.VectorPreferences
 
 /**
  * This file manages the sound ringtone for calls.

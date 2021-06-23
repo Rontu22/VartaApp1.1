@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package varta.cdac.app.features.userdirectory
 
-import im.vector.app.core.platform.VectorSharedAction
+import varta.cdac.app.core.platform.VectorSharedAction
 
 sealed class UserListSharedAction : VectorSharedAction {
     object Close : UserListSharedAction()

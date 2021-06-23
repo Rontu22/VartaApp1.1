@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package varta.cdac.app.features.spaces.create
 
 import android.net.Uri
 import com.airbnb.mvrx.Async

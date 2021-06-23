@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug
+package varta.cdac.app.features.debug
 
 import android.app.Activity
 import android.app.NotificationChannel
@@ -24,19 +24,19 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.Person
 import androidx.core.content.getSystemService
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.PERMISSION_REQUEST_CODE_LAUNCH_CAMERA
-import im.vector.app.core.utils.allGranted
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.ActivityDebugMenuBinding
-import im.vector.app.features.debug.sas.DebugSasEmojiActivity
-import im.vector.app.features.qrcode.QrCodeScannerActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import varta.cdac.app.core.utils.PERMISSION_REQUEST_CODE_LAUNCH_CAMERA
+import varta.cdac.app.core.utils.allGranted
+import varta.cdac.app.core.utils.checkPermissions
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.ActivityDebugMenuBinding
+import varta.cdac.app.features.debug.sas.DebugSasEmojiActivity
+import varta.cdac.app.features.qrcode.QrCodeScannerActivity
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkDefaultActivity
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkTestActivity
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkVectorActivity

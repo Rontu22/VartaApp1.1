@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.verification
+package varta.cdac.app.features.crypto.verification
 
 import android.content.Context
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.RoomDetailActivity
-import im.vector.app.features.home.room.detail.RoomDetailArgs
-import im.vector.app.features.popup.PopupAlertManager
-import im.vector.app.features.popup.VerificationVectorAlert
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.RoomDetailActivity
+import varta.cdac.app.features.home.room.detail.RoomDetailArgs
+import varta.cdac.app.features.popup.PopupAlertManager
+import varta.cdac.app.features.popup.VerificationVectorAlert
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.verification.PendingVerificationRequest
 import org.matrix.android.sdk.api.session.crypto.verification.VerificationService

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.command
+package varta.cdac.app.features.autocomplete.command
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.autocomplete.RecyclerViewPresenter
-import im.vector.app.features.command.Command
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.features.autocomplete.AutocompleteClickListener
+import varta.cdac.app.features.autocomplete.RecyclerViewPresenter
+import varta.cdac.app.features.command.Command
+import varta.cdac.app.features.settings.VectorPreferences
 import javax.inject.Inject
 
 class AutocompleteCommandPresenter @Inject constructor(context: Context,

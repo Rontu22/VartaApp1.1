@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.identity.ThreePid
 
 sealed class DiscoverySettingsAction : VectorViewModelAction {

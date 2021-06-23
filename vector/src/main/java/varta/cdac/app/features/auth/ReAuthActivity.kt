@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.auth
+package varta.cdac.app.features.auth
 
 import android.content.ComponentName
 import android.content.Context
@@ -29,11 +29,11 @@ import androidx.browser.customtabs.CustomTabsSession
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.platform.SimpleFragmentActivity
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes

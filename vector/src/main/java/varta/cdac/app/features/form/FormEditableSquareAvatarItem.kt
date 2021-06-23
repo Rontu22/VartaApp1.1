@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.form
+package varta.cdac.app.features.form
 
 import android.net.Uri
 import android.util.TypedValue
@@ -26,12 +26,12 @@ import com.airbnb.epoxy.EpoxyModelWithHolder
 import com.bumptech.glide.load.MultiTransformation
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.glide.GlideApp
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.MatrixItem
 
 @EpoxyModelClass(layout = R.layout.item_editable_square_avatar)

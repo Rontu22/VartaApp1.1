@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.date
+package varta.cdac.app.core.date
 
 import org.threeten.bp.format.DateTimeFormatter
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package varta.cdac.app.features.signout.soft
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.ActivityViewModelContext
@@ -27,10 +27,10 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.hasUnsavedKeys
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.login.LoginMode
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.extensions.hasUnsavedKeys
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.login.LoginMode
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.reactions
+package varta.cdac.app.features.home.room.detail.timeline.reactions
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,16 +23,16 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListWithTitleBinding
-import im.vector.app.features.home.room.detail.timeline.action.EventSharedAction
-import im.vector.app.features.home.room.detail.timeline.action.MessageSharedActionViewModel
-import im.vector.app.features.home.room.detail.timeline.action.TimelineEventFragmentArgs
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetGenericListWithTitleBinding
+import varta.cdac.app.features.home.room.detail.timeline.action.EventSharedAction
+import varta.cdac.app.features.home.room.detail.timeline.action.MessageSharedActionViewModel
+import varta.cdac.app.features.home.room.detail.timeline.action.TimelineEventFragmentArgs
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageInformationData
 
 import javax.inject.Inject
 

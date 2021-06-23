@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package varta.cdac.app.core.utils
 
 import android.app.Activity
 import android.app.DownloadManager
@@ -38,10 +38,10 @@ import androidx.browser.customtabs.CustomTabsIntent
 import androidx.browser.customtabs.CustomTabsSession
 import androidx.core.content.FileProvider
 import androidx.core.content.getSystemService
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.features.notifications.NotificationUtils
+import varta.cdac.app.features.themes.ThemeUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okio.buffer

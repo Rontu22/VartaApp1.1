@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.espresso.tools
+package varta.cdac.app.espresso.tools
 
 import android.app.Activity
-import im.vector.app.activityIdlingResource
-import im.vector.app.withIdlingResource
+import varta.cdac.app.activityIdlingResource
+import varta.cdac.app.withIdlingResource
 
 inline fun <reified T : Activity> waitUntilActivityVisible(noinline block: (() -> Unit)) {
     withIdlingResource(activityIdlingResource(T::class.java), block)

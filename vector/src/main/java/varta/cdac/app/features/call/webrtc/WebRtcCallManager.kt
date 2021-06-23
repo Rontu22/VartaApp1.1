@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.webrtc
+package varta.cdac.app.features.call.webrtc
 
 import android.content.Context
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.BuildConfig
-import im.vector.app.core.services.CallService
-import im.vector.app.features.call.VectorCallActivity
-import im.vector.app.features.call.audio.CallAudioManager
-import im.vector.app.features.call.lookup.CallProtocolsChecker
-import im.vector.app.features.call.lookup.CallUserMapper
-import im.vector.app.features.call.utils.EglUtils
-import im.vector.app.features.call.vectorCallService
-import im.vector.app.push.fcm.FcmHelper
+import varta.cdac.app.ActiveSessionDataSource
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.core.services.CallService
+import varta.cdac.app.features.call.VectorCallActivity
+import varta.cdac.app.features.call.audio.CallAudioManager
+import varta.cdac.app.features.call.lookup.CallProtocolsChecker
+import varta.cdac.app.features.call.lookup.CallUserMapper
+import varta.cdac.app.features.call.utils.EglUtils
+import varta.cdac.app.features.call.vectorCallService
+import varta.cdac.app.push.fcm.FcmHelper
 import kotlinx.coroutines.asCoroutineDispatcher
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.extensions.tryOrNull

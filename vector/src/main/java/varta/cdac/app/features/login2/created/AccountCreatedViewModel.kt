@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2.created
+package varta.cdac.app.features.login2.created
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.FragmentViewModelContext
@@ -23,7 +23,7 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.platform.VectorViewModel
+import varta.cdac.app.core.platform.VectorViewModel
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.MatrixPatterns
 import org.matrix.android.sdk.api.session.Session

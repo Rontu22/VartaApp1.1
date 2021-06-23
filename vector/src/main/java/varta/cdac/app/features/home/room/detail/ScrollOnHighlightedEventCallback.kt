@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.core.platform.DefaultListUpdateCallback
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.core.platform.DefaultListUpdateCallback
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicReference
 

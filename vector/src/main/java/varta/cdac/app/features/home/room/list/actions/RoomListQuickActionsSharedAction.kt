@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.actions
+package varta.cdac.app.features.home.room.list.actions
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import im.vector.app.R
-import im.vector.app.core.platform.VectorSharedAction
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorSharedAction
 
 sealed class RoomListQuickActionsSharedAction(
         @StringRes val titleRes: Int,

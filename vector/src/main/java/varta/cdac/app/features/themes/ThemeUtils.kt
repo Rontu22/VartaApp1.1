@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.themes
+package varta.cdac.app.features.themes
 
 import android.app.Activity
 import android.content.Context
@@ -27,8 +27,8 @@ import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
 import androidx.core.content.edit
 import androidx.core.graphics.drawable.DrawableCompat
-import im.vector.app.R
-import im.vector.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.di.DefaultSharedPreferences
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicReference
 

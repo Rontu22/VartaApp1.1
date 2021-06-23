@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Uninitialized

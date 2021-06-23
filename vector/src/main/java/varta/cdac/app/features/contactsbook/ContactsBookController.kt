@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package varta.cdac.app.features.contactsbook
 
 import com.airbnb.epoxy.EpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.contacts.MappedContact
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.contacts.MappedContact
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.epoxy.noResultItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.identity.ThreePid
 import javax.inject.Inject
 

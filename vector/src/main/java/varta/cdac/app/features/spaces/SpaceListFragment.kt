@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
 import android.os.Bundle
 import android.view.HapticFeedbackConstants
@@ -26,14 +26,14 @@ import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentGroupListBinding
-import im.vector.app.features.home.HomeActivitySharedAction
-import im.vector.app.features.home.HomeSharedActionViewModel
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.StateView
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentGroupListBinding
+import varta.cdac.app.features.home.HomeActivitySharedAction
+import varta.cdac.app.features.home.HomeSharedActionViewModel
 import org.matrix.android.sdk.api.session.group.model.GroupSummary
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import javax.inject.Inject

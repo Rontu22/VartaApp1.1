@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package varta.cdac.app.features.crypto.recover
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import java.io.OutputStream
 
 sealed class BootstrapActions : VectorViewModelAction {

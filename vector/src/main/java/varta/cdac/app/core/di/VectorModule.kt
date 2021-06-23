@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package varta.cdac.app.core.di
 
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
@@ -23,14 +23,14 @@ import android.content.res.Resources
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import im.vector.app.core.error.DefaultErrorFormatter
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.features.navigation.DefaultNavigator
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.pin.PinCodeStore
-import im.vector.app.features.pin.SharedPrefPinCodeStore
-import im.vector.app.features.ui.SharedPreferencesUiStateRepository
-import im.vector.app.features.ui.UiStateRepository
+import varta.cdac.app.core.error.DefaultErrorFormatter
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.features.navigation.DefaultNavigator
+import varta.cdac.app.features.navigation.Navigator
+import varta.cdac.app.features.pin.PinCodeStore
+import varta.cdac.app.features.pin.SharedPrefPinCodeStore
+import varta.cdac.app.features.ui.SharedPreferencesUiStateRepository
+import varta.cdac.app.features.ui.UiStateRepository
 import org.matrix.android.sdk.api.Matrix
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.auth.HomeServerHistoryService

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2.created
+package varta.cdac.app.features.login2.created
 
 import android.net.Uri
 import android.os.Bundle
@@ -25,20 +25,20 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.intent.getFilenameFromUri
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.databinding.DialogBaseEditTextBinding
-import im.vector.app.databinding.FragmentLoginAccountCreatedBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
-import im.vector.app.features.login2.AbstractLoginFragment2
-import im.vector.app.features.login2.LoginAction2
-import im.vector.app.features.login2.LoginActivity2
-import im.vector.app.features.login2.LoginViewState2
+import varta.cdac.app.R
+import varta.cdac.app.core.date.DateFormatKind
+import varta.cdac.app.core.date.VectorDateFormatter
+import varta.cdac.app.core.dialogs.GalleryOrCameraDialogHelper
+import varta.cdac.app.core.intent.getFilenameFromUri
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.databinding.DialogBaseEditTextBinding
+import varta.cdac.app.databinding.FragmentLoginAccountCreatedBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
+import varta.cdac.app.features.login2.AbstractLoginFragment2
+import varta.cdac.app.features.login2.LoginAction2
+import varta.cdac.app.features.login2.LoginActivity2
+import varta.cdac.app.features.login2.LoginViewState2
 import org.matrix.android.sdk.api.util.MatrixItem
 import java.util.UUID
 import javax.inject.Inject

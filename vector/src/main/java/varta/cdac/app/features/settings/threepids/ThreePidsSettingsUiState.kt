@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.threepids
+package varta.cdac.app.features.settings.threepids
 
 sealed class ThreePidsSettingsUiState {
     object Idle : ThreePidsSettingsUiState()

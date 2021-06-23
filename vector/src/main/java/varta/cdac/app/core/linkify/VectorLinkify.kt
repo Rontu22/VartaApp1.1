@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.linkify
+package varta.cdac.app.core.linkify
 
 import android.text.Spannable
 import android.text.style.URLSpan

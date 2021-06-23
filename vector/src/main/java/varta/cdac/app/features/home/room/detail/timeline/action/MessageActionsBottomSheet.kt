@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.action
+package varta.cdac.app.features.home.room.detail.timeline.action
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,12 +21,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListBinding
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetGenericListBinding
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageInformationData
 
 import javax.inject.Inject
 

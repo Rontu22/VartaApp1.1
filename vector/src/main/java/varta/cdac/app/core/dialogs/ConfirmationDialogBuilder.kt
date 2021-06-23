@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package varta.cdac.app.core.dialogs
 
 import android.app.Activity
 import androidx.annotation.StringRes
 import androidx.core.view.isVisible
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.databinding.DialogConfirmationWithReasonBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.DialogConfirmationWithReasonBinding
 
 object ConfirmationDialogBuilder {
 

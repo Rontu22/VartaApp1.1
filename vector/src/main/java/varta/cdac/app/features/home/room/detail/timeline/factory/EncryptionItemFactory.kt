@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
-import im.vector.app.features.home.room.detail.timeline.item.StatusTileTimelineItem
-import im.vector.app.features.home.room.detail.timeline.item.StatusTileTimelineItem_
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.room.detail.timeline.MessageColorProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
+import varta.cdac.app.features.home.room.detail.timeline.item.StatusTileTimelineItem
+import varta.cdac.app.features.home.room.detail.timeline.item.StatusTileTimelineItem_
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.toModel

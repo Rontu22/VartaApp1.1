@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package varta.cdac.app.features.usercode
 
 import android.Manifest
 import android.app.Activity
@@ -28,13 +28,13 @@ import androidx.core.content.ContextCompat
 import com.airbnb.mvrx.activityViewModel
 import com.google.zxing.Result
 import com.google.zxing.ResultMetadataType
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.databinding.FragmentQrCodeScannerWithButtonBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import varta.cdac.app.core.utils.checkPermissions
+import varta.cdac.app.core.utils.registerForPermissionsResult
+import varta.cdac.app.databinding.FragmentQrCodeScannerWithButtonBinding
 import im.vector.lib.multipicker.MultiPicker
 import im.vector.lib.multipicker.utils.ImageUtils
 

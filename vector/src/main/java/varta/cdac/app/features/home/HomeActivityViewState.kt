@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import com.airbnb.mvrx.MvRxState
 import org.matrix.android.sdk.api.session.initsync.InitialSyncProgressService

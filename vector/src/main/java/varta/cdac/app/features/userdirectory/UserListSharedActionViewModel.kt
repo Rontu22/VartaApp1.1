@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package varta.cdac.app.features.userdirectory
 
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import varta.cdac.app.core.platform.VectorSharedActionViewModel
 import javax.inject.Inject
 
 class UserListSharedActionViewModel @Inject constructor() : VectorSharedActionViewModel<UserListSharedAction>()

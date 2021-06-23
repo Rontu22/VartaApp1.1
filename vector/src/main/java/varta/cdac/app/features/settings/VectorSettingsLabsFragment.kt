@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
-import im.vector.app.R
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.preference.VectorSwitchPreference
+import varta.cdac.app.features.MainActivity
+import varta.cdac.app.features.MainActivityArgs
 import javax.inject.Inject
 
 class VectorSettingsLabsFragment @Inject constructor(

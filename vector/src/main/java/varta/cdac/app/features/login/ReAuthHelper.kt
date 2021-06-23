@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
-import im.vector.app.core.utils.TemporaryStore
+import varta.cdac.app.core.utils.TemporaryStore
 import javax.inject.Inject
 import javax.inject.Singleton
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.account.deactivation
+package varta.cdac.app.features.settings.account.deactivation
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.FragmentViewModelContext
@@ -23,9 +23,9 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.auth.ReAuthActivity
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.auth.ReAuthActivity
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
 import org.matrix.android.sdk.api.failure.isInvalidUIAAuth

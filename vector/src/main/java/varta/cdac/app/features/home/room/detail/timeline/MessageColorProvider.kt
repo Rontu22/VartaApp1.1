@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline
+package varta.cdac.app.features.home.room.detail.timeline
 
 import androidx.annotation.ColorInt
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
+import varta.cdac.app.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.room.send.SendState
 import org.matrix.android.sdk.api.util.MatrixItem
 import javax.inject.Inject

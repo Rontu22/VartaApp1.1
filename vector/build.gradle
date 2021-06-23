@@ -109,7 +109,7 @@ android {
     ndkVersion "21.3.6528147"
 
     defaultConfig {
-        applicationId "im.vector.app"
+        applicationId "varta.cdac.app"
         // Set to API 21: see #405
         minSdkVersion 21
         targetSdkVersion 30
@@ -142,7 +142,7 @@ android {
         resValue "bool", "useLoginV1", "true"
         resValue "bool", "useLoginV2", "false"
 
-        buildConfigField "im.vector.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy", "outboundSessionKeySharingStrategy", "im.vector.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy.WhenTyping"
+        buildConfigField "varta.cdac.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy", "outboundSessionKeySharingStrategy", "varta.cdac.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy.WhenTyping"
 
         //  If set, MSC3086 asserted identity messages sent on VoIP calls will cause the call to appear in the room corresponding to the asserted identity.
         //  This *must* only be set in trusted environments.

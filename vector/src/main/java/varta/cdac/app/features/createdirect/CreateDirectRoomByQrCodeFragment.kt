@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package varta.cdac.app.features.createdirect
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -22,14 +22,14 @@ import android.widget.Toast
 import com.airbnb.mvrx.activityViewModel
 import com.google.zxing.Result
 import com.google.zxing.ResultMetadataType
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.databinding.FragmentQrCodeScannerBinding
-import im.vector.app.features.userdirectory.PendingSelection
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import varta.cdac.app.core.utils.checkPermissions
+import varta.cdac.app.core.utils.registerForPermissionsResult
+import varta.cdac.app.databinding.FragmentQrCodeScannerBinding
+import varta.cdac.app.features.userdirectory.PendingSelection
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 import org.matrix.android.sdk.api.session.permalinks.PermalinkData
 import org.matrix.android.sdk.api.session.permalinks.PermalinkParser

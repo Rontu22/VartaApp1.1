@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package varta.cdac.app.features.media
 
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.VideoView
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.files.LocalFilesHelper
-import im.vector.app.features.session.coroutineScope
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.files.LocalFilesHelper
+import varta.cdac.app.features.session.coroutineScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

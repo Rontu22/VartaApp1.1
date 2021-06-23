@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.workers.signout
+package varta.cdac.app.features.workers.signout
 
 import android.net.Uri
 import androidx.lifecycle.viewModelScope
@@ -30,11 +30,11 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.crypto.keys.KeysExporter
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.EmptyViewEvents
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.platform.VectorViewModelAction
+import varta.cdac.app.features.crypto.keys.KeysExporter
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.crosssigning.MASTER_KEY_SSSS_NAME

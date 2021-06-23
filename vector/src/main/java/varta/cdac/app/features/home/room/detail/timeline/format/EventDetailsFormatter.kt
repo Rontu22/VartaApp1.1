@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.format
+package varta.cdac.app.features.home.room.detail.timeline.format
 
 import android.content.Context
-import im.vector.app.core.utils.TextUtils
+import varta.cdac.app.core.utils.TextUtils
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.isAudioMessage
 import org.matrix.android.sdk.api.session.events.model.isFileMessage

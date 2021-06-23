@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.glide
+package varta.cdac.app.core.glide
 
 import com.bumptech.glide.integration.okhttp3.OkHttpUrlLoader
 import com.bumptech.glide.load.model.GlideUrl
 import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
-import im.vector.app.ActiveSessionDataSource
+import varta.cdac.app.ActiveSessionDataSource
 import okhttp3.OkHttpClient
 import java.io.InputStream
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package varta.cdac.app.features.reactions
 
 import com.airbnb.mvrx.ActivityViewModelContext
 import com.airbnb.mvrx.MvRxState
@@ -22,10 +22,10 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.reactions.data.EmojiDataSource
-import im.vector.app.features.reactions.data.EmojiItem
+import varta.cdac.app.core.platform.EmptyViewEvents
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.reactions.data.EmojiDataSource
+import varta.cdac.app.features.reactions.data.EmojiItem
 
 data class EmojiSearchResultViewState(
         val query: String = "",

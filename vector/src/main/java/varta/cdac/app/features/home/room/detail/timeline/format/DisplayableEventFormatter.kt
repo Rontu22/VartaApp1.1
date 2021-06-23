@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.format
+package varta.cdac.app.features.home.room.detail.timeline.format
 
-import im.vector.app.EmojiCompatWrapper
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.EmojiCompatWrapper
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.events.model.toModel

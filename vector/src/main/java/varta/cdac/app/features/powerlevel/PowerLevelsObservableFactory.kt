@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.powerlevel
+package varta.cdac.app.features.powerlevel
 
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers

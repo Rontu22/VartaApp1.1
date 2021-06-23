@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package varta.cdac.app.features.usercode
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.util.MatrixItem
 
 sealed class UserCodeActions : VectorViewModelAction {

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification.emoji
+package varta.cdac.app.features.crypto.verification.emoji
 
 import com.airbnb.epoxy.EpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationDecimalCodeItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationEmojisItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationWaitingItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.bottomSheetDividerItem
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationDecimalCodeItem
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationEmojisItem
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationWaitingItem
 import javax.inject.Inject
 
 class VerificationEmojiCodeController @Inject constructor(

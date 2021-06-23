@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -32,11 +32,11 @@ import android.webkit.WebViewClient
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.args
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.utils.AssetReader
-import im.vector.app.databinding.FragmentLoginCaptchaBinding
-import im.vector.app.features.login.JavascriptResponse
-import im.vector.app.features.login.LoginCaptchaFragmentArgument
+import varta.cdac.app.R
+import varta.cdac.app.core.utils.AssetReader
+import varta.cdac.app.databinding.FragmentLoginCaptchaBinding
+import varta.cdac.app.features.login.JavascriptResponse
+import varta.cdac.app.features.login.LoginCaptchaFragmentArgument
 import org.matrix.android.sdk.internal.di.MoshiProvider
 import timber.log.Timber
 import java.net.URLDecoder

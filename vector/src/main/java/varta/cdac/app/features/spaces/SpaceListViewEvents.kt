@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 /**
  * Transient events for group list screen

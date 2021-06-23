@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package varta.cdac.app.core.preference
 
 import android.content.Context
 import android.graphics.Typeface
@@ -23,8 +23,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceViewHolder
-import im.vector.app.R
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.features.themes.ThemeUtils
 
 /**
  * Customize PreferenceCategory class to redefine some attributes.

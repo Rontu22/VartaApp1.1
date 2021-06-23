@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.utils
+package varta.cdac.app.features.call.utils
 
-import im.vector.app.features.call.webrtc.SdpObserverAdapter
+import varta.cdac.app.features.call.webrtc.SdpObserverAdapter
 import org.webrtc.MediaConstraints
 import org.webrtc.PeerConnection
 import org.webrtc.SessionDescription

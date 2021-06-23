@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.date
+package varta.cdac.app.core.date
 
 import android.content.Context
 import android.text.format.DateFormat
-import im.vector.app.core.resources.LocaleProvider
+import varta.cdac.app.core.resources.LocaleProvider
 import org.threeten.bp.format.DateTimeFormatter
 import javax.inject.Inject
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import varta.cdac.app.core.platform.VectorSharedActionViewModel
 import javax.inject.Inject
 
 class SpacePreviewSharedActionViewModel @Inject constructor() : VectorSharedActionViewModel<SpacePreviewSharedAction>()

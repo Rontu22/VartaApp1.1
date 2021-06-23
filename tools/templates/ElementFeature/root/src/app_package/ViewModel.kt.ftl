@@ -7,12 +7,12 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
 
 <#if createViewEvents>
 <#else>
-import im.vector.app.core.platform.EmptyViewEvents
+import varta.cdac.app.core.platform.EmptyViewEvents
 </#if>
 
 class ${viewModelClass} @AssistedInject constructor(@Assisted initialState: ${viewStateClass})

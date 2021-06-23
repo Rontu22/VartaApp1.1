@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.threepids
+package varta.cdac.app.features.settings.threepids
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -26,20 +26,20 @@ import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.withColoredButton
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.getFormattedValue
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.isEmail
-import im.vector.app.core.extensions.isMsisdn
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
-import im.vector.app.features.auth.ReAuthActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.withColoredButton
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.getFormattedValue
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.isEmail
+import varta.cdac.app.core.extensions.isMsisdn
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentGenericRecyclerBinding
+import varta.cdac.app.features.auth.ReAuthActivity
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
 import org.matrix.android.sdk.api.session.identity.ThreePid
 import javax.inject.Inject

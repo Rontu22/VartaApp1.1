@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
 import android.widget.Button
 import androidx.annotation.StringRes
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.attributes.ButtonStyle
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.resources.ColorProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.attributes.ButtonStyle
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.core.resources.ColorProvider
 
 @EpoxyModelClass(layout = R.layout.item_settings_button)
 abstract class SettingsButtonItem : EpoxyModelWithHolder<SettingsButtonItem.Holder>() {

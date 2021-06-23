@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.home.room.detail.composer
+package varta.cdac.app.features.home.room.detail.composer
 
 import android.content.Context
 import android.net.Uri
@@ -27,9 +27,9 @@ import android.view.inputmethod.InputConnection
 import androidx.core.view.inputmethod.EditorInfoCompat
 import androidx.core.view.inputmethod.InputConnectionCompat
 import com.vanniktech.emoji.EmojiEditText
-import im.vector.app.core.extensions.ooi
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.features.html.PillImageSpan
+import varta.cdac.app.core.extensions.ooi
+import varta.cdac.app.core.platform.SimpleTextWatcher
+import varta.cdac.app.features.html.PillImageSpan
 import timber.log.Timber
 
 class ComposerEditText @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = android.R.attr.editTextStyle)

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -27,12 +27,12 @@ import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import com.google.android.material.textfield.TextInputLayout
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.utils.ensureProtocol
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginServerUrlFormBinding
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.utils.ensureProtocol
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.databinding.FragmentLoginServerUrlFormBinding
 
 import org.matrix.android.sdk.api.failure.Failure
 import java.net.UnknownHostException

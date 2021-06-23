@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.push
+package varta.cdac.app.features.settings.push
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
 import javax.inject.Inject
 
 class PushGateWayController @Inject constructor(

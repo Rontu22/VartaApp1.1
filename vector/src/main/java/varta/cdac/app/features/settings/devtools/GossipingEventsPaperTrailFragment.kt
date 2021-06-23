@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devtools
+package varta.cdac.app.features.settings.devtools
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,13 +22,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.createJSonViewerStyleProvider
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.createJSonViewerStyleProvider
+import varta.cdac.app.databinding.FragmentGenericRecyclerBinding
 
 import org.billcarsonfr.jsonviewer.JSonViewerDialog
 import org.matrix.android.sdk.api.session.events.model.Event

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.date
+package varta.cdac.app.core.date
 
 /* This will represent all kind of available date formats for the app.
    We will use the date Sep 7 2020 at 9:30am as an example.

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.telecom
+package varta.cdac.app.features.call.telecom
 
 import android.content.Context
 import android.os.Build
 import android.telecom.Connection
 import android.telecom.DisconnectCause
 import androidx.annotation.RequiresApi
-import im.vector.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
 import timber.log.Timber
 import javax.inject.Inject
 

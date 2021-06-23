@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package varta.cdac.app.features.spaces.explore
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class SpaceDirectoryViewEvents : VectorViewEvents {
     object Dismiss : SpaceDirectoryViewEvents()

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.permissions
+package varta.cdac.app.features.widgets.permissions
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class RoomWidgetPermissionViewEvents : VectorViewEvents {
     object Close : RoomWidgetPermissionViewEvents()

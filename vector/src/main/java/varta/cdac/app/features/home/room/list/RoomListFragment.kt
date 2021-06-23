@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -33,23 +33,23 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.withColoredButton
-import im.vector.app.core.epoxy.LayoutManagerStateRestorer
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.databinding.FragmentRoomListBinding
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.home.room.list.actions.RoomListActionsArgs
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsBottomSheet
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedAction
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
-import im.vector.app.features.home.room.list.widget.NotifsFabMenuView
-import im.vector.app.features.notifications.NotificationDrawerManager
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.withColoredButton
+import varta.cdac.app.core.epoxy.LayoutManagerStateRestorer
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.StateView
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.UserPreferencesProvider
+import varta.cdac.app.databinding.FragmentRoomListBinding
+import varta.cdac.app.features.home.RoomListDisplayMode
+import varta.cdac.app.features.home.room.list.actions.RoomListActionsArgs
+import varta.cdac.app.features.home.room.list.actions.RoomListQuickActionsBottomSheet
+import varta.cdac.app.features.home.room.list.actions.RoomListQuickActionsSharedAction
+import varta.cdac.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
+import varta.cdac.app.features.home.room.list.widget.NotifsFabMenuView
+import varta.cdac.app.features.notifications.NotificationDrawerManager
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.extensions.orTrue
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

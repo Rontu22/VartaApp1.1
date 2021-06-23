@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.terms
+package varta.cdac.app.features.terms
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

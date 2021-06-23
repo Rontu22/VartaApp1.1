@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.rx
+package varta.cdac.app.core.rx
 
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.features.settings.VectorPreferences
 import io.reactivex.plugins.RxJavaPlugins
 import timber.log.Timber
 import javax.inject.Inject

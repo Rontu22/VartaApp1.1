@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
-import im.vector.app.R
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider.Companion.getColorFromUserId
+import varta.cdac.app.R
+import varta.cdac.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider.Companion.getColorFromUserId
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

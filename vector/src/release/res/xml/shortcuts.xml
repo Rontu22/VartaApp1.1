@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
-    <share-target android:targetClass="im.vector.app.features.share.IncomingShareActivity">
+    <share-target android:targetClass="varta.cdac.app.features.share.IncomingShareActivity">
         <data android:mimeType="*/*" />
-        <category android:name="im.vector.app.SHORTCUT_SHARE" />
+        <category android:name="varta.cdac.app.SHORTCUT_SHARE" />
     </share-target>
 </shortcuts>

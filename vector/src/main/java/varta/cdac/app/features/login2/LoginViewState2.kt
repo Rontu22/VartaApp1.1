@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.PersistState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.features.login.LoginMode
+import varta.cdac.app.core.extensions.toReducedUrl
+import varta.cdac.app.features.login.LoginMode
 import org.matrix.android.sdk.api.MatrixPatterns
 import org.matrix.android.sdk.api.auth.login.LoginProfileInfo
 

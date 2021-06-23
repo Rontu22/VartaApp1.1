@@ -14,9 +14,9 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roomprofile.alias.detail
+package varta.cdac.app.features.roomprofile.alias.detail
 
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import varta.cdac.app.core.platform.VectorSharedActionViewModel
 import javax.inject.Inject
 
 /**

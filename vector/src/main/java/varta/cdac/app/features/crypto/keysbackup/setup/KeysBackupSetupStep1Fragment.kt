@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysbackup.setup
+package varta.cdac.app.features.crypto.keysbackup.setup
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.databinding.FragmentKeysBackupSetupStep1Binding
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.LiveEvent
+import varta.cdac.app.databinding.FragmentKeysBackupSetupStep1Binding
 
 import javax.inject.Inject
 

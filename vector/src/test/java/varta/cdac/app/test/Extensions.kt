@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package im.vector.app.test
+package varta.cdac.app.test
 
 fun String.trimIndentOneLine() = trimIndent().replace("\n", "")

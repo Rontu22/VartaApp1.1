@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package varta.cdac.app.features.roomdirectory.createroom
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.appbar.MaterialToolbar
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.roomdirectory.RoomDirectorySharedAction
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedAction
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedActionViewModel
 
 /**
  * Simple container for [CreateRoomFragment]

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.ui.list
+package varta.cdac.app.core.ui.list
 
 import android.content.res.ColorStateList
 import android.view.View
@@ -26,11 +26,11 @@ import androidx.core.view.isVisible
 import androidx.core.widget.ImageViewCompat
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.setTextOrHide
 
 /**
  * A generic list item to display when there is no results, with an optional CTA

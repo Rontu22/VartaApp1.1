@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.lookup
+package varta.cdac.app.features.call.lookup
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

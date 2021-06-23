@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.graphics.Color
@@ -24,11 +24,11 @@ import android.view.View
 import android.widget.RelativeLayout
 import androidx.core.content.ContextCompat
 import androidx.core.text.italic
-import im.vector.app.R
-import im.vector.app.core.error.ResourceLimitErrorFormatter
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.ViewNotificationAreaBinding
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.error.ResourceLimitErrorFormatter
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.databinding.ViewNotificationAreaBinding
+import varta.cdac.app.features.themes.ThemeUtils
 
 import me.gujun.android.span.span
 import me.saket.bettermovementmethod.BetterLinkMovementMethod

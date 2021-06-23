@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.readreceipts
+package varta.cdac.app.features.home.room.detail.readreceipts
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptData
-import im.vector.app.features.home.room.detail.timeline.item.toMatrixItem
+import varta.cdac.app.core.date.DateFormatKind
+import varta.cdac.app.core.date.VectorDateFormatter
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.item.ReadReceiptData
+import varta.cdac.app.features.home.room.detail.timeline.item.toMatrixItem
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject
 

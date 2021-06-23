@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.widgets.permissions
+package varta.cdac.app.features.widgets.permissions
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -26,13 +26,13 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.withArgs
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetRoomWidgetPermissionBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.widgets.WidgetArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.withArgs
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetRoomWidgetPermissionBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.widgets.WidgetArgs
 
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

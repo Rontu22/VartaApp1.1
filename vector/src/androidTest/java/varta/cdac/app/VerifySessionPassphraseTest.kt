@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package varta.cdac.app
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
@@ -33,13 +33,13 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import androidx.test.platform.app.InstrumentationRegistry
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.MainActivity
-import im.vector.app.features.crypto.quads.SharedSecureStorageActivity
-import im.vector.app.features.crypto.recover.BootstrapCrossSigningTask
-import im.vector.app.features.crypto.recover.Params
-import im.vector.app.features.crypto.recover.SetupMode
-import im.vector.app.features.home.HomeActivity
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.MainActivity
+import varta.cdac.app.features.crypto.quads.SharedSecureStorageActivity
+import varta.cdac.app.features.crypto.recover.BootstrapCrossSigningTask
+import varta.cdac.app.features.crypto.recover.Params
+import varta.cdac.app.features.crypto.recover.SetupMode
+import varta.cdac.app.features.home.HomeActivity
 import kotlinx.coroutines.runBlocking
 import org.junit.Before
 import org.junit.Rule

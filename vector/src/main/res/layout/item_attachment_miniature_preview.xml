@@ -9,7 +9,7 @@
     card_view:cardBackgroundColor="@android:color/transparent"
     card_view:cardElevation="0dp">
 
-    <im.vector.app.core.platform.CheckableImageView
+    <varta.cdac.app.core.platform.CheckableImageView
         android:id="@+id/attachmentMiniatureImageView"
         android:layout_width="64dp"
         android:layout_height="64dp"

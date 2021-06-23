@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.workers.signout
+package varta.cdac.app.features.workers.signout
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -23,10 +23,10 @@ import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.content.withStyledAttributes
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.ViewSignOutBottomSheetActionButtonBinding
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.databinding.ViewSignOutBottomSheetActionButtonBinding
+import varta.cdac.app.features.themes.ThemeUtils
 
 class SignOutBottomSheetActionButton @JvmOverloads constructor(
         context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0

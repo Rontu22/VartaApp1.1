@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery.change
+package varta.cdac.app.features.discovery.change
 
 import androidx.annotation.StringRes
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class SetIdentityServerViewEvents : VectorViewEvents {
     data class Loading(val message: CharSequence? = null) : SetIdentityServerViewEvents()

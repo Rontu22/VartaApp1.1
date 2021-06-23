@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package varta.cdac.app.core.utils
 
 import android.annotation.TargetApi
 import android.app.Activity
@@ -33,8 +33,8 @@ import androidx.annotation.RequiresApi
 import androidx.annotation.StringRes
 import androidx.core.content.getSystemService
 import androidx.fragment.app.Fragment
-import im.vector.app.R
-import im.vector.app.features.notifications.NotificationUtils
+import varta.cdac.app.R
+import varta.cdac.app.features.notifications.NotificationUtils
 
 /**
  * Tells if the application ignores battery optimizations.

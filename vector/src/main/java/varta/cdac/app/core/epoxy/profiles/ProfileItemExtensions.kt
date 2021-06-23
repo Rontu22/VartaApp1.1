@@ -15,13 +15,13 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package varta.cdac.app.core.epoxy.profiles
 
 import androidx.annotation.DrawableRes
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.dividerItem
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.MatrixItem
 
 fun EpoxyController.buildProfileSection(title: String) {

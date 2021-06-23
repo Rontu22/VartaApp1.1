@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package varta.cdac.app.features.widgets
 
 import android.app.Activity
 import android.content.Intent
@@ -37,15 +37,15 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.args
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.openUrlInExternalBrowser
-import im.vector.app.databinding.FragmentRoomWidgetBinding
-import im.vector.app.features.webview.WebViewEventListener
-import im.vector.app.features.widgets.webview.clearAfterWidget
-import im.vector.app.features.widgets.webview.setupForWidget
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.openUrlInExternalBrowser
+import varta.cdac.app.databinding.FragmentRoomWidgetBinding
+import varta.cdac.app.features.webview.WebViewEventListener
+import varta.cdac.app.features.widgets.webview.clearAfterWidget
+import varta.cdac.app.features.widgets.webview.setupForWidget
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.terms.TermsService
 import timber.log.Timber

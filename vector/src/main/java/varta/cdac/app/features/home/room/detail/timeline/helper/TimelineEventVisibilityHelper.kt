@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
-import im.vector.app.core.extensions.localDateTime
-import im.vector.app.core.resources.UserPreferencesProvider
+import varta.cdac.app.core.extensions.localDateTime
+import varta.cdac.app.core.resources.UserPreferencesProvider
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.events.model.RelationType
 import org.matrix.android.sdk.api.session.events.model.getRelationContent

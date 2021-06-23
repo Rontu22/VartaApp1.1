@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.error
+package varta.cdac.app.core.error
 
 import timber.log.Timber
 

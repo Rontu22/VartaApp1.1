@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.permissions
+package varta.cdac.app.features.roomprofile.permissions
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.settingsInfoItem
-import im.vector.app.features.form.formAdvancedToggleItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.epoxy.profiles.buildProfileAction
+import varta.cdac.app.core.epoxy.profiles.buildProfileSection
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.discovery.settingsInfoItem
+import varta.cdac.app.features.form.formAdvancedToggleItem
 import org.matrix.android.sdk.api.session.room.model.PowerLevelsContent
 import org.matrix.android.sdk.api.session.room.model.banOrDefault
 import org.matrix.android.sdk.api.session.room.model.eventsDefaultOrDefault

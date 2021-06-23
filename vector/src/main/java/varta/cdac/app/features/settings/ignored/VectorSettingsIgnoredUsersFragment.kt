@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.ignored
+package varta.cdac.app.features.settings.ignored
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,12 +27,12 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentGenericRecyclerBinding
 
 import javax.inject.Inject
 

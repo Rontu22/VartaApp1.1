@@ -15,7 +15,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <im.vector.app.features.reactions.EmojiDrawView
+    <varta.cdac.app.features.reactions.EmojiDrawView
         android:id="@+id/grid_item_emoji_text"
         android:layout_width="40dp"
         android:layout_height="40dp"

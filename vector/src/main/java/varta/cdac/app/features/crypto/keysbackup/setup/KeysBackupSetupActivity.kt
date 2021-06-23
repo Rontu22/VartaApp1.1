@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.setup
+package varta.cdac.app.features.crypto.keysbackup.setup
 
 import android.app.Activity
 import android.content.Context
@@ -23,16 +23,16 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.dialogs.ExportKeysDialog
-import im.vector.app.core.extensions.observeEvent
-import im.vector.app.core.extensions.queryExportKeys
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.utils.toast
-import im.vector.app.features.crypto.keys.KeysExporter
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.dialogs.ExportKeysDialog
+import varta.cdac.app.core.extensions.observeEvent
+import varta.cdac.app.core.extensions.queryExportKeys
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.SimpleFragmentActivity
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.features.crypto.keys.KeysExporter
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

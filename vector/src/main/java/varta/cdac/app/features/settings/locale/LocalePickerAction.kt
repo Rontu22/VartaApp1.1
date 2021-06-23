@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.locale
+package varta.cdac.app.features.settings.locale
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import java.util.Locale
 
 sealed class LocalePickerAction : VectorViewModelAction {

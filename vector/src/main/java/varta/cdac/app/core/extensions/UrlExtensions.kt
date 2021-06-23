@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 /**
  * Ex: "https://matrix.org/" -> "matrix.org"

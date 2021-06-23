@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.popup
+package varta.cdac.app.features.popup
 
 import android.app.Activity
 import android.os.Build
@@ -22,12 +22,12 @@ import android.os.Looper
 import android.view.View
 import android.view.WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS
 import com.tapadoo.alerter.Alerter
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.isAnimationDisabled
-import im.vector.app.features.pin.PinActivity
-import im.vector.app.features.signout.hard.SignedOutActivity
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.utils.isAnimationDisabled
+import varta.cdac.app.features.pin.PinActivity
+import varta.cdac.app.features.signout.hard.SignedOutActivity
+import varta.cdac.app.features.themes.ThemeUtils
 import timber.log.Timber
 import java.lang.ref.WeakReference
 import javax.inject.Inject

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.popup
+package varta.cdac.app.features.popup
 
 import android.app.Activity
 import android.view.View
-import im.vector.app.R
-import im.vector.app.core.extensions.setLeftDrawable
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.databinding.AlerterIncomingCallLayoutBinding
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setLeftDrawable
+import varta.cdac.app.core.glide.GlideApp
+import varta.cdac.app.databinding.AlerterIncomingCallLayoutBinding
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.MatrixItem
 
 class IncomingCallAlert(uid: String,

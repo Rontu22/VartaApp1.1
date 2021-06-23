@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.verification
+package varta.cdac.app.features.crypto.verification
 
 import android.app.Activity
 import android.app.Dialog
@@ -28,25 +28,25 @@ import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetVerificationBinding
-import im.vector.app.features.crypto.quads.SharedSecureStorageActivity
-import im.vector.app.features.crypto.verification.cancel.VerificationCancelFragment
-import im.vector.app.features.crypto.verification.cancel.VerificationNotMeFragment
-import im.vector.app.features.crypto.verification.choose.VerificationChooseMethodFragment
-import im.vector.app.features.crypto.verification.conclusion.VerificationConclusionFragment
-import im.vector.app.features.crypto.verification.emoji.VerificationEmojiCodeFragment
-import im.vector.app.features.crypto.verification.qrconfirmation.VerificationQRWaitingFragment
-import im.vector.app.features.crypto.verification.qrconfirmation.VerificationQrScannedByOtherFragment
-import im.vector.app.features.crypto.verification.request.VerificationRequestFragment
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.settings.VectorSettingsActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.commitTransaction
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetVerificationBinding
+import varta.cdac.app.features.crypto.quads.SharedSecureStorageActivity
+import varta.cdac.app.features.crypto.verification.cancel.VerificationCancelFragment
+import varta.cdac.app.features.crypto.verification.cancel.VerificationNotMeFragment
+import varta.cdac.app.features.crypto.verification.choose.VerificationChooseMethodFragment
+import varta.cdac.app.features.crypto.verification.conclusion.VerificationConclusionFragment
+import varta.cdac.app.features.crypto.verification.emoji.VerificationEmojiCodeFragment
+import varta.cdac.app.features.crypto.verification.qrconfirmation.VerificationQRWaitingFragment
+import varta.cdac.app.features.crypto.verification.qrconfirmation.VerificationQrScannedByOtherFragment
+import varta.cdac.app.features.crypto.verification.request.VerificationRequestFragment
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.settings.VectorSettingsActivity
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.crypto.RoomEncryptionTrustLevel
 import org.matrix.android.sdk.api.session.Session

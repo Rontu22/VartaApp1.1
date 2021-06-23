@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.rainbow
+package varta.cdac.app.features.home.room.detail.composer.rainbow
 
 data class RgbColor(
         val r: Int,

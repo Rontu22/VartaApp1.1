@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.glide
+package varta.cdac.app.core.glide
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -26,7 +26,7 @@ import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import com.bumptech.glide.signature.ObjectKey
-import im.vector.app.core.extensions.vectorComponent
+import varta.cdac.app.core.extensions.vectorComponent
 import org.matrix.android.sdk.api.util.MatrixItem
 
 data class AvatarPlaceholder(val matrixItem: MatrixItem)

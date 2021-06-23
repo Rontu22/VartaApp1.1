@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.invite
+package varta.cdac.app.features.spaces.invite
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class SpaceInviteBottomSheetEvents : VectorViewEvents {
     data class ShowError(val message: String) : SpaceInviteBottomSheetEvents()

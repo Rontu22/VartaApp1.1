@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.invite
+package varta.cdac.app.features.invite
 
 import com.airbnb.mvrx.ActivityViewModelContext
 import com.airbnb.mvrx.FragmentViewModelContext
@@ -23,10 +23,10 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.R
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.userdirectory.PendingSelection
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.userdirectory.PendingSelection
 import io.reactivex.Observable
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.rx.rx

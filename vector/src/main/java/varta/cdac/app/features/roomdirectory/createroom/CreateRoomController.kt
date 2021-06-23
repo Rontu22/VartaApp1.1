@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package varta.cdac.app.features.roomdirectory.createroom
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.settingsSectionTitleItem
-import im.vector.app.features.form.formAdvancedToggleItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formEditableAvatarItem
-import im.vector.app.features.form.formSubmitButtonItem
-import im.vector.app.features.form.formSwitchItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.dividerItem
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.discovery.settingsSectionTitleItem
+import varta.cdac.app.features.form.formAdvancedToggleItem
+import varta.cdac.app.features.form.formEditTextItem
+import varta.cdac.app.features.form.formEditableAvatarItem
+import varta.cdac.app.features.form.formSubmitButtonItem
+import varta.cdac.app.features.form.formSwitchItem
 import org.matrix.android.sdk.api.session.room.failure.CreateRoomFailure
 import javax.inject.Inject
 

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package varta.cdac.app.core.di
 
 import arrow.core.Option
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.crypto.keysrequest.KeyRequestHandler
-import im.vector.app.features.crypto.verification.IncomingVerificationRequestHandler
-import im.vector.app.features.notifications.PushRuleTriggerListener
-import im.vector.app.features.session.SessionListener
+import varta.cdac.app.ActiveSessionDataSource
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.crypto.keysrequest.KeyRequestHandler
+import varta.cdac.app.features.crypto.verification.IncomingVerificationRequestHandler
+import varta.cdac.app.features.notifications.PushRuleTriggerListener
+import varta.cdac.app.features.session.SessionListener
 import org.matrix.android.sdk.api.session.Session
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicReference

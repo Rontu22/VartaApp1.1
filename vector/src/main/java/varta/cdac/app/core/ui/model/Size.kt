@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.model
+package varta.cdac.app.core.ui.model
 
 import androidx.annotation.Px
 

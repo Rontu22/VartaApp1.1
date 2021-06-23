@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.qrcode
+package varta.cdac.app.features.qrcode
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.google.zxing.Result
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentQrCodeScannerBinding
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentQrCodeScannerBinding
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 import javax.inject.Inject

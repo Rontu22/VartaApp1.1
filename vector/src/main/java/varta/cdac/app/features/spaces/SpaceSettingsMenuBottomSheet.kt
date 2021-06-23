@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -25,24 +25,24 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.args
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.dialogs.withColoredButton
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.databinding.BottomSheetSpaceSettingsBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.powerlevel.PowerLevelsObservableFactory
-import im.vector.app.features.rageshake.BugReporter
-import im.vector.app.features.rageshake.ReportType
-import im.vector.app.features.roomprofile.RoomProfileActivity
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.spaces.manage.ManageType
-import im.vector.app.features.spaces.manage.SpaceManageActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.dialogs.withColoredButton
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.databinding.BottomSheetSpaceSettingsBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.navigation.Navigator
+import varta.cdac.app.features.powerlevel.PowerLevelsObservableFactory
+import varta.cdac.app.features.rageshake.BugReporter
+import varta.cdac.app.features.rageshake.ReportType
+import varta.cdac.app.features.roomprofile.RoomProfileActivity
+import varta.cdac.app.features.session.coroutineScope
+import varta.cdac.app.features.settings.VectorPreferences
+import varta.cdac.app.features.spaces.manage.ManageType
+import varta.cdac.app.features.spaces.manage.SpaceManageActivity
 import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.coroutines.launch
 import kotlinx.parcelize.Parcelize

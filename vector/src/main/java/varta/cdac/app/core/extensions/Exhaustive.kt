@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 // Trick to ensure that when block is exhaustive
 val <T> T.exhaustive: T get() = this

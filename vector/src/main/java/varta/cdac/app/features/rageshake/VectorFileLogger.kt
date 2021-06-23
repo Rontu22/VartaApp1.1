@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package varta.cdac.app.features.rageshake
 
 import android.content.Context
 import android.util.Log
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.features.settings.VectorPreferences
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

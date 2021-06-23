@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import im.vector.app.core.extensions.postLiveEvent
-import im.vector.app.core.utils.LiveEvent
+import varta.cdac.app.core.extensions.postLiveEvent
+import varta.cdac.app.core.utils.LiveEvent
 import javax.inject.Inject
 
 class DiscoverySharedViewModel @Inject constructor() : ViewModel() {

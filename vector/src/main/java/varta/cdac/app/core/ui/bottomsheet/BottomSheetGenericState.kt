@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.bottomsheet
+package varta.cdac.app.core.ui.bottomsheet
 
 import com.airbnb.mvrx.MvRxState
 

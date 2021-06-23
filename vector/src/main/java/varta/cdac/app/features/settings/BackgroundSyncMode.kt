@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 /**
  * Different strategies for Background sync, only applicable to F-Droid version of the app

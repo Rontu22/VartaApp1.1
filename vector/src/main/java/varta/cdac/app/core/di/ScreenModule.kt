@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package varta.cdac.app.core.di
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import dagger.Module
 import dagger.Provides
-import im.vector.app.core.glide.GlideApp
+import varta.cdac.app.core.glide.GlideApp
 
 @Module
 object ScreenModule {

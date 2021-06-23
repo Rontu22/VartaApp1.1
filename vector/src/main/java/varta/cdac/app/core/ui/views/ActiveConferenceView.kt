@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.text.SpannableString
@@ -24,11 +24,11 @@ import android.util.AttributeSet
 import android.view.View
 import android.widget.RelativeLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.utils.tappableMatchingText
-import im.vector.app.databinding.ViewActiveConferenceViewBinding
-import im.vector.app.features.home.room.detail.RoomDetailViewState
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.utils.tappableMatchingText
+import varta.cdac.app.databinding.ViewActiveConferenceViewBinding
+import varta.cdac.app.features.home.room.detail.RoomDetailViewState
+import varta.cdac.app.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.session.room.model.Membership
 import org.matrix.android.sdk.api.session.widgets.model.Widget
 import org.matrix.android.sdk.api.session.widgets.model.WidgetType

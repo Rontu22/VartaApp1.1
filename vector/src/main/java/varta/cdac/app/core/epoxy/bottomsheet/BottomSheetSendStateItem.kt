@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.core.epoxy.bottomsheet
+package varta.cdac.app.core.epoxy.bottomsheet
 
 import android.view.View
 import android.widget.TextView
@@ -22,9 +22,9 @@ import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
 
 /**
  * A send state for bottom sheet.

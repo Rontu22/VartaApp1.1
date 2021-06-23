@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package varta.cdac.app.features.reactions
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,12 +21,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.LiveEvent
+import varta.cdac.app.databinding.FragmentGenericRecyclerBinding
 
 import javax.inject.Inject
 

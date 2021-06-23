@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.annotation.CallSuper
 import androidx.preference.PreferenceFragmentCompat
-import im.vector.app.R
-import im.vector.app.core.di.DaggerScreenComponent
-import im.vector.app.core.di.HasScreenInjector
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.toast
+import varta.cdac.app.R
+import varta.cdac.app.core.di.DaggerScreenComponent
+import varta.cdac.app.core.di.HasScreenInjector
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.utils.toast
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import org.matrix.android.sdk.api.session.Session

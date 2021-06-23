@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.databinding.ViewCallControlsBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ViewCallControlsBinding
 import org.matrix.android.sdk.api.session.call.CallState
 import org.matrix.android.sdk.api.session.call.MxPeerConnectionState
 

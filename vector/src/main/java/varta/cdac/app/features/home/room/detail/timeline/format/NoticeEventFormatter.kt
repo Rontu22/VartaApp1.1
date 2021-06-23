@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.format
+package varta.cdac.app.features.home.room.detail.timeline.format
 
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.detail.timeline.helper.RoomSummariesHolder
-import im.vector.app.features.roomprofile.permissions.RoleFormatter
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.ActiveSessionDataSource
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.RoomSummariesHolder
+import varta.cdac.app.features.roomprofile.permissions.RoleFormatter
+import varta.cdac.app.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.extensions.appendNl
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.events.model.Event

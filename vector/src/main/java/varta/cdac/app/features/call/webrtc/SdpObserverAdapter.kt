@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.webrtc
+package varta.cdac.app.features.call.webrtc
 
 import org.webrtc.SdpObserver
 import org.webrtc.SessionDescription

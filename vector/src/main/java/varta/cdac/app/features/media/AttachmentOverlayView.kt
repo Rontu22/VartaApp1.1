@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package varta.cdac.app.features.media
 
 import android.content.Context
 import android.graphics.Color
 import android.util.AttributeSet
 import android.widget.SeekBar
 import androidx.constraintlayout.widget.ConstraintLayout
-import im.vector.app.R
-import im.vector.app.databinding.MergeImageAttachmentOverlayBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.MergeImageAttachmentOverlayBinding
 import im.vector.lib.attachmentviewer.AttachmentEventListener
 import im.vector.lib.attachmentviewer.AttachmentEvents
 

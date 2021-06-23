@@ -110,7 +110,7 @@
             app:layout_goneMarginBottom="@dimen/layout_vertical_margin_big" />
 
 
-        <im.vector.app.core.ui.views.BottomSheetActionButton
+        <varta.cdac.app.core.ui.views.BottomSheetActionButton
             android:id="@+id/ssss_key_reset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

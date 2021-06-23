@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package varta.cdac.app.core.utils
 
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.ColorProvider
 import org.billcarsonfr.jsonviewer.JSonViewerStyleProvider
 
 fun createJSonViewerStyleProvider(colorProvider: ColorProvider): JSonViewerStyleProvider {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import javax.inject.Inject

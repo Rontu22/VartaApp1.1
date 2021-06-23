@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import com.airbnb.mvrx.ActivityViewModelContext
 import com.airbnb.mvrx.FragmentViewModelContext
@@ -24,12 +24,12 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.AppStateHandler
-import im.vector.app.RoomGroupingMethod
-import im.vector.app.core.platform.EmptyAction
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.AppStateHandler
+import varta.cdac.app.RoomGroupingMethod
+import varta.cdac.app.core.platform.EmptyAction
+import varta.cdac.app.core.platform.EmptyViewEvents
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.settings.VectorPreferences
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 import org.matrix.android.sdk.api.query.ActiveSpaceFilter

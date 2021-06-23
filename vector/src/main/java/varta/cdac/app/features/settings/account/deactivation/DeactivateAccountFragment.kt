@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.account.deactivation
+package varta.cdac.app.features.settings.account.deactivation
 
 import android.app.Activity
 import android.content.Context
@@ -24,15 +24,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.mvrx.fragmentViewModel
-import im.vector.app.R
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentDeactivateAccountBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.auth.ReAuthActivity
-import im.vector.app.features.settings.VectorSettingsActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentDeactivateAccountBinding
+import varta.cdac.app.features.MainActivity
+import varta.cdac.app.features.MainActivityArgs
+import varta.cdac.app.features.auth.ReAuthActivity
+import varta.cdac.app.features.settings.VectorSettingsActivity
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
 
 import javax.inject.Inject

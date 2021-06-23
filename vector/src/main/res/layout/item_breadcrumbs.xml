@@ -36,7 +36,7 @@
         tools:ignore="ContentDescription"
         tools:src="@sample/room_round_avatars" />
 
-    <im.vector.app.features.home.room.list.UnreadCounterBadgeView
+    <varta.cdac.app.features.home.room.list.UnreadCounterBadgeView
         android:id="@+id/breadcrumbsUnreadCounterBadgeView"
         style="@style/Widget.Vector.TextView.Micro"
         android:layout_width="wrap_content"

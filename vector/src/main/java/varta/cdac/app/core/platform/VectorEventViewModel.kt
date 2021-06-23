@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import androidx.lifecycle.ViewModel
-import im.vector.app.core.utils.MutableDataSource
-import im.vector.app.core.utils.PublishDataSource
+import varta.cdac.app.core.utils.MutableDataSource
+import varta.cdac.app.core.utils.PublishDataSource
 
 interface VectorSharedAction
 

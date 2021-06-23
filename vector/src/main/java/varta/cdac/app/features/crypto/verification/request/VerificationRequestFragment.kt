@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.verification.request
+package varta.cdac.app.features.crypto.verification.request
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,12 +21,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.BottomSheetVerificationChildFragmentBinding
-import im.vector.app.features.crypto.verification.VerificationAction
-import im.vector.app.features.crypto.verification.VerificationBottomSheetViewModel
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.BottomSheetVerificationChildFragmentBinding
+import varta.cdac.app.features.crypto.verification.VerificationAction
+import varta.cdac.app.features.crypto.verification.VerificationBottomSheetViewModel
 
 import javax.inject.Inject
 

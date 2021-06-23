@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.picker
+package varta.cdac.app.features.roomdirectory.picker
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.roomdirectory.RoomDirectoryServer
+import varta.cdac.app.core.platform.VectorViewModelAction
+import varta.cdac.app.features.roomdirectory.RoomDirectoryServer
 
 sealed class RoomDirectoryPickerAction : VectorViewModelAction {
     object Retry : RoomDirectoryPickerAction()

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package varta.cdac.app.features.share
 
 import com.google.android.material.appbar.MaterialToolbar
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
 
 class IncomingShareActivity : VectorBaseActivity<ActivitySimpleBinding>(), ToolbarConfigurable {
 

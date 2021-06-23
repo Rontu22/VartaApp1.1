@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.terms
+package varta.cdac.app.features.terms
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.features.discovery.settingsSectionTitleItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.features.discovery.settingsSectionTitleItem
 import javax.inject.Inject
 
 class TermsController @Inject constructor(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package varta.cdac.app.core.preference
 
 import android.content.Context
 import android.util.AttributeSet
@@ -22,9 +22,9 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import im.vector.app.R
-import im.vector.app.core.extensions.vectorComponent
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.vectorComponent
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.user.model.User
 import org.matrix.android.sdk.api.util.MatrixItem
 import org.matrix.android.sdk.api.util.toMatrixItem

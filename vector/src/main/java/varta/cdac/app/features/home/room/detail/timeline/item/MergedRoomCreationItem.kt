@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.text.SpannableString
 import android.text.method.MovementMethod
@@ -30,14 +30,14 @@ import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.utils.tappableMatchingText
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.RoomDetailAction
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.tools.linkify
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.core.utils.tappableMatchingText
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.RoomDetailAction
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.tools.linkify
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.util.toMatrixItem

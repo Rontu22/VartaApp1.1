@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roommemberprofile.devices
+package varta.cdac.app.features.roommemberprofile.devices
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.FragmentViewModelContext
@@ -25,9 +25,9 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.di.HasScreenInjector
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
+import varta.cdac.app.core.di.HasScreenInjector
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
 import org.matrix.android.sdk.api.session.crypto.verification.VerificationMethod

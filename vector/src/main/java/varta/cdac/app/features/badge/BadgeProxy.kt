@@ -16,7 +16,7 @@
 
 @file:Suppress("UNUSED_PARAMETER")
 
-package im.vector.app.features.badge
+package varta.cdac.app.features.badge
 
 import android.content.Context
 import android.os.Build

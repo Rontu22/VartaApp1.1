@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2.terms
+package varta.cdac.app.features.login2.terms
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginTerms2Binding
-import im.vector.app.features.login.terms.LocalizedFlowDataLoginTermsChecked
-import im.vector.app.features.login.terms.LoginTermsFragmentArgument
-import im.vector.app.features.login.terms.LoginTermsViewState
-import im.vector.app.features.login.terms.PolicyController
-import im.vector.app.features.login2.AbstractLoginFragment2
-import im.vector.app.features.login2.LoginAction2
-import im.vector.app.features.login2.LoginViewState2
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.toReducedUrl
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.databinding.FragmentLoginTerms2Binding
+import varta.cdac.app.features.login.terms.LocalizedFlowDataLoginTermsChecked
+import varta.cdac.app.features.login.terms.LoginTermsFragmentArgument
+import varta.cdac.app.features.login.terms.LoginTermsViewState
+import varta.cdac.app.features.login.terms.PolicyController
+import varta.cdac.app.features.login2.AbstractLoginFragment2
+import varta.cdac.app.features.login2.LoginAction2
+import varta.cdac.app.features.login2.LoginViewState2
 import org.matrix.android.sdk.internal.auth.registration.LocalizedFlowDataLoginTerms
 import javax.inject.Inject
 

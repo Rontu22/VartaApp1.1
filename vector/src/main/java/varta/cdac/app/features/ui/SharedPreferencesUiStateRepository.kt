@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.ui
+package varta.cdac.app.features.ui
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.features.home.RoomListDisplayMode
+import varta.cdac.app.features.settings.VectorPreferences
 import javax.inject.Inject
 
 /**

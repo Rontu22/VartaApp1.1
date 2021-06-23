@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.share
+package varta.cdac.app.features.spaces.share
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class ShareSpaceViewEvents : VectorViewEvents {
     data class NavigateToInviteUser(val spaceId: String) : ShareSpaceViewEvents()

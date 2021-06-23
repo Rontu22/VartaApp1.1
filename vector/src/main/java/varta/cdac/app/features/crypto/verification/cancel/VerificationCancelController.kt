@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification.cancel
+package varta.cdac.app.features.crypto.verification.cancel
 
 import androidx.core.text.toSpannable
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.features.crypto.verification.VerificationBottomSheetViewState
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.bottomSheetDividerItem
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.colorizeMatchingText
+import varta.cdac.app.features.crypto.verification.VerificationBottomSheetViewState
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
 import javax.inject.Inject
 
 class VerificationCancelController @Inject constructor(

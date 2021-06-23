@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform.livedata
+package varta.cdac.app.core.platform.livedata
 
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData

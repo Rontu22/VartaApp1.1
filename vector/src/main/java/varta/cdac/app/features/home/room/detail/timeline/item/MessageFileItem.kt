@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.graphics.Paint
 import android.view.ViewGroup
@@ -25,10 +25,10 @@ import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.features.home.room.detail.timeline.helper.ContentDownloadStateTrackerBinder
-import im.vector.app.features.home.room.detail.timeline.helper.ContentUploadStateTrackerBinder
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.features.home.room.detail.timeline.helper.ContentDownloadStateTrackerBinder
+import varta.cdac.app.features.home.room.detail.timeline.helper.ContentUploadStateTrackerBinder
 
 @EpoxyModelClass(layout = R.layout.item_timeline_event_base)
 abstract class MessageFileItem : AbsMessageItem<MessageFileItem.Holder>() {

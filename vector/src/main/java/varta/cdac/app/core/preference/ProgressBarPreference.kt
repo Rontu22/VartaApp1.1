@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package varta.cdac.app.core.preference
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.preference.Preference
-import im.vector.app.R
+import varta.cdac.app.R
 
 class ProgressBarPreference : Preference {
 

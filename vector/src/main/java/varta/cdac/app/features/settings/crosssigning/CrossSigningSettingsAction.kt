@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.crosssigning
+package varta.cdac.app.features.settings.crosssigning
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class CrossSigningSettingsAction : VectorViewModelAction {
     object InitializeCrossSigning: CrossSigningSettingsAction()

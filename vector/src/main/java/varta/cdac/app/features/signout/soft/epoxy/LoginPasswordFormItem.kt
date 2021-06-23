@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft.epoxy
+package varta.cdac.app.features.signout.soft.epoxy
 
 import android.os.Build
 import android.text.Editable
@@ -24,18 +24,18 @@ import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.TextListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.addTextChangedListenerOnce
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.epoxy.setValueOnce
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.views.RevealPasswordImageView
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.TextListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.addTextChangedListenerOnce
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.epoxy.setValueOnce
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.platform.SimpleTextWatcher
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.views.RevealPasswordImageView
 
 @EpoxyModelClass(layout = R.layout.item_login_password_form)
 abstract class LoginPasswordFormItem : VectorEpoxyModel<LoginPasswordFormItem.Holder>() {

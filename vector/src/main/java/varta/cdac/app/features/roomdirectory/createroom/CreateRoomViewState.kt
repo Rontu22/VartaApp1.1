@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package varta.cdac.app.features.roomdirectory.createroom
 
 import android.net.Uri
 import com.airbnb.mvrx.Async

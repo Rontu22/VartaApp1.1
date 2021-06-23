@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.webview
+package varta.cdac.app.features.webview
 
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.weak
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.utils.weak
 import org.matrix.android.sdk.api.MatrixCallback
 import org.matrix.android.sdk.api.session.Session
 import timber.log.Timber

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Loading
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
-import im.vector.app.features.home.room.typing.TypingHelper
+import varta.cdac.app.R
+import varta.cdac.app.core.date.DateFormatKind
+import varta.cdac.app.core.date.VectorDateFormatter
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
+import varta.cdac.app.features.home.room.typing.TypingHelper
 import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
 import org.matrix.android.sdk.api.session.room.model.Membership
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

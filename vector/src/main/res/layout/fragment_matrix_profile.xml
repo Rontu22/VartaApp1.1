@@ -58,7 +58,7 @@
                         tools:alpha="1"
                         tools:src="@sample/room_round_avatars" />
 
-                    <im.vector.app.core.ui.views.ShieldImageView
+                    <varta.cdac.app.core.ui.views.ShieldImageView
                         android:id="@+id/matrixProfileDecorationToolbarAvatarImageView"
                         android:layout_width="24dp"
                         android:layout_height="24dp"

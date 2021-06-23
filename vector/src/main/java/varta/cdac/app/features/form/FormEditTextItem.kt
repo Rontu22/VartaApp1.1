@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.form
+package varta.cdac.app.features.form
 
 import android.text.Editable
 import android.view.View
@@ -24,13 +24,13 @@ import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
-import im.vector.app.R
-import im.vector.app.core.epoxy.TextListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.addTextChangedListenerOnce
-import im.vector.app.core.epoxy.setValueOnce
-import im.vector.app.core.platform.SimpleTextWatcher
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.TextListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.addTextChangedListenerOnce
+import varta.cdac.app.core.epoxy.setValueOnce
+import varta.cdac.app.core.platform.SimpleTextWatcher
 
 @EpoxyModelClass(layout = R.layout.item_form_text_input)
 abstract class FormEditTextItem : VectorEpoxyModel<FormEditTextItem.Holder>() {

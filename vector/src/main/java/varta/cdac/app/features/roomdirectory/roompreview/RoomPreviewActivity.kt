@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.roompreview
+package varta.cdac.app.features.roomdirectory.roompreview
 
 import android.content.Context
 import android.content.Intent
 import android.os.Parcelable
 import com.google.android.material.appbar.MaterialToolbar
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.roomdirectory.RoomDirectoryData
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.roomdirectory.RoomDirectoryData
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoom
 import org.matrix.android.sdk.api.util.MatrixItem

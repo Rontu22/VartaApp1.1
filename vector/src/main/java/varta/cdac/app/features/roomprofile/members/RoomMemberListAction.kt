@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.members
+package varta.cdac.app.features.roomprofile.members
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class RoomMemberListAction : VectorViewModelAction {
     data class RevokeThreePidInvite(val stateKey: String) : RoomMemberListAction()

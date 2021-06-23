@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.services
+package varta.cdac.app.core.services
 
 import android.content.Context
 import android.content.Intent
@@ -26,17 +26,17 @@ import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import androidx.media.session.MediaButtonReceiver
 import com.airbnb.mvrx.MvRx
-import im.vector.app.core.extensions.vectorComponent
-import im.vector.app.features.call.CallArgs
-import im.vector.app.features.call.VectorCallActivity
-import im.vector.app.features.call.telecom.CallConnection
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.call.webrtc.getOpponentAsMatrixItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.popup.IncomingCallAlert
-import im.vector.app.features.popup.PopupAlertManager
+import varta.cdac.app.core.extensions.vectorComponent
+import varta.cdac.app.features.call.CallArgs
+import varta.cdac.app.features.call.VectorCallActivity
+import varta.cdac.app.features.call.telecom.CallConnection
+import varta.cdac.app.features.call.webrtc.WebRtcCall
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.call.webrtc.getOpponentAsMatrixItem
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.notifications.NotificationUtils
+import varta.cdac.app.features.popup.IncomingCallAlert
+import varta.cdac.app.features.popup.PopupAlertManager
 import org.matrix.android.sdk.api.util.MatrixItem
 import timber.log.Timber
 
@@ -283,14 +283,14 @@ class CallService : VectorService() {
     companion object {
         private const val DEFAULT_NOTIFICATION_ID = 6480
 
-        private const val ACTION_INCOMING_RINGING_CALL = "im.vector.app.core.services.CallService.ACTION_INCOMING_RINGING_CALL"
-        private const val ACTION_OUTGOING_RINGING_CALL = "im.vector.app.core.services.CallService.ACTION_OUTGOING_RINGING_CALL"
-        private const val ACTION_CALL_CONNECTING = "im.vector.app.core.services.CallService.ACTION_CALL_CONNECTING"
-        private const val ACTION_ONGOING_CALL = "im.vector.app.core.services.CallService.ACTION_ONGOING_CALL"
-        private const val ACTION_CALL_TERMINATED = "im.vector.app.core.services.CallService.ACTION_CALL_TERMINATED"
-        private const val ACTION_NO_ACTIVE_CALL = "im.vector.app.core.services.CallService.NO_ACTIVE_CALL"
-//        private const val ACTION_ACTIVITY_VISIBLE = "im.vector.app.core.services.CallService.ACTION_ACTIVITY_VISIBLE"
-//        private const val ACTION_STOP_RINGING = "im.vector.app.core.services.CallService.ACTION_STOP_RINGING"
+        private const val ACTION_INCOMING_RINGING_CALL = "varta.cdac.app.core.services.CallService.ACTION_INCOMING_RINGING_CALL"
+        private const val ACTION_OUTGOING_RINGING_CALL = "varta.cdac.app.core.services.CallService.ACTION_OUTGOING_RINGING_CALL"
+        private const val ACTION_CALL_CONNECTING = "varta.cdac.app.core.services.CallService.ACTION_CALL_CONNECTING"
+        private const val ACTION_ONGOING_CALL = "varta.cdac.app.core.services.CallService.ACTION_ONGOING_CALL"
+        private const val ACTION_CALL_TERMINATED = "varta.cdac.app.core.services.CallService.ACTION_CALL_TERMINATED"
+        private const val ACTION_NO_ACTIVE_CALL = "varta.cdac.app.core.services.CallService.NO_ACTIVE_CALL"
+//        private const val ACTION_ACTIVITY_VISIBLE = "varta.cdac.app.core.services.CallService.ACTION_ACTIVITY_VISIBLE"
+//        private const val ACTION_STOP_RINGING = "varta.cdac.app.core.services.CallService.ACTION_STOP_RINGING"
 
         private const val EXTRA_CALL_ID = "EXTRA_CALL_ID"
         private const val EXTRA_IS_IN_BG = "EXTRA_IS_IN_BG"

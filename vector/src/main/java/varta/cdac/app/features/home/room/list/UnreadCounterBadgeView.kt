@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import com.google.android.material.textview.MaterialTextView
-import im.vector.app.R
+import varta.cdac.app.R
 
 class UnreadCounterBadgeView : MaterialTextView {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.group
+package varta.cdac.app.features.autocomplete.group
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.autocomplete.RecyclerViewPresenter
+import varta.cdac.app.features.autocomplete.AutocompleteClickListener
+import varta.cdac.app.features.autocomplete.RecyclerViewPresenter
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.group.groupSummaryQueryParams

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.app.Activity
 import android.content.Intent
@@ -22,13 +22,13 @@ import android.media.RingtoneManager
 import android.net.Uri
 import androidx.preference.Preference
 import androidx.preference.SwitchPreference
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.utils.getCallRingtoneName
-import im.vector.app.core.utils.getCallRingtoneUri
-import im.vector.app.core.utils.setCallRingtoneUri
-import im.vector.app.core.utils.setUseRiotDefaultRingtone
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.preference.VectorPreference
+import varta.cdac.app.core.utils.getCallRingtoneName
+import varta.cdac.app.core.utils.getCallRingtoneUri
+import varta.cdac.app.core.utils.setCallRingtoneUri
+import varta.cdac.app.core.utils.setUseRiotDefaultRingtone
 
 class VectorSettingsVoiceVideoFragment : VectorSettingsBaseFragment() {
 

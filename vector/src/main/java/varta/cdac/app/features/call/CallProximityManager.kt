@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
 import android.content.Context
 import android.hardware.Sensor
@@ -23,8 +23,8 @@ import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import android.os.PowerManager
 import androidx.core.content.getSystemService
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
 import javax.inject.Inject
 
 /**

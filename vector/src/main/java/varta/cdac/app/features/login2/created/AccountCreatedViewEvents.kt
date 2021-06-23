@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.login2.created
+package varta.cdac.app.features.login2.created
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 /**
  * Transient events for Account Created

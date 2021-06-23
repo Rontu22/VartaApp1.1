@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -22,9 +22,9 @@ import android.util.AttributeSet
 import android.view.View
 import android.widget.FrameLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.updateConstraintSet
-import im.vector.app.databinding.ViewStateBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.updateConstraintSet
+import varta.cdac.app.databinding.ViewStateBinding
 
 class StateView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyle: Int = 0)
     : FrameLayout(context, attrs, defStyle) {

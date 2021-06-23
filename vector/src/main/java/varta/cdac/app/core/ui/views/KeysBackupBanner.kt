@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -22,9 +22,9 @@ import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.edit
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.di.DefaultSharedPreferences
-import im.vector.app.databinding.ViewKeysBackupBannerBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.databinding.ViewKeysBackupBannerBinding
 
 import timber.log.Timber
 

@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:textStyle=""
-        tools:text="im.vector.app.android" />
+        tools:text="varta.cdac.app.android" />
 
     <TextView
         android:id="@+id/pushGatewayKey"

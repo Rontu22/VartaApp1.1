@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
 import android.view.View
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.onClick
 
 @EpoxyModelClass(layout = R.layout.item_space_beta_header)
 abstract class SpaceBetaHeaderItem : VectorEpoxyModel<SpaceBetaHeaderItem.Holder>() {

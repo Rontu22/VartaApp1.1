@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package varta.cdac.app.features.spaces.create
 
 import android.net.Uri
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class CreateSpaceAction : VectorViewModelAction {
     data class SetRoomType(val type: SpaceType) : CreateSpaceAction()

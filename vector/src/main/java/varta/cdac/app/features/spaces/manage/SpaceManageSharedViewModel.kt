@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
 import com.airbnb.mvrx.ActivityViewModelContext
 import com.airbnb.mvrx.FragmentViewModelContext
@@ -23,7 +23,7 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.platform.VectorViewModel
+import varta.cdac.app.core.platform.VectorViewModel
 import org.matrix.android.sdk.api.session.Session
 
 class SpaceManageSharedViewModel @AssistedInject constructor(

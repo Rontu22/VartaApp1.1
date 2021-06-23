@@ -673,7 +673,7 @@ Other changes:
  - Hide Flair settings, this is not implemented yet.
  - Rename package `im.vector.riotx.attachmentviewer` to `im.vector.lib.attachmentviewer`
  - Rename package `im.vector.riotx.multipicker` to `im.vector.lib.multipicker`
- - Rename package `im.vector.riotx` to `im.vector.app`
+ - Rename package `im.vector.riotx` to `varta.cdac.app`
  - Remove old code that was used on devices with api level <21
  - Add Official Gradle Wrapper Validation Action
 

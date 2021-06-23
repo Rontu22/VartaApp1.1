@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 import android.text.Spannable
 import android.text.SpannableString
@@ -31,10 +31,10 @@ import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.platform.showOptimizedSnackbar
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.showOptimizedSnackbar
+import varta.cdac.app.core.utils.copyToClipboard
+import varta.cdac.app.features.themes.ThemeUtils
 
 /**
  * Set a text in the TextView, or set visibility to GONE if the text is null

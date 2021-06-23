@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import androidx.preference.PreferenceCategory
-import im.vector.app.R
-import im.vector.app.core.preference.ProgressBarPreference
+import varta.cdac.app.R
+import varta.cdac.app.core.preference.ProgressBarPreference
 
 class VectorSettingsFlairFragment : VectorSettingsBaseFragment() {
 

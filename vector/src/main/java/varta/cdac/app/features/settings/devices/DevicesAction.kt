@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices
+package varta.cdac.app.features.settings.devices
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
 
 sealed class DevicesAction : VectorViewModelAction {

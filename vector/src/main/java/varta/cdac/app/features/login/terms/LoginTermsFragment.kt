@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.terms
+package varta.cdac.app.features.login.terms
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -22,14 +22,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginTermsBinding
-import im.vector.app.features.login.AbstractLoginFragment
-import im.vector.app.features.login.LoginAction
-import im.vector.app.features.login.LoginViewState
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.toReducedUrl
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.databinding.FragmentLoginTermsBinding
+import varta.cdac.app.features.login.AbstractLoginFragment
+import varta.cdac.app.features.login.LoginAction
+import varta.cdac.app.features.login.LoginViewState
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.internal.auth.registration.LocalizedFlowDataLoginTerms
 import javax.inject.Inject

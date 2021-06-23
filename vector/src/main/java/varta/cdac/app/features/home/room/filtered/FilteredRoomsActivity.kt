@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.filtered
+package varta.cdac.app.features.home.room.filtered
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.widget.SearchView
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityFilteredRoomsBinding
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.home.room.list.RoomListFragment
-import im.vector.app.features.home.room.list.RoomListParams
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityFilteredRoomsBinding
+import varta.cdac.app.features.home.RoomListDisplayMode
+import varta.cdac.app.features.home.room.list.RoomListFragment
+import varta.cdac.app.features.home.room.list.RoomListParams
 
 class FilteredRoomsActivity : VectorBaseActivity<ActivityFilteredRoomsBinding>() {
 

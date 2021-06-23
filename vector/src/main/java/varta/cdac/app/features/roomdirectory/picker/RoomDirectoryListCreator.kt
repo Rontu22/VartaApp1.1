@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.picker
+package varta.cdac.app.features.roomdirectory.picker
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringArrayProvider
-import im.vector.app.features.roomdirectory.RoomDirectoryData
-import im.vector.app.features.roomdirectory.RoomDirectoryServer
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringArrayProvider
+import varta.cdac.app.features.roomdirectory.RoomDirectoryData
+import varta.cdac.app.features.roomdirectory.RoomDirectoryServer
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol
 import javax.inject.Inject

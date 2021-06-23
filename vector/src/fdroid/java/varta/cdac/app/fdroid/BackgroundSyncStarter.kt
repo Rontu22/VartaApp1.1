@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.fdroid
+package varta.cdac.app.fdroid
 
 import android.content.Context
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.fdroid.receiver.AlarmSyncBroadcastReceiver
-import im.vector.app.features.settings.BackgroundSyncMode
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.fdroid.receiver.AlarmSyncBroadcastReceiver
+import varta.cdac.app.features.settings.BackgroundSyncMode
+import varta.cdac.app.features.settings.VectorPreferences
 import timber.log.Timber
 
 object BackgroundSyncStarter {

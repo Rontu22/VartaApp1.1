@@ -14,33 +14,33 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package varta.cdac.app.core.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
-import im.vector.app.core.platform.ConfigurationViewModel
-import im.vector.app.features.call.SharedKnownCallsViewModel
-import im.vector.app.features.crypto.keysbackup.restore.KeysBackupRestoreFromKeyViewModel
-import im.vector.app.features.crypto.keysbackup.restore.KeysBackupRestoreFromPassphraseViewModel
-import im.vector.app.features.crypto.keysbackup.restore.KeysBackupRestoreSharedViewModel
-import im.vector.app.features.crypto.keysbackup.setup.KeysBackupSetupSharedViewModel
-import im.vector.app.features.discovery.DiscoverySharedViewModel
-import im.vector.app.features.home.HomeSharedActionViewModel
-import im.vector.app.features.home.room.detail.RoomDetailSharedActionViewModel
-import im.vector.app.features.home.room.detail.timeline.action.MessageSharedActionViewModel
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
-import im.vector.app.features.reactions.EmojiChooserViewModel
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
-import im.vector.app.features.roomprofile.RoomProfileSharedActionViewModel
-import im.vector.app.features.roomprofile.alias.detail.RoomAliasBottomSheetSharedActionViewModel
-import im.vector.app.features.roomprofile.settings.historyvisibility.RoomHistoryVisibilitySharedActionViewModel
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
-import im.vector.app.features.spaces.SpacePreviewSharedActionViewModel
-import im.vector.app.features.spaces.people.SpacePeopleSharedActionViewModel
-import im.vector.app.features.userdirectory.UserListSharedActionViewModel
+import varta.cdac.app.core.platform.ConfigurationViewModel
+import varta.cdac.app.features.call.SharedKnownCallsViewModel
+import varta.cdac.app.features.crypto.keysbackup.restore.KeysBackupRestoreFromKeyViewModel
+import varta.cdac.app.features.crypto.keysbackup.restore.KeysBackupRestoreFromPassphraseViewModel
+import varta.cdac.app.features.crypto.keysbackup.restore.KeysBackupRestoreSharedViewModel
+import varta.cdac.app.features.crypto.keysbackup.setup.KeysBackupSetupSharedViewModel
+import varta.cdac.app.features.discovery.DiscoverySharedViewModel
+import varta.cdac.app.features.home.HomeSharedActionViewModel
+import varta.cdac.app.features.home.room.detail.RoomDetailSharedActionViewModel
+import varta.cdac.app.features.home.room.detail.timeline.action.MessageSharedActionViewModel
+import varta.cdac.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
+import varta.cdac.app.features.reactions.EmojiChooserViewModel
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedActionViewModel
+import varta.cdac.app.features.roomprofile.RoomProfileSharedActionViewModel
+import varta.cdac.app.features.roomprofile.alias.detail.RoomAliasBottomSheetSharedActionViewModel
+import varta.cdac.app.features.roomprofile.settings.historyvisibility.RoomHistoryVisibilitySharedActionViewModel
+import varta.cdac.app.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
+import varta.cdac.app.features.spaces.SpacePreviewSharedActionViewModel
+import varta.cdac.app.features.spaces.people.SpacePeopleSharedActionViewModel
+import varta.cdac.app.features.userdirectory.UserListSharedActionViewModel
 
 @Module
 interface ViewModelModule {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package varta.cdac.app.features.devtools
 
 import android.content.Context
 import android.content.Intent
@@ -33,14 +33,14 @@ import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.createJSonViewerStyleProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.extensions.toMvRxBundle
+import varta.cdac.app.core.platform.SimpleFragmentActivity
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.createJSonViewerStyleProvider
 import kotlinx.parcelize.Parcelize
 import org.billcarsonfr.jsonviewer.JSonViewerFragment
 import javax.inject.Inject

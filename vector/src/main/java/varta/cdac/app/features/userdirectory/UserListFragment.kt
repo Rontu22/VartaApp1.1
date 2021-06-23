@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package varta.cdac.app.features.userdirectory
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -32,16 +32,16 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.chip.Chip
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.setupAsSearch
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.FragmentUserListBinding
-import im.vector.app.features.homeserver.HomeServerCapabilitiesViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.setupAsSearch
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.core.utils.startSharePlainTextIntent
+import varta.cdac.app.databinding.FragmentUserListBinding
+import varta.cdac.app.features.homeserver.HomeServerCapabilitiesViewModel
 
 import org.matrix.android.sdk.api.session.identity.ThreePid
 import org.matrix.android.sdk.api.session.user.model.User

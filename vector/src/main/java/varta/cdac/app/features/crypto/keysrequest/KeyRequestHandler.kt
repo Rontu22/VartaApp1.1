@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysrequest
+package varta.cdac.app.features.crypto.keysrequest
 
 import android.content.Context
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.features.popup.DefaultVectorAlert
-import im.vector.app.features.popup.PopupAlertManager
+import varta.cdac.app.R
+import varta.cdac.app.core.date.DateFormatKind
+import varta.cdac.app.core.date.VectorDateFormatter
+import varta.cdac.app.features.popup.DefaultVectorAlert
+import varta.cdac.app.features.popup.PopupAlertManager
 import org.matrix.android.sdk.api.MatrixCallback
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.keyshare.GossipingRequestListener

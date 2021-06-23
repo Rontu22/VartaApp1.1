@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import androidx.core.view.isVisible
 import com.google.android.material.card.MaterialCardView
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.features.call.utils.EglUtils
-import im.vector.app.features.call.webrtc.WebRtcCall
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.features.call.utils.EglUtils
+import varta.cdac.app.features.call.webrtc.WebRtcCall
 import org.matrix.android.sdk.api.session.call.CallState
 import org.webrtc.RendererCommon
 import org.webrtc.SurfaceViewRenderer

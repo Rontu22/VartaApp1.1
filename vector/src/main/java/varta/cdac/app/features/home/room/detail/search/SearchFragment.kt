@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.search
+package varta.cdac.app.features.home.room.detail.search
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -29,14 +29,14 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.trackItemsVisibilityChange
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSearchBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.trackItemsVisibilityChange
+import varta.cdac.app.core.platform.StateView
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentSearchBinding
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.events.model.Event
 import javax.inject.Inject

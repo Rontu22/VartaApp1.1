@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.sas
+package varta.cdac.app.features.debug.sas
 
 import com.airbnb.epoxy.TypedEpoxyController
 import org.matrix.android.sdk.api.session.crypto.verification.EmojiRepresentation

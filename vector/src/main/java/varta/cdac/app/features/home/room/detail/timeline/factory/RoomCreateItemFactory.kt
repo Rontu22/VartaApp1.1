@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.features.home.room.detail.timeline.item.RoomCreateItem_
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.resources.UserPreferencesProvider
+import varta.cdac.app.features.home.room.detail.timeline.item.RoomCreateItem_
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.toModel

@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@sample/user_round_avatars" />
 
-        <im.vector.app.core.ui.views.ShieldImageView
+        <varta.cdac.app.core.ui.views.ShieldImageView
             android:id="@+id/otherUserShield"
             android:layout_width="16dp"
             android:layout_height="16dp"

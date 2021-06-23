@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package varta.cdac.app.core.utils
 
 import android.text.Spanned
 import android.text.style.ClickableSpan

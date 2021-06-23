@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments.preview
+package varta.cdac.app.features.attachments.preview
 
 import android.view.View
 import android.widget.ImageView
@@ -23,10 +23,10 @@ import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.platform.CheckableImageView
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.platform.CheckableImageView
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 
 abstract class AttachmentPreviewItem<H : AttachmentPreviewItem.Holder> : VectorEpoxyModel<H>() {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.search
+package varta.cdac.app.features.home.room.detail.search
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.Fail
@@ -26,8 +26,8 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

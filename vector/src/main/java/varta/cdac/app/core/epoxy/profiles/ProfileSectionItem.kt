@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy.profiles
+package varta.cdac.app.core.epoxy.profiles
 
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
 
 @EpoxyModelClass(layout = R.layout.item_profile_section)
 abstract class ProfileSectionItem : VectorEpoxyModel<ProfileSectionItem.Holder>() {

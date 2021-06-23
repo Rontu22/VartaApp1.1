@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keys
+package varta.cdac.app.features.crypto.keys
 
 import android.content.Context
 import android.net.Uri
-import im.vector.app.core.intent.getMimeTypeFromUri
-import im.vector.app.core.resources.openResource
+import varta.cdac.app.core.intent.getMimeTypeFromUri
+import varta.cdac.app.core.resources.openResource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.matrix.android.sdk.api.session.Session

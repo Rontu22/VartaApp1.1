@@ -16,7 +16,7 @@
 
 @file:Suppress("UNUSED_VARIABLE", "UNUSED_ANONYMOUS_PARAMETER", "UNUSED_PARAMETER")
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.net.Uri
 import android.os.Bundle
@@ -34,23 +34,23 @@ import androidx.preference.SwitchPreference
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.cache.DiskCache
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.intent.getFilenameFromUri
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.core.preference.UserAvatarPreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.core.utils.getSizeOfFiles
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.DialogChangePasswordBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.workers.signout.SignOutUiWorker
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.GalleryOrCameraDialogHelper
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.intent.getFilenameFromUri
+import varta.cdac.app.core.platform.SimpleTextWatcher
+import varta.cdac.app.core.preference.UserAvatarPreference
+import varta.cdac.app.core.preference.VectorPreference
+import varta.cdac.app.core.preference.VectorSwitchPreference
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.TextUtils
+import varta.cdac.app.core.utils.getSizeOfFiles
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.DialogChangePasswordBinding
+import varta.cdac.app.features.MainActivity
+import varta.cdac.app.features.MainActivityArgs
+import varta.cdac.app.features.workers.signout.SignOutUiWorker
 import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

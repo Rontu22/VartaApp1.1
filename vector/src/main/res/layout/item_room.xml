@@ -61,7 +61,7 @@
         tools:ignore="MissingConstraints" />
 
     <!-- Note: this is always gone now -->
-    <im.vector.app.core.ui.views.ShieldImageView
+    <varta.cdac.app.core.ui.views.ShieldImageView
         android:id="@+id/roomAvatarDecorationImageView"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -133,7 +133,7 @@
         tools:ignore="MissingPrefix"
         tools:visibility="visible" />
 
-    <im.vector.app.features.home.room.list.UnreadCounterBadgeView
+    <varta.cdac.app.features.home.room.list.UnreadCounterBadgeView
         android:id="@+id/roomUnreadCounterBadgeView"
         style="@style/Widget.Vector.TextView.Micro"
         android:layout_width="wrap_content"

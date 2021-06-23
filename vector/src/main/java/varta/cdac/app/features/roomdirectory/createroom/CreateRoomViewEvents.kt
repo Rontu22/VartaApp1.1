@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package varta.cdac.app.features.roomdirectory.createroom
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 /**
  * Transient events for room creation screen

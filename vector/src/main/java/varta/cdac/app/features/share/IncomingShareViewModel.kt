@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package varta.cdac.app.features.share
 
 import com.airbnb.mvrx.FragmentViewModelContext
 import com.airbnb.mvrx.MvRxViewModelFactory
@@ -23,12 +23,12 @@ import com.jakewharton.rxrelay2.BehaviorRelay
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.toggle
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.attachments.isPreviewable
-import im.vector.app.features.attachments.toGroupedContentAttachmentData
-import im.vector.app.features.home.room.list.BreadcrumbsRoomComparator
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.toggle
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.attachments.isPreviewable
+import varta.cdac.app.features.attachments.toGroupedContentAttachmentData
+import varta.cdac.app.features.home.room.list.BreadcrumbsRoomComparator
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

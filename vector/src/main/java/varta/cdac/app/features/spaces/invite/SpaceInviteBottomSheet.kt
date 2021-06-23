@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.invite
+package varta.cdac.app.features.spaces.invite
 
 import android.content.Context
 import android.os.Bundle
@@ -30,14 +30,14 @@ import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.platform.ButtonStateView
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.BottomSheetInvitedToSpaceBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.matrixto.SpaceCardRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.platform.ButtonStateView
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.BottomSheetInvitedToSpaceBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.matrixto.SpaceCardRenderer
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

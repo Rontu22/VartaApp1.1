@@ -7,7 +7,7 @@
     android:addStatesFromChildren="true"
     android:background="?attr/selectableItemBackground">
 
-    <im.vector.app.core.platform.CheckableView
+    <varta.cdac.app.core.platform.CheckableView
         android:id="@+id/messageSelectedBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -65,7 +65,7 @@
         android:layout_height="8dp"
         android:layout_toEndOf="@id/messageStartGuideline" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
+    <varta.cdac.app.core.ui.views.ShieldImageView
         android:id="@+id/messageE2EDecoration"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -134,7 +134,7 @@
 
     </FrameLayout>
 
-    <im.vector.app.core.ui.views.SendStateImageView
+    <varta.cdac.app.core.ui.views.SendStateImageView
         android:id="@+id/messageSendStateImageView"
         android:layout_width="@dimen/item_event_message_state_size"
         android:layout_height="@dimen/item_event_message_state_size"
@@ -186,7 +186,7 @@
             tools:layout_height="40dp">
 
             <!-- ReactionButtons will be added here in the code -->
-            <!--im.vector.app.features.reactions.widget.ReactionButton
+            <!--varta.cdac.app.features.reactions.widget.ReactionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" /-->
 

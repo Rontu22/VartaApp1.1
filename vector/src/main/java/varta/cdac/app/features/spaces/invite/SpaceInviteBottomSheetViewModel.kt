@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.invite
+package varta.cdac.app.features.spaces.invite
 
 import com.airbnb.mvrx.ActivityViewModelContext
 import com.airbnb.mvrx.Fail
@@ -27,9 +27,9 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.session.coroutineScope
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.session.coroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.Session

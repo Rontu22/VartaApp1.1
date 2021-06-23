@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class HomeActivityViewActions : VectorViewModelAction {
     object PushPromptHasBeenReviewed : HomeActivityViewActions()

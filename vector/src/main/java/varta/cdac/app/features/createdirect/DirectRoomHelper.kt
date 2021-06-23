@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package varta.cdac.app.features.createdirect
 
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.raw.wellknown.isE2EByDefault
+import varta.cdac.app.features.raw.wellknown.getElementWellknown
+import varta.cdac.app.features.raw.wellknown.isE2EByDefault
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.raw.RawService
 import org.matrix.android.sdk.api.session.Session

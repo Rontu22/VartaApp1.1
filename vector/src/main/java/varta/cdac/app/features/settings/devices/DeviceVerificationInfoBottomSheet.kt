@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.devices
+package varta.cdac.app.features.settings.devices
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -25,11 +25,11 @@ import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListWithTitleBinding
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetGenericListWithTitleBinding
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

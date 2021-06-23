@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.quads
+package varta.cdac.app.features.crypto.quads
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.Async
@@ -29,11 +29,11 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.R
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.platform.WaitingViewData
+import varta.cdac.app.core.resources.StringProvider
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

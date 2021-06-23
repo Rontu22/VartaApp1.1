@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.fdroid.receiver
+package varta.cdac.app.fdroid.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import im.vector.app.core.di.HasVectorInjector
-import im.vector.app.core.extensions.vectorComponent
-import im.vector.app.fdroid.BackgroundSyncStarter
+import varta.cdac.app.core.di.HasVectorInjector
+import varta.cdac.app.core.extensions.vectorComponent
+import varta.cdac.app.fdroid.BackgroundSyncStarter
 import timber.log.Timber
 
 class OnApplicationUpgradeOrRebootReceiver : BroadcastReceiver() {

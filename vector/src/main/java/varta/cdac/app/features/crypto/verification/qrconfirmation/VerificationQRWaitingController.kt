@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification.qrconfirmation
+package varta.cdac.app.features.crypto.verification.qrconfirmation
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationBigImageItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationWaitingItem
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationBigImageItem
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationWaitingItem
 import org.matrix.android.sdk.api.crypto.RoomEncryptionTrustLevel
 import javax.inject.Inject
 

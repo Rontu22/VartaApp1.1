@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package varta.cdac.app.core.dialogs
 
 import androidx.annotation.AttrRes
 import androidx.appcompat.app.AlertDialog
-import im.vector.app.R
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.features.themes.ThemeUtils
 
 fun AlertDialog.withColoredButton(whichButton: Int, @AttrRes color: Int = R.attr.colorError): AlertDialog {
     getButton(whichButton)?.setTextColor(ThemeUtils.getColor(context, color))

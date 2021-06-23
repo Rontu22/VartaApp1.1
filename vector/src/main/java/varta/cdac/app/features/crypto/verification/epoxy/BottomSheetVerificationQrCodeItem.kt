@@ -14,14 +14,14 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.crypto.verification.epoxy
+package varta.cdac.app.features.crypto.verification.epoxy
 
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.ui.views.QrCodeImageView
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.ui.views.QrCodeImageView
 
 /**
  * An Epoxy item displaying a QR code

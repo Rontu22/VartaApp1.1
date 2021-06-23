@@ -84,7 +84,7 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <im.vector.app.features.workers.signout.SignOutBottomSheetActionButton
+    <varta.cdac.app.features.workers.signout.SignOutBottomSheetActionButton
         android:id="@+id/setupRecoveryButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
         app:textColor="?vctr_content_secondary"
         tools:visibility="visible" />
 
-    <im.vector.app.features.workers.signout.SignOutBottomSheetActionButton
+    <varta.cdac.app.features.workers.signout.SignOutBottomSheetActionButton
         android:id="@+id/setupMegolmBackupButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
         app:textColor="?vctr_content_secondary"
         tools:visibility="visible" />
 
-    <im.vector.app.features.workers.signout.SignOutBottomSheetActionButton
+    <varta.cdac.app.features.workers.signout.SignOutBottomSheetActionButton
         android:id="@+id/exportManuallyButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
         app:textColor="?vctr_content_secondary"
         tools:visibility="visible" />
 
-    <im.vector.app.features.workers.signout.SignOutBottomSheetActionButton
+    <varta.cdac.app.features.workers.signout.SignOutBottomSheetActionButton
         android:id="@+id/exitAnywayButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
         app:textColor="?colorError"
         tools:visibility="visible" />
 
-    <im.vector.app.features.workers.signout.SignOutBottomSheetActionButton
+    <varta.cdac.app.features.workers.signout.SignOutBottomSheetActionButton
         android:id="@+id/signOutButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

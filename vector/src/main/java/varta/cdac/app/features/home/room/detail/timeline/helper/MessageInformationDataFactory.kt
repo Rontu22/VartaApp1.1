@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.extensions.localDateTime
-import im.vector.app.features.home.room.detail.timeline.factory.TimelineItemFactoryParams
-import im.vector.app.features.home.room.detail.timeline.item.E2EDecoration
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
-import im.vector.app.features.home.room.detail.timeline.item.PollResponseData
-import im.vector.app.features.home.room.detail.timeline.item.ReactionInfoData
-import im.vector.app.features.home.room.detail.timeline.item.ReferencesInfoData
-import im.vector.app.features.home.room.detail.timeline.item.SendStateDecoration
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.core.date.DateFormatKind
+import varta.cdac.app.core.date.VectorDateFormatter
+import varta.cdac.app.core.extensions.localDateTime
+import varta.cdac.app.features.home.room.detail.timeline.factory.TimelineItemFactoryParams
+import varta.cdac.app.features.home.room.detail.timeline.item.E2EDecoration
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageInformationData
+import varta.cdac.app.features.home.room.detail.timeline.item.PollResponseData
+import varta.cdac.app.features.home.room.detail.timeline.item.ReactionInfoData
+import varta.cdac.app.features.home.room.detail.timeline.item.ReferencesInfoData
+import varta.cdac.app.features.home.room.detail.timeline.item.SendStateDecoration
+import varta.cdac.app.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.crypto.VerificationState
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.Session

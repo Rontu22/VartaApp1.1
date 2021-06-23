@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.espresso.tools
+package varta.cdac.app.espresso.tools
 
 import android.widget.Switch
 import androidx.annotation.StringRes
@@ -29,7 +29,7 @@ import androidx.test.espresso.matcher.ViewMatchers.hasDescendant
 import androidx.test.espresso.matcher.ViewMatchers.withClassName
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
-import im.vector.app.R
+import varta.cdac.app.R
 import org.hamcrest.Matchers.`is`
 import org.hamcrest.Matchers.allOf
 import org.hamcrest.Matchers.instanceOf

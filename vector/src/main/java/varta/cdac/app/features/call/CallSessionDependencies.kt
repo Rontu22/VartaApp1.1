@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
-import im.vector.app.features.call.lookup.CallProtocolsChecker
-import im.vector.app.features.call.lookup.CallUserMapper
-import im.vector.app.features.session.SessionScopedProperty
+import varta.cdac.app.features.call.lookup.CallProtocolsChecker
+import varta.cdac.app.features.call.lookup.CallUserMapper
+import varta.cdac.app.features.session.SessionScopedProperty
 import org.matrix.android.sdk.api.session.Session
 
 interface VectorCallService {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads
+package varta.cdac.app.features.roomprofile.uploads
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,16 +27,16 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import im.vector.app.R
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.intent.getMimeTypeFromUri
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.saveMedia
-import im.vector.app.core.utils.shareMedia
-import im.vector.app.databinding.FragmentRoomUploadsBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.intent.getMimeTypeFromUri
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.saveMedia
+import varta.cdac.app.core.utils.shareMedia
+import varta.cdac.app.databinding.FragmentRoomUploadsBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.notifications.NotificationUtils
+import varta.cdac.app.features.roomprofile.RoomProfileArgs
 import kotlinx.coroutines.launch
 
 import org.matrix.android.sdk.api.util.toMatrixItem

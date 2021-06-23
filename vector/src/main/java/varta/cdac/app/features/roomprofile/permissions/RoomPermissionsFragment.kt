@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.permissions
+package varta.cdac.app.features.roomprofile.permissions
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,16 +24,16 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentRoomSettingGenericBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roommemberprofile.powerlevel.EditPowerLevelDialogs
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.FragmentRoomSettingGenericBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.roommemberprofile.powerlevel.EditPowerLevelDialogs
+import varta.cdac.app.features.roomprofile.RoomProfileArgs
 import org.matrix.android.sdk.api.session.room.powerlevels.Role
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package varta.cdac.app
 
 import android.app.Application
 import android.content.BroadcastReceiver
@@ -38,27 +38,27 @@ import com.facebook.stetho.Stetho
 import com.gabrielittner.threetenbp.LazyThreeTen
 import com.vanniktech.emoji.EmojiManager
 import com.vanniktech.emoji.google.GoogleEmojiProvider
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.DaggerVectorComponent
-import im.vector.app.core.di.HasVectorInjector
-import im.vector.app.core.di.VectorComponent
-import im.vector.app.core.extensions.configureAndStart
-import im.vector.app.core.rx.RxConfig
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.configuration.VectorConfiguration
-import im.vector.app.features.disclaimer.doNotShowDisclaimerDialog
-import im.vector.app.features.lifecycle.VectorActivityLifecycleCallbacks
-import im.vector.app.features.notifications.NotificationDrawerManager
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.pin.PinLocker
-import im.vector.app.features.popup.PopupAlertManager
-import im.vector.app.features.rageshake.VectorUncaughtExceptionHandler
-import im.vector.app.features.room.VectorRoomDisplayNameFallbackProvider
-import im.vector.app.features.settings.VectorLocale
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.themes.ThemeUtils
-import im.vector.app.features.version.VersionProvider
-import im.vector.app.push.fcm.FcmHelper
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.DaggerVectorComponent
+import varta.cdac.app.core.di.HasVectorInjector
+import varta.cdac.app.core.di.VectorComponent
+import varta.cdac.app.core.extensions.configureAndStart
+import varta.cdac.app.core.rx.RxConfig
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.configuration.VectorConfiguration
+import varta.cdac.app.features.disclaimer.doNotShowDisclaimerDialog
+import varta.cdac.app.features.lifecycle.VectorActivityLifecycleCallbacks
+import varta.cdac.app.features.notifications.NotificationDrawerManager
+import varta.cdac.app.features.notifications.NotificationUtils
+import varta.cdac.app.features.pin.PinLocker
+import varta.cdac.app.features.popup.PopupAlertManager
+import varta.cdac.app.features.rageshake.VectorUncaughtExceptionHandler
+import varta.cdac.app.features.room.VectorRoomDisplayNameFallbackProvider
+import varta.cdac.app.features.settings.VectorLocale
+import varta.cdac.app.features.settings.VectorPreferences
+import varta.cdac.app.features.themes.ThemeUtils
+import varta.cdac.app.features.version.VersionProvider
+import varta.cdac.app.push.fcm.FcmHelper
 import org.jitsi.meet.sdk.log.JitsiMeetDefaultLogHandler
 import org.matrix.android.sdk.api.Matrix
 import org.matrix.android.sdk.api.MatrixConfiguration

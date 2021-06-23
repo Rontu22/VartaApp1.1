@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package varta.cdac.app.features.rageshake
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -24,17 +24,17 @@ import android.os.Build
 import android.view.View
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentActivity
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.getAllChildFragments
-import im.vector.app.core.extensions.toOnOff
-import im.vector.app.features.settings.VectorLocale
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.devtools.GossipingEventsSerializer
-import im.vector.app.features.settings.locale.SystemLocaleProvider
-import im.vector.app.features.themes.ThemeUtils
-import im.vector.app.features.version.VersionProvider
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.extensions.getAllChildFragments
+import varta.cdac.app.core.extensions.toOnOff
+import varta.cdac.app.features.settings.VectorLocale
+import varta.cdac.app.features.settings.VectorPreferences
+import varta.cdac.app.features.settings.devtools.GossipingEventsSerializer
+import varta.cdac.app.features.settings.locale.SystemLocaleProvider
+import varta.cdac.app.features.themes.ThemeUtils
+import varta.cdac.app.features.version.VersionProvider
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

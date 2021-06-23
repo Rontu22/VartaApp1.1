@@ -15,14 +15,14 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package varta.cdac.app.core.epoxy.profiles
 
 import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextOrHide
 
 @EpoxyModelClass(layout = R.layout.item_profile_matrix_item)
 abstract class ProfileMatrixItemWithPowerLevel : BaseProfileMatrixItem<ProfileMatrixItemWithPowerLevel.Holder>() {

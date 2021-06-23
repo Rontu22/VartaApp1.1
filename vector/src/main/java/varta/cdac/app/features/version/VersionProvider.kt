@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.version
+package varta.cdac.app.features.version
 
-import im.vector.app.BuildConfig
-import im.vector.app.core.resources.VersionCodeProvider
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.core.resources.VersionCodeProvider
 import javax.inject.Inject
 
 class VersionProvider @Inject constructor(private val versionCodeProvider: VersionCodeProvider) {

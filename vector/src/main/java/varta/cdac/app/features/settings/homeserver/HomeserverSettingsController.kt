@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.homeserver
+package varta.cdac.app.features.settings.homeserver
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.settingsCenteredImageItem
-import im.vector.app.features.discovery.settingsInfoItem
-import im.vector.app.features.discovery.settingsSectionTitleItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.discovery.settingsCenteredImageItem
+import varta.cdac.app.features.discovery.settingsInfoItem
+import varta.cdac.app.features.discovery.settingsSectionTitleItem
 import org.matrix.android.sdk.api.federation.FederationVersion
 import org.matrix.android.sdk.api.session.homeserver.HomeServerCapabilities
 import javax.inject.Inject

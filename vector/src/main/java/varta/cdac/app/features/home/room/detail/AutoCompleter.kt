@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
@@ -27,18 +27,18 @@ import com.otaliastudios.autocomplete.CharPolicy
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.glide.GlideRequests
-import im.vector.app.features.autocomplete.command.AutocompleteCommandPresenter
-import im.vector.app.features.autocomplete.command.CommandAutocompletePolicy
-import im.vector.app.features.autocomplete.emoji.AutocompleteEmojiPresenter
-import im.vector.app.features.autocomplete.group.AutocompleteGroupPresenter
-import im.vector.app.features.autocomplete.member.AutocompleteMemberPresenter
-import im.vector.app.features.autocomplete.room.AutocompleteRoomPresenter
-import im.vector.app.features.command.Command
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.html.PillImageSpan
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.core.glide.GlideApp
+import varta.cdac.app.core.glide.GlideRequests
+import varta.cdac.app.features.autocomplete.command.AutocompleteCommandPresenter
+import varta.cdac.app.features.autocomplete.command.CommandAutocompletePolicy
+import varta.cdac.app.features.autocomplete.emoji.AutocompleteEmojiPresenter
+import varta.cdac.app.features.autocomplete.group.AutocompleteGroupPresenter
+import varta.cdac.app.features.autocomplete.member.AutocompleteMemberPresenter
+import varta.cdac.app.features.autocomplete.room.AutocompleteRoomPresenter
+import varta.cdac.app.features.command.Command
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.html.PillImageSpan
+import varta.cdac.app.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.session.group.model.GroupSummary
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package varta.cdac.app.features.roomdirectory
 
 import android.net.Uri
 import android.os.Bundle
@@ -25,17 +25,17 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.jakewharton.rxbinding3.appcompat.queryTextChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.trackItemsVisibilityChange
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.showOptimizedSnackbar
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentPublicRoomsBinding
-import im.vector.app.features.permalink.NavigationInterceptor
-import im.vector.app.features.permalink.PermalinkHandler
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.trackItemsVisibilityChange
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.platform.showOptimizedSnackbar
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.FragmentPublicRoomsBinding
+import varta.cdac.app.features.permalink.NavigationInterceptor
+import varta.cdac.app.features.permalink.PermalinkHandler
 import io.reactivex.rxkotlin.subscribeBy
 
 import org.matrix.android.sdk.api.session.Session

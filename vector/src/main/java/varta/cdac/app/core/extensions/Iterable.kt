@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 /**
  * Returns the last element yielding the smallest value of the given function or `null` if there are no elements.

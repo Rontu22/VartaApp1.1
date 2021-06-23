@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roomprofile
+package varta.cdac.app.features.roomprofile
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState

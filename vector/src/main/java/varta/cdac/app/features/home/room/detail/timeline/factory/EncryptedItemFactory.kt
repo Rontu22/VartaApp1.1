@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
-import im.vector.app.features.home.room.detail.timeline.item.MessageTextItem_
-import im.vector.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.DrawableProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageTextItem_
+import varta.cdac.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
+import varta.cdac.app.features.settings.VectorPreferences
 import me.gujun.android.span.image
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.crypto.MXCryptoError

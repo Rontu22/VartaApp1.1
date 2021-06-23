@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package varta.cdac.app.features.notifications
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.RemoteInput
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.vectorComponent
-import im.vector.app.features.session.coroutineScope
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.extensions.vectorComponent
+import varta.cdac.app.features.session.coroutineScope
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.session.Session

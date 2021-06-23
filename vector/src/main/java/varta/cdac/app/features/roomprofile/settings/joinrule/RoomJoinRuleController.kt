@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package varta.cdac.app.features.roomprofile.settings.joinrule
 
-import im.vector.app.R
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.bottomsheet.BottomSheetGenericController
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.DrawableProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.bottomsheet.BottomSheetGenericController
 import me.gujun.android.span.image
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules

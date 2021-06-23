@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keys
+package varta.cdac.app.features.crypto.keys
 
 import android.content.Context
 import android.net.Uri

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.workers.signout
+package varta.cdac.app.features.workers.signout
 
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.cannotLogoutSafely
-import im.vector.app.core.extensions.vectorComponent
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cannotLogoutSafely
+import varta.cdac.app.core.extensions.vectorComponent
+import varta.cdac.app.features.MainActivity
+import varta.cdac.app.features.MainActivityArgs
 
 class SignOutUiWorker(private val activity: FragmentActivity) {
 

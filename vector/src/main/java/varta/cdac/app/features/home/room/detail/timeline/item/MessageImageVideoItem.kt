@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.view.View
 import android.view.ViewGroup
@@ -23,13 +23,13 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.files.LocalFilesHelper
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.features.home.room.detail.timeline.helper.ContentUploadStateTrackerBinder
-import im.vector.app.features.media.ImageContentRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.files.LocalFilesHelper
+import varta.cdac.app.core.glide.GlideApp
+import varta.cdac.app.features.home.room.detail.timeline.helper.ContentUploadStateTrackerBinder
+import varta.cdac.app.features.media.ImageContentRenderer
 
 @EpoxyModelClass(layout = R.layout.item_timeline_event_base)
 abstract class MessageImageVideoItem : AbsMessageItem<MessageImageVideoItem.Holder>() {

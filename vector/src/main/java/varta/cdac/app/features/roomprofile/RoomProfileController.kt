@@ -15,19 +15,19 @@
  *
  */
 
-package im.vector.app.features.roomprofile
+package varta.cdac.app.features.roomprofile
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.expandableTextItem
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.home.ShortcutCreator
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.expandableTextItem
+import varta.cdac.app.core.epoxy.profiles.buildProfileAction
+import varta.cdac.app.core.epoxy.profiles.buildProfileSection
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.features.home.ShortcutCreator
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
+import varta.cdac.app.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.crypto.RoomEncryptionTrustLevel
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import javax.inject.Inject

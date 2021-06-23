@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.action
+package varta.cdac.app.features.home.room.detail.timeline.action
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.core.extensions.canReact
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import varta.cdac.app.core.extensions.canReact
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageInformationData
 import org.matrix.android.sdk.api.session.room.send.SendState
 import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
 

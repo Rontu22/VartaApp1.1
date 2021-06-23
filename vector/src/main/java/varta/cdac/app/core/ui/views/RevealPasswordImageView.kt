@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
-import im.vector.app.R
+import varta.cdac.app.R
 
 class RevealPasswordImageView @JvmOverloads constructor(
         context: Context,

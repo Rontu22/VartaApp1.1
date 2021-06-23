@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.services
+package varta.cdac.app.core.services
 
 import android.app.AlarmManager
 import android.app.NotificationManager
@@ -30,10 +30,10 @@ import androidx.work.WorkManager
 import androidx.work.WorkRequest
 import androidx.work.Worker
 import androidx.work.WorkerParameters
-import im.vector.app.R
-import im.vector.app.core.extensions.vectorComponent
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.settings.BackgroundSyncMode
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.vectorComponent
+import varta.cdac.app.features.notifications.NotificationUtils
+import varta.cdac.app.features.settings.BackgroundSyncMode
 import org.matrix.android.sdk.internal.session.sync.job.SyncService
 import timber.log.Timber
 

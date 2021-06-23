@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package varta.cdac.app.features.devtools
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.ActivityViewModelContext
@@ -28,10 +28,10 @@ import com.squareup.moshi.Types
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.resources.StringProvider
 import kotlinx.coroutines.launch
 import org.json.JSONObject
 import org.matrix.android.sdk.api.session.Session

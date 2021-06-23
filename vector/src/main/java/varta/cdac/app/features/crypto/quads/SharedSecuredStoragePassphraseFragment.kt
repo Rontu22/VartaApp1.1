@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.quads
+package varta.cdac.app.features.crypto.quads
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,11 +26,11 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.jakewharton.rxbinding3.widget.editorActionEvents
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.databinding.FragmentSsssAccessFromPassphraseBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.databinding.FragmentSsssAccessFromPassphraseBinding
 import io.reactivex.android.schedulers.AndroidSchedulers
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject

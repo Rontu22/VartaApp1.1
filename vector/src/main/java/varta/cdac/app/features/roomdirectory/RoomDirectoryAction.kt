@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package varta.cdac.app.features.roomdirectory
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class RoomDirectoryAction : VectorViewModelAction {
     data class SetRoomDirectoryData(val roomDirectoryData: RoomDirectoryData) : RoomDirectoryAction()

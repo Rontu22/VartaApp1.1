@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
 
 @EpoxyModelClass(layout = R.layout.item_settings_progress)
 abstract class SettingsProgressItem : EpoxyModelWithHolder<SettingsProgressItem.Holder>() {

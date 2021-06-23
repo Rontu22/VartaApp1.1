@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package varta.cdac.app.features.contactsbook
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.MvRxState
-import im.vector.app.core.contacts.MappedContact
+import varta.cdac.app.core.contacts.MappedContact
 
 data class ContactsBookViewState(
         // All the contacts on the phone

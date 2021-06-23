@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package varta.cdac.app.features.roomdirectory
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.ActivityViewModelContext
@@ -27,8 +27,8 @@ import com.airbnb.mvrx.appendAt
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.settings.VectorPreferences
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

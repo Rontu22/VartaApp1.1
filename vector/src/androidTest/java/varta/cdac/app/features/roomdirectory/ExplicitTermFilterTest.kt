@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package varta.cdac.app.features.roomdirectory
 
-import im.vector.app.InstrumentedTest
-import im.vector.app.core.utils.AssetReader
+import varta.cdac.app.InstrumentedTest
+import varta.cdac.app.core.utils.AssetReader
 import org.amshove.kluent.shouldBe
 import org.junit.FixMethodOrder
 import org.junit.Test

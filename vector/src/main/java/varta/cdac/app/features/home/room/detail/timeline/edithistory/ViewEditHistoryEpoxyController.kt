@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.edithistory
+package varta.cdac.app.features.home.room.detail.timeline.edithistory
 
 import android.text.Spannable
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericHeaderItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.list.genericLoaderItem
-import im.vector.app.features.html.EventHtmlRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.date.DateFormatKind
+import varta.cdac.app.core.date.VectorDateFormatter
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.core.ui.list.genericHeaderItem
+import varta.cdac.app.core.ui.list.genericItem
+import varta.cdac.app.core.ui.list.genericLoaderItem
+import varta.cdac.app.features.html.EventHtmlRenderer
 import me.gujun.android.span.span
 import name.fraser.neil.plaintext.diff_match_patch
 import org.matrix.android.sdk.api.session.events.model.Event

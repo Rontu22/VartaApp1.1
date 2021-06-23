@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.os.Bundle
 import android.view.View
@@ -24,11 +24,11 @@ import androidx.viewbinding.ViewBinding
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.UnrecognizedCertificateDialog
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.UnrecognizedCertificateDialog
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
 import kotlinx.coroutines.CancellationException
 import org.matrix.android.sdk.api.failure.Failure
 

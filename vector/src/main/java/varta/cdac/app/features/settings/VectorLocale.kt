@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.content.Context
 import android.content.res.Configuration
 import androidx.core.content.edit
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.di.DefaultSharedPreferences
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import timber.log.Timber

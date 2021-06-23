@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class SpaceManageRoomViewAction : VectorViewModelAction {
     data class ToggleSelection(val roomId: String) : SpaceManageRoomViewAction()

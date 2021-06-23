@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.utils
+package varta.cdac.app.features.call.utils
 
 import org.matrix.android.sdk.api.session.room.model.call.CallCandidate
 import org.matrix.android.sdk.api.session.room.model.call.SdpType

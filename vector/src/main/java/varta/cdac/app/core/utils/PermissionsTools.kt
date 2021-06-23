@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package varta.cdac.app.core.utils
 
 import android.Manifest
 import android.app.Activity
@@ -29,8 +29,8 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorBaseActivity
 import timber.log.Timber
 
 // Android M permission request code management

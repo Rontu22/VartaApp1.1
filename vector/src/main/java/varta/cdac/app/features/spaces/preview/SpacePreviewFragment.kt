@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package varta.cdac.app.features.spaces.preview
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -29,14 +29,14 @@ import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.jakewharton.rxbinding3.appcompat.navigationClicks
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSpacePreviewBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.spaces.SpacePreviewSharedAction
-import im.vector.app.features.spaces.SpacePreviewSharedActionViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentSpacePreviewBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.spaces.SpacePreviewSharedAction
+import varta.cdac.app.features.spaces.SpacePreviewSharedActionViewModel
 import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.util.MatrixItem

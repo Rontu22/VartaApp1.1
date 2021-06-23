@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
 import android.view.KeyEvent
 import android.view.inputmethod.EditorInfo
@@ -24,10 +24,10 @@ import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
 import com.google.android.material.textfield.TextInputLayout
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.extensions.showKeyboard
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.core.extensions.showKeyboard
 
 @EpoxyModelClass(layout = R.layout.item_settings_edit_text)
 abstract class SettingsEditTextItem : EpoxyModelWithHolder<SettingsEditTextItem.Holder>() {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package varta.cdac.app.features.html
 
 import android.content.Context
 import android.text.Spannable
@@ -22,9 +22,9 @@ import android.text.Spanned
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.glide.GlideApp
+import varta.cdac.app.features.home.AvatarRenderer
 import io.noties.markwon.core.spans.LinkSpan
 import org.matrix.android.sdk.api.session.permalinks.PermalinkData
 import org.matrix.android.sdk.api.session.permalinks.PermalinkParser

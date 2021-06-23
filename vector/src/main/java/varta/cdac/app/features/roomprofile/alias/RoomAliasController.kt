@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.alias
+package varta.cdac.app.features.roomprofile.alias
 
 import android.text.InputType
 import com.airbnb.epoxy.TypedEpoxyController
@@ -22,20 +22,20 @@ import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.epoxy.profiles.profileActionItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.settingsButtonItem
-import im.vector.app.features.discovery.settingsContinueCancelItem
-import im.vector.app.features.discovery.settingsInfoItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formSwitchItem
-import im.vector.app.features.roomdirectory.createroom.RoomAliasErrorFormatter
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.epoxy.profiles.buildProfileSection
+import varta.cdac.app.core.epoxy.profiles.profileActionItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.discovery.settingsButtonItem
+import varta.cdac.app.features.discovery.settingsContinueCancelItem
+import varta.cdac.app.features.discovery.settingsInfoItem
+import varta.cdac.app.features.form.formEditTextItem
+import varta.cdac.app.features.form.formSwitchItem
+import varta.cdac.app.features.roomdirectory.createroom.RoomAliasErrorFormatter
 import org.matrix.android.sdk.api.session.room.alias.RoomAliasError
 import org.matrix.android.sdk.api.session.room.model.RoomDirectoryVisibility
 import org.matrix.android.sdk.api.session.room.model.RoomType

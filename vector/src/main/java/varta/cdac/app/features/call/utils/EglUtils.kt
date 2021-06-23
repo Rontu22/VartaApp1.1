@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.call.utils
+package varta.cdac.app.features.call.utils
 
 import org.webrtc.EglBase
 import timber.log.Timber

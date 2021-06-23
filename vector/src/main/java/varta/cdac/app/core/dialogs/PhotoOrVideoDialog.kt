@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package varta.cdac.app.core.dialogs
 
 import android.app.Activity
 import androidx.core.view.isVisible
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.databinding.DialogPhotoOrVideoBinding
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.databinding.DialogPhotoOrVideoBinding
+import varta.cdac.app.features.settings.VectorPreferences
 
 class PhotoOrVideoDialog(
         private val activity: Activity,

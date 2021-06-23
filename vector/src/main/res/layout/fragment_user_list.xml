@@ -60,7 +60,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <im.vector.app.core.platform.MaxHeightScrollView
+    <varta.cdac.app.core.platform.MaxHeightScrollView
         android:id="@+id/chipGroupScrollView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             app:lineSpacing="2dp" />
 
-    </im.vector.app.core.platform.MaxHeightScrollView>
+    </varta.cdac.app.core.platform.MaxHeightScrollView>
 
     <EditText
         android:id="@+id/userListSearch"

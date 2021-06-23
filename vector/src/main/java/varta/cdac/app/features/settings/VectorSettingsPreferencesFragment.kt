@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.app.Activity
 import android.content.Context
@@ -22,14 +22,14 @@ import android.widget.CheckedTextView
 import androidx.core.view.children
 import androidx.preference.Preference
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.PhotoOrVideoDialog
-import im.vector.app.core.extensions.restart
-import im.vector.app.core.preference.VectorListPreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.databinding.DialogSelectTextSizeBinding
-import im.vector.app.features.configuration.VectorConfiguration
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.PhotoOrVideoDialog
+import varta.cdac.app.core.extensions.restart
+import varta.cdac.app.core.preference.VectorListPreference
+import varta.cdac.app.core.preference.VectorPreference
+import varta.cdac.app.databinding.DialogSelectTextSizeBinding
+import varta.cdac.app.features.configuration.VectorConfiguration
+import varta.cdac.app.features.themes.ThemeUtils
 import javax.inject.Inject
 
 class VectorSettingsPreferencesFragment @Inject constructor(

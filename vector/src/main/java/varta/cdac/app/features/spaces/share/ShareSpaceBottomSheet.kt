@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.share
+package varta.cdac.app.features.spaces.share
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -25,13 +25,13 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.FragmentManager
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.BottomSheetSpaceInviteBinding
-import im.vector.app.features.invite.InviteUsersToRoomActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.core.utils.startSharePlainTextIntent
+import varta.cdac.app.databinding.BottomSheetSpaceInviteBinding
+import varta.cdac.app.features.invite.InviteUsersToRoomActivity
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

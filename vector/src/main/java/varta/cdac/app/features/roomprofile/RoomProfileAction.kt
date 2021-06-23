@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.roomprofile
+package varta.cdac.app.features.roomprofile
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 
 sealed class RoomProfileAction : VectorViewModelAction {

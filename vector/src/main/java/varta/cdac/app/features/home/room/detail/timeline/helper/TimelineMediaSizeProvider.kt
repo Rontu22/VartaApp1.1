@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.core.di.ScreenScope
+import varta.cdac.app.core.di.ScreenScope
 import javax.inject.Inject
 import kotlin.math.roundToInt
 

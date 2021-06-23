@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roommemberprofile
+package varta.cdac.app.features.roommemberprofile
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.Fail
@@ -28,11 +28,11 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.R
-import im.vector.app.core.mvrx.runCatchingToAsync
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.powerlevel.PowerLevelsObservableFactory
+import varta.cdac.app.R
+import varta.cdac.app.core.mvrx.runCatchingToAsync
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.powerlevel.PowerLevelsObservableFactory
 import io.reactivex.Observable
 import io.reactivex.functions.BiFunction
 import kotlinx.coroutines.Dispatchers

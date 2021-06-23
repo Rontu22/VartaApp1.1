@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <im.vector.app.features.spaces.preview.SpaceTabView
+    <varta.cdac.app.features.spaces.preview.SpaceTabView
         android:id="@+id/spaceChildTabView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

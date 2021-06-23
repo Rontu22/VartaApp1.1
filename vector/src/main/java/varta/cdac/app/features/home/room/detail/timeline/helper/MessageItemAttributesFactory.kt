@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.item.AbsMessageItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import varta.cdac.app.EmojiCompatFontProvider
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.MessageColorProvider
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.item.AbsMessageItem
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageInformationData
 import javax.inject.Inject
 
 class MessageItemAttributesFactory @Inject constructor(

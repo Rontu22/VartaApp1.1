@@ -14,19 +14,19 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roommemberprofile.devices
+package varta.cdac.app.features.roommemberprofile.devices
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.ItemStyle
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.list.genericWithValueItem
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.ItemStyle
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.core.ui.list.genericItem
+import varta.cdac.app.core.ui.list.genericWithValueItem
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
+import varta.cdac.app.features.settings.VectorPreferences
 import me.gujun.android.span.span
 import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
 import javax.inject.Inject

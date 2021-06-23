@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class SpaceManageRoomViewEvents : VectorViewEvents {
 //    object BulkActionSuccess: SpaceManageRoomViewEvents()

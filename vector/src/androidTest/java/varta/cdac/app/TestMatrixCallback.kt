@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package varta.cdac.app
 
 import androidx.annotation.CallSuper
 import junit.framework.TestCase.fail
@@ -27,6 +27,9 @@ import java.util.concurrent.CountDownLatch
  * @param onlySuccessful true to fail if an error occurs. This is the default behavior
  * @param <T>
  */
+
+
+
 open class TestMatrixCallback<T>(private val countDownLatch: CountDownLatch,
                                  private val onlySuccessful: Boolean = true) : MatrixCallback<T> {
 

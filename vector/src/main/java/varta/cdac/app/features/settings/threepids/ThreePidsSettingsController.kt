@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.threepids
+package varta.cdac.app.features.settings.threepids
 
 import android.text.InputType
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.getFormattedValue
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericButtonItem
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.discovery.SettingsEditTextItem
-import im.vector.app.features.discovery.settingsContinueCancelItem
-import im.vector.app.features.discovery.settingsEditTextItem
-import im.vector.app.features.discovery.settingsInfoItem
-import im.vector.app.features.discovery.settingsInformationItem
-import im.vector.app.features.discovery.settingsSectionTitleItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.epoxy.noResultItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.getFormattedValue
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericButtonItem
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.features.discovery.SettingsEditTextItem
+import varta.cdac.app.features.discovery.settingsContinueCancelItem
+import varta.cdac.app.features.discovery.settingsEditTextItem
+import varta.cdac.app.features.discovery.settingsInfoItem
+import varta.cdac.app.features.discovery.settingsInformationItem
+import varta.cdac.app.features.discovery.settingsSectionTitleItem
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.failure.MatrixError
 import org.matrix.android.sdk.api.session.identity.ThreePid

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification
+package varta.cdac.app.features.crypto.verification
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentProgressBinding
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentProgressBinding
 import javax.inject.Inject
 
 class QuadSLoadingFragment @Inject constructor() : VectorBaseFragment<FragmentProgressBinding>() {

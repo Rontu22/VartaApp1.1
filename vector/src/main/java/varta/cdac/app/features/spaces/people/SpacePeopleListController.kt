@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package varta.cdac.app.features.spaces.people
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.profiles.profileMatrixItemWithPowerLevel
-import im.vector.app.core.extensions.join
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.members.RoomMemberListCategories
-import im.vector.app.features.roomprofile.members.RoomMemberListViewState
-import im.vector.app.features.roomprofile.members.RoomMemberSummaryFilter
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.dividerItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.epoxy.profiles.profileMatrixItemWithPowerLevel
+import varta.cdac.app.core.extensions.join
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericItem
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.roomprofile.members.RoomMemberListCategories
+import varta.cdac.app.features.roomprofile.members.RoomMemberListViewState
+import varta.cdac.app.features.roomprofile.members.RoomMemberSummaryFilter
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import org.matrix.android.sdk.api.util.toMatrixItem

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package varta.cdac.app.features.roomprofile.settings.joinrule
 
-import im.vector.app.core.ui.bottomsheet.BottomSheetGenericRadioAction
+import varta.cdac.app.core.ui.bottomsheet.BottomSheetGenericRadioAction
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 
 class RoomJoinRuleRadioAction(

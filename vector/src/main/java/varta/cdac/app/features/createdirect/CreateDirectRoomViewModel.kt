@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package varta.cdac.app.features.createdirect
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.ActivityViewModelContext
@@ -26,12 +26,12 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.mvrx.runCatchingToAsync
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.raw.wellknown.isE2EByDefault
-import im.vector.app.features.userdirectory.PendingSelection
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.mvrx.runCatchingToAsync
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.raw.wellknown.getElementWellknown
+import varta.cdac.app.features.raw.wellknown.isE2EByDefault
+import varta.cdac.app.features.userdirectory.PendingSelection
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.raw.RawService

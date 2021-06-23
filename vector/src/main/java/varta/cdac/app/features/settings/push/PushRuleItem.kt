@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.push
+package varta.cdac.app.features.settings.push
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -26,10 +26,10 @@ import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.features.notifications.toNotificationAction
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.features.notifications.toNotificationAction
+import varta.cdac.app.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.pushrules.getActions
 import org.matrix.android.sdk.api.pushrules.rest.PushRule
 

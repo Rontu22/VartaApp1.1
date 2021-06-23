@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.widget
+package varta.cdac.app.features.home.room.list.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.core.view.isVisible
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import im.vector.app.R
-import im.vector.app.databinding.MotionNotifsFabMenuMergeBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.MotionNotifsFabMenuMergeBinding
 
 class NotifsFabMenuView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null,
                                                   defStyleAttr: Int = 0) : MotionLayout(context, attrs, defStyleAttr) {

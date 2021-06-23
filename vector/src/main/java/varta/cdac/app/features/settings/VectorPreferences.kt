@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.content.Context
 import android.media.RingtoneManager
@@ -21,12 +21,12 @@ import android.net.Uri
 import android.provider.MediaStore
 import androidx.core.content.edit
 import com.squareup.seismic.ShakeDetector
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.di.DefaultSharedPreferences
-import im.vector.app.features.disclaimer.SHARED_PREF_KEY
-import im.vector.app.features.homeserver.ServerUrlsRepository
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.features.disclaimer.SHARED_PREF_KEY
+import varta.cdac.app.features.homeserver.ServerUrlsRepository
+import varta.cdac.app.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import timber.log.Timber
 import javax.inject.Inject

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.permissions
+package varta.cdac.app.features.widgets.permissions
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class RoomWidgetPermissionActions : VectorViewModelAction {
     object AllowWidget : RoomWidgetPermissionActions()

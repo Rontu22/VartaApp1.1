@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.resources
+package varta.cdac.app.core.resources
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import androidx.core.content.ContextCompat
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.features.themes.ThemeUtils
 import javax.inject.Inject
 
 class DrawableProvider @Inject constructor(private val context: Context) {

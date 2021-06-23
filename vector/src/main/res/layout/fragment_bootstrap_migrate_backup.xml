@@ -60,7 +60,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <im.vector.app.core.ui.views.RevealPasswordImageView
+    <varta.cdac.app.core.ui.views.RevealPasswordImageView
         android:id="@+id/bootstrapMigrateShowPassword"
         android:layout_width="@dimen/layout_touch_size"
         android:layout_height="@dimen/layout_touch_size"

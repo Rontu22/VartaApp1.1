@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package varta.cdac.app.features.signout.soft
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.login.LoginMode
+import varta.cdac.app.features.login.LoginMode
 
 data class SoftLogoutViewState(
         val asyncHomeServerLoginFlowRequest: Async<LoginMode> = Uninitialized,

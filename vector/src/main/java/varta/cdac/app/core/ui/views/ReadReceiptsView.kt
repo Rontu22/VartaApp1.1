@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -22,11 +22,11 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.databinding.ViewReadReceiptsBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptData
-import im.vector.app.features.home.room.detail.timeline.item.toMatrixItem
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ViewReadReceiptsBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.item.ReadReceiptData
+import varta.cdac.app.features.home.room.detail.timeline.item.toMatrixItem
 
 private const val MAX_RECEIPT_DISPLAYED = 5
 private const val MAX_RECEIPT_DESCRIBED = 3

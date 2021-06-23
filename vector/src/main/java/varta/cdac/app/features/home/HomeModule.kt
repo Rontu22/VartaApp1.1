@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import android.os.Handler
 import dagger.Module
 import dagger.Provides
-import im.vector.app.features.home.room.detail.timeline.TimelineEventControllerHandler
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineAsyncHelper
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventControllerHandler
+import varta.cdac.app.features.home.room.detail.timeline.helper.TimelineAsyncHelper
 
 @Module
 object HomeModule {

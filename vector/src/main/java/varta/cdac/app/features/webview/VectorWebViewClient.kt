@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.features.webview
+package varta.cdac.app.features.webview
 
 import android.annotation.TargetApi
 import android.graphics.Bitmap

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package varta.cdac.app.core.epoxy
 
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextOrHide
 
 @EpoxyModelClass(layout = R.layout.item_loading)
 abstract class LoadingItem : VectorEpoxyModel<LoadingItem.Holder>() {

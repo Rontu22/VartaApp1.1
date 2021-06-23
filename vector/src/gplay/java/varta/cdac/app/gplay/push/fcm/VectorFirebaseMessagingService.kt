@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.gplay.push.fcm
+package varta.cdac.app.gplay.push.fcm
 
 import android.content.Intent
 import android.os.Handler
@@ -27,20 +27,20 @@ import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.vectorComponent
-import im.vector.app.core.network.WifiDetector
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.features.badge.BadgeProxy
-import im.vector.app.features.notifications.NotifiableEventResolver
-import im.vector.app.features.notifications.NotifiableMessageEvent
-import im.vector.app.features.notifications.NotificationDrawerManager
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.notifications.SimpleNotifiableEvent
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.push.fcm.FcmHelper
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.extensions.vectorComponent
+import varta.cdac.app.core.network.WifiDetector
+import varta.cdac.app.core.pushers.PushersManager
+import varta.cdac.app.features.badge.BadgeProxy
+import varta.cdac.app.features.notifications.NotifiableEventResolver
+import varta.cdac.app.features.notifications.NotifiableMessageEvent
+import varta.cdac.app.features.notifications.NotificationDrawerManager
+import varta.cdac.app.features.notifications.NotificationUtils
+import varta.cdac.app.features.notifications.SimpleNotifiableEvent
+import varta.cdac.app.features.settings.VectorPreferences
+import varta.cdac.app.push.fcm.FcmHelper
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch

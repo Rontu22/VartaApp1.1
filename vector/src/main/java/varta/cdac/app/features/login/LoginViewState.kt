@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Loading

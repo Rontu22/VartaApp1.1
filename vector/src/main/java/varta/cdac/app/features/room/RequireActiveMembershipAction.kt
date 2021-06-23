@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.room
+package varta.cdac.app.features.room
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class RequireActiveMembershipAction : VectorViewModelAction {
     data class ChangeRoom(val roomId: String) : RequireActiveMembershipAction()

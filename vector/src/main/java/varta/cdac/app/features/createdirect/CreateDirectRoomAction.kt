@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package varta.cdac.app.features.createdirect
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.userdirectory.PendingSelection
+import varta.cdac.app.core.platform.VectorViewModelAction
+import varta.cdac.app.features.userdirectory.PendingSelection
 
 sealed class CreateDirectRoomAction : VectorViewModelAction {
     data class CreateRoomAndInviteSelectedUsers(

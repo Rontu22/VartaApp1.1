@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.dialpad
+package varta.cdac.app.features.call.dialpad
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import im.vector.app.R
-import im.vector.app.core.extensions.addChildFragment
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetCallDialPadBinding
-import im.vector.app.features.settings.VectorLocale
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.addChildFragment
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetCallDialPadBinding
+import varta.cdac.app.features.settings.VectorLocale
 
 class CallDialPadBottomSheet : VectorBaseBottomSheetDialogFragment<BottomSheetCallDialPadBinding>() {
 

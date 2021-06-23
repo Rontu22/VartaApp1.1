@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.alias.detail
+package varta.cdac.app.features.roomprofile.alias.detail
 
 import com.airbnb.mvrx.MvRxState
 

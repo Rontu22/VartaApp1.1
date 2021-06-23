@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.Fail
@@ -25,12 +25,12 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.call.audio.CallAudioManager
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.call.webrtc.getOpponentAsMatrixItem
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.call.audio.CallAudioManager
+import varta.cdac.app.features.call.webrtc.WebRtcCall
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.call.webrtc.getOpponentAsMatrixItem
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

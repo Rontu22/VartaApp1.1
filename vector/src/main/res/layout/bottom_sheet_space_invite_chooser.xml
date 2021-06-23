@@ -20,7 +20,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <im.vector.app.features.spaces.create.WizardButtonView
+    <varta.cdac.app.features.spaces.create.WizardButtonView
         android:id="@+id/inviteToSpaceButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         app:subTitle="@string/invite_to_space_with_name_desc"
         app:title="@string/invite_to_space_with_name" />
 
-    <im.vector.app.features.spaces.create.WizardButtonView
+    <varta.cdac.app.features.spaces.create.WizardButtonView
         android:id="@+id/inviteToRoomOnly"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

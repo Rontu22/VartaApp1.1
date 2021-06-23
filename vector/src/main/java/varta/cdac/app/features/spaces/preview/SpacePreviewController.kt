@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package varta.cdac.app.features.spaces.preview
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericHeaderItem
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericHeaderItem
+import varta.cdac.app.core.utils.TextUtils
+import varta.cdac.app.features.home.AvatarRenderer
 import javax.inject.Inject
 
 class SpacePreviewController @Inject constructor(

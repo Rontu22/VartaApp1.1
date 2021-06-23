@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.reactions
+package varta.cdac.app.features.reactions
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class EmojiSearchAction : VectorViewModelAction {
     data class UpdateQuery(val queryString: String) : EmojiSearchAction()

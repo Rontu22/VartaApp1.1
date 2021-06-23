@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.widget
+package varta.cdac.app.features.home.room.detail.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.RelativeLayout
-import im.vector.app.R
-import im.vector.app.databinding.ViewRoomWidgetsBannerBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ViewRoomWidgetsBannerBinding
 
 import org.matrix.android.sdk.api.session.widgets.model.Widget
 

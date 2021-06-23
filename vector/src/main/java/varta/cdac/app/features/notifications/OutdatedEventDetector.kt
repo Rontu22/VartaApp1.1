@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.notifications
+package varta.cdac.app.features.notifications
 
-import im.vector.app.ActiveSessionDataSource
+import varta.cdac.app.ActiveSessionDataSource
 import javax.inject.Inject
 
 class OutdatedEventDetector @Inject constructor(

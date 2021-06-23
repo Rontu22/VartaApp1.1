@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -32,8 +32,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.EpoxyTouchHelperCallback
 import com.airbnb.epoxy.EpoxyViewHolder
-import im.vector.app.R
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.features.themes.ThemeUtils
 import timber.log.Timber
 import kotlin.math.abs
 import kotlin.math.min

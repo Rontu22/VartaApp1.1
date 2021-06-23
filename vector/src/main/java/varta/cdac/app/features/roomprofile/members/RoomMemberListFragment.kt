@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.members
+package varta.cdac.app.features.roomprofile.members
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,13 +27,13 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentRoomMemberListBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentRoomMemberListBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.roomprofile.RoomProfileArgs
 
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.toModel

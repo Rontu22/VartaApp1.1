@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package varta.cdac.app.features.spaces.preview
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
-import im.vector.app.R
+import varta.cdac.app.R
 
 class SpaceTabView constructor(context: Context,
                                attrs: AttributeSet? = null,

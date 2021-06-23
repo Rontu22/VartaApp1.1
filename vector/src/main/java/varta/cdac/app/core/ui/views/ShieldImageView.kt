@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.annotation.DrawableRes
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.isVisible
-import im.vector.app.R
+import varta.cdac.app.R
 import org.matrix.android.sdk.api.crypto.RoomEncryptionTrustLevel
 
 class ShieldImageView @JvmOverloads constructor(

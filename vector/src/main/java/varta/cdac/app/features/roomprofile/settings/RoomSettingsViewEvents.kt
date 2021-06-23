@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.roomprofile.settings
+package varta.cdac.app.features.roomprofile.settings
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 /**
  * Transient events for room settings screen

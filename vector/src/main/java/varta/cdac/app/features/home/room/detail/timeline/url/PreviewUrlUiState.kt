@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.url
+package varta.cdac.app.features.home.room.detail.timeline.url
 
 import org.matrix.android.sdk.api.session.media.PreviewUrlData
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.locale
+package varta.cdac.app.features.settings.locale
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.settings.VectorLocale
+import varta.cdac.app.features.settings.VectorLocale
 import java.util.Locale
 
 data class LocalePickerViewState(

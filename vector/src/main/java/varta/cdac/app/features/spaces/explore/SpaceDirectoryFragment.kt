@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package varta.cdac.app.features.spaces.explore
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -29,23 +29,23 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.withColoredButton
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.core.utils.isValidUrl
-import im.vector.app.core.utils.openUrlInExternalBrowser
-import im.vector.app.databinding.FragmentSpaceDirectoryBinding
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.matrixto.SpaceCardRenderer
-import im.vector.app.features.permalink.PermalinkHandler
-import im.vector.app.features.spaces.manage.ManageType
-import im.vector.app.features.spaces.manage.SpaceManageActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.withColoredButton
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.colorizeMatchingText
+import varta.cdac.app.core.utils.isValidUrl
+import varta.cdac.app.core.utils.openUrlInExternalBrowser
+import varta.cdac.app.databinding.FragmentSpaceDirectoryBinding
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.matrixto.SpaceCardRenderer
+import varta.cdac.app.features.permalink.PermalinkHandler
+import varta.cdac.app.features.spaces.manage.ManageType
+import varta.cdac.app.features.spaces.manage.SpaceManageActivity
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.parcelize.Parcelize

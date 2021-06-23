@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package varta.cdac.app.features.devtools
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formMultiLineEditTextItem
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.features.form.formEditTextItem
+import varta.cdac.app.features.form.formMultiLineEditTextItem
 import javax.inject.Inject
 
 class RoomDevToolSendFormController @Inject constructor(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.BaseMvRxViewModel
@@ -22,8 +22,8 @@ import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Success
-import im.vector.app.core.utils.DataSource
-import im.vector.app.core.utils.PublishDataSource
+import varta.cdac.app.core.utils.DataSource
+import varta.cdac.app.core.utils.PublishDataSource
 import io.reactivex.Observable
 import io.reactivex.Single
 

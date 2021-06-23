@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.permalink
+package varta.cdac.app.features.permalink
 
 import android.content.Context
 import android.net.Uri
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.utils.toast
-import im.vector.app.features.navigation.Navigator
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.features.navigation.Navigator
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers

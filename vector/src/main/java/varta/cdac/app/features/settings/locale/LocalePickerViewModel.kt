@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.locale
+package varta.cdac.app.features.settings.locale
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.ActivityViewModelContext
@@ -25,10 +25,10 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.configuration.VectorConfiguration
-import im.vector.app.features.settings.VectorLocale
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.configuration.VectorConfiguration
+import varta.cdac.app.features.settings.VectorLocale
 import kotlinx.coroutines.launch
 
 class LocalePickerViewModel @AssistedInject constructor(

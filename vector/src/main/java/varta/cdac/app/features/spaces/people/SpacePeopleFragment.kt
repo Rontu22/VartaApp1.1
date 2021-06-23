@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package varta.cdac.app.features.spaces.people
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,17 +27,17 @@ import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.jakewharton.rxbinding3.appcompat.queryTextChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.databinding.FragmentRecyclerviewWithSearchBinding
-import im.vector.app.features.roomprofile.members.RoomMemberListAction
-import im.vector.app.features.roomprofile.members.RoomMemberListViewModel
-import im.vector.app.features.roomprofile.members.RoomMemberListViewState
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.DrawableProvider
+import varta.cdac.app.databinding.FragmentRecyclerviewWithSearchBinding
+import varta.cdac.app.features.roomprofile.members.RoomMemberListAction
+import varta.cdac.app.features.roomprofile.members.RoomMemberListViewModel
+import varta.cdac.app.features.roomprofile.members.RoomMemberListViewState
 import io.reactivex.rxkotlin.subscribeBy
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import java.util.concurrent.TimeUnit

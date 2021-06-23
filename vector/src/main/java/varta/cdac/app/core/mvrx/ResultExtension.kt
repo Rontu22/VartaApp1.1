@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.mvrx
+package varta.cdac.app.core.mvrx
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Fail

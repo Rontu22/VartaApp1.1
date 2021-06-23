@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2.created
+package varta.cdac.app.features.login2.created
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState

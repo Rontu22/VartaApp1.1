@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.app.Activity
 import android.content.BroadcastReceiver
@@ -29,16 +29,16 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.transition.TransitionManager
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSettingsNotificationsTroubleshootBinding
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.rageshake.BugReporter
-import im.vector.app.features.settings.troubleshoot.NotificationTroubleshootTestManager
-import im.vector.app.features.settings.troubleshoot.TroubleshootTest
-import im.vector.app.push.fcm.NotificationTroubleshootTestManagerFactory
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentSettingsNotificationsTroubleshootBinding
+import varta.cdac.app.features.notifications.NotificationUtils
+import varta.cdac.app.features.rageshake.BugReporter
+import varta.cdac.app.features.settings.troubleshoot.NotificationTroubleshootTestManager
+import varta.cdac.app.features.settings.troubleshoot.TroubleshootTest
+import varta.cdac.app.push.fcm.NotificationTroubleshootTestManagerFactory
 
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.extensions.tryOrNull

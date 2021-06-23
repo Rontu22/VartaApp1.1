@@ -226,7 +226,7 @@
             app:layout_goneMarginStart="25dp"
             tools:text="7 people you may know" />
 
-        <im.vector.app.core.platform.ButtonStateView
+        <varta.cdac.app.core.platform.ButtonStateView
             android:id="@+id/matrixToCardMainButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -267,7 +267,7 @@
         <!--            app:layout_constraintWidth_max="400dp"-->
         <!--            tools:text="@string/dismiss" />-->
 
-        <im.vector.app.core.platform.ButtonStateView
+        <varta.cdac.app.core.platform.ButtonStateView
             android:id="@+id/matrixToCardSecondaryButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

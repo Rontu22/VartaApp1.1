@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
-import im.vector.app.features.home.room.detail.timeline.helper.RoomSummariesHolder
-import im.vector.app.features.home.room.detail.timeline.item.CallTileTimelineItem
-import im.vector.app.features.home.room.detail.timeline.item.CallTileTimelineItem_
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.home.room.detail.timeline.MessageColorProvider
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
+import varta.cdac.app.features.home.room.detail.timeline.helper.RoomSummariesHolder
+import varta.cdac.app.features.home.room.detail.timeline.item.CallTileTimelineItem
+import varta.cdac.app.features.home.room.detail.timeline.item.CallTileTimelineItem_
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageInformationData
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.events.model.toModel
 import org.matrix.android.sdk.api.session.room.model.call.CallAnswerContent

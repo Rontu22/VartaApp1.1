@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package varta.cdac.app.features.spaces.explore
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo
 
 sealed class SpaceDirectoryViewAction : VectorViewModelAction {

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.transfer
+package varta.cdac.app.features.call.transfer
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class CallTransferViewEvents : VectorViewEvents {
     object Dismiss : CallTransferViewEvents()

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package varta.cdac.app.features.html
 
 import android.content.Context
 import android.text.Spannable
 import androidx.core.text.toSpannable
-import im.vector.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.ColorProvider
 import io.noties.markwon.Markwon
 import io.noties.markwon.html.HtmlPlugin
 import org.commonmark.node.Node

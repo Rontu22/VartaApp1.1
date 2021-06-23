@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.widget
+package varta.cdac.app.features.home.room.detail.widget
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,17 +22,17 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.databinding.BottomSheetGenericListWithTitleBinding
-import im.vector.app.features.home.room.detail.RoomDetailAction
-import im.vector.app.features.home.room.detail.RoomDetailViewModel
-import im.vector.app.features.home.room.detail.RoomDetailViewState
-import im.vector.app.features.navigation.Navigator
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.databinding.BottomSheetGenericListWithTitleBinding
+import varta.cdac.app.features.home.room.detail.RoomDetailAction
+import varta.cdac.app.features.home.room.detail.RoomDetailViewModel
+import varta.cdac.app.features.home.room.detail.RoomDetailViewState
+import varta.cdac.app.features.navigation.Navigator
 
 import org.matrix.android.sdk.api.session.widgets.model.Widget
 import javax.inject.Inject

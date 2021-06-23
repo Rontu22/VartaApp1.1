@@ -14,17 +14,17 @@
  * limitations under the License.
  *
  */
-package im.vector.app.core.epoxy.bottomsheet
+package varta.cdac.app.core.epoxy.bottomsheet
 
 import android.graphics.Typeface
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
+import varta.cdac.app.EmojiCompatFontProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.onClick
 
 /**
  * A quick reaction list for bottom sheet.

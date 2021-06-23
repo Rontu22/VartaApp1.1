@@ -15,15 +15,15 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package varta.cdac.app.core.epoxy.profiles
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.ui.views.ShieldImageView
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.ui.views.ShieldImageView
 
 @EpoxyModelClass(layout = R.layout.item_profile_matrix_item)
 abstract class ProfileMatrixItem : BaseProfileMatrixItem<ProfileMatrixItem.Holder>() {

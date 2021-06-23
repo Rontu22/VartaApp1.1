@@ -15,14 +15,14 @@
  *
  */
 
-package im.vector.app.features.roommemberprofile
+package varta.cdac.app.features.roommemberprofile
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.profiles.buildProfileAction
+import varta.cdac.app.core.epoxy.profiles.buildProfileSection
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.room.model.Membership
 import org.matrix.android.sdk.api.session.room.powerlevels.PowerLevelsHelper

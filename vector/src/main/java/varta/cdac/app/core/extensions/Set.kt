@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 // Create a new Set including the provided element if not already present, or removing the element if already present
 fun <T> Set<T>.toggle(element: T, singleElement: Boolean = false): Set<T> {

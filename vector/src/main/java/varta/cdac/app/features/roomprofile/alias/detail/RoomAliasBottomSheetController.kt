@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.roomprofile.alias.detail
+package varta.cdac.app.features.roomprofile.alias.detail
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetActionItem
-import im.vector.app.core.ui.bottomsheet.bottomSheetTitleItem
+import varta.cdac.app.core.epoxy.bottomSheetDividerItem
+import varta.cdac.app.core.epoxy.bottomsheet.bottomSheetActionItem
+import varta.cdac.app.core.ui.bottomsheet.bottomSheetTitleItem
 import javax.inject.Inject
 
 /**

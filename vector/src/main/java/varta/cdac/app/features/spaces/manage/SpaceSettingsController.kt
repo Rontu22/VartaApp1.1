@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formEditableSquareAvatarItem
-import im.vector.app.features.form.formMultiLineEditTextItem
-import im.vector.app.features.form.formSwitchItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.settings.RoomSettingsViewState
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.dividerItem
+import varta.cdac.app.core.epoxy.profiles.buildProfileAction
+import varta.cdac.app.core.epoxy.profiles.buildProfileSection
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.form.formEditTextItem
+import varta.cdac.app.features.form.formEditableSquareAvatarItem
+import varta.cdac.app.features.form.formMultiLineEditTextItem
+import varta.cdac.app.features.form.formSwitchItem
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.roomprofile.settings.RoomSettingsViewState
+import varta.cdac.app.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

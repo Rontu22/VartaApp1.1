@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

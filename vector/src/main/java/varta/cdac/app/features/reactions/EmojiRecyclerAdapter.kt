@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package varta.cdac.app.features.reactions
 
 import android.os.Build
 import android.os.Trace
@@ -29,8 +29,8 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
-import im.vector.app.R
-import im.vector.app.features.reactions.data.EmojiDataSource
+import varta.cdac.app.R
+import varta.cdac.app.features.reactions.data.EmojiDataSource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

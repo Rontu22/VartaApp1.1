@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.core.epoxy.bottomsheet
+package varta.cdac.app.core.epoxy.bottomsheet
 
 import android.content.res.ColorStateList
 import android.view.View
@@ -29,12 +29,12 @@ import androidx.core.view.isVisible
 import androidx.core.widget.ImageViewCompat
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.features.themes.ThemeUtils
 
 /**
  * A action for bottom sheet.

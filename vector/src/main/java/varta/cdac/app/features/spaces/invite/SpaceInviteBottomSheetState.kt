@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.invite
+package varta.cdac.app.features.spaces.invite
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState

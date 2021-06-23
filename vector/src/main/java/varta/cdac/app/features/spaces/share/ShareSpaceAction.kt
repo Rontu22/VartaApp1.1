@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.share
+package varta.cdac.app.features.spaces.share
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class ShareSpaceAction : VectorViewModelAction {
     object InviteByMxId : ShareSpaceAction()

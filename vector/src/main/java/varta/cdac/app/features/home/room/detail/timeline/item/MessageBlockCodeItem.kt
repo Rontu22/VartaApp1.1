@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.setTextOrHide
 import me.saket.bettermovementmethod.BetterLinkMovementMethod
 
 @EpoxyModelClass(layout = R.layout.item_timeline_event_base)

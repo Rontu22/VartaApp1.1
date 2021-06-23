@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.webview
+package varta.cdac.app.features.widgets.webview
 
 import android.annotation.SuppressLint
 import android.view.ViewGroup
@@ -23,10 +23,10 @@ import android.webkit.PermissionRequest
 import android.webkit.WebChromeClient
 import android.webkit.WebSettings
 import android.webkit.WebView
-import im.vector.app.R
-import im.vector.app.features.themes.ThemeUtils
-import im.vector.app.features.webview.VectorWebViewClient
-import im.vector.app.features.webview.WebViewEventListener
+import varta.cdac.app.R
+import varta.cdac.app.features.themes.ThemeUtils
+import varta.cdac.app.features.webview.VectorWebViewClient
+import varta.cdac.app.features.webview.WebViewEventListener
 
 @SuppressLint("NewApi")
 fun WebView.setupForWidget(webViewEventListener: WebViewEventListener) {

@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.devices
+package varta.cdac.app.features.settings.devices
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.ItemStyle
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.views.toDrawableRes
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.bottomSheetDividerItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.ItemStyle
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.core.ui.list.genericItem
+import varta.cdac.app.core.ui.views.toDrawableRes
+import varta.cdac.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
 import timber.log.Timber

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.url
+package varta.cdac.app.features.home.room.detail.timeline.url
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.ViewUrlPreviewBinding
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.media.ImageContentRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.databinding.ViewUrlPreviewBinding
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.media.ImageContentRenderer
 
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.media.PreviewUrlData

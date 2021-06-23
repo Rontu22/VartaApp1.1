@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<im.vector.app.core.platform.CheckableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<varta.cdac.app.core.platform.CheckableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/itemGroupLayout"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@sample/space_avatars" />
 
-    <im.vector.app.features.home.room.list.UnreadCounterBadgeView
+    <varta.cdac.app.features.home.room.list.UnreadCounterBadgeView
         android:id="@+id/groupCounterBadge"
         style="@style/Widget.Vector.TextView.Micro"
         android:layout_width="wrap_content"
@@ -119,4 +119,4 @@
         app:tint="?vctr_content_primary"
         tools:ignore="MissingPrefix" />
 
-</im.vector.app.core.platform.CheckableConstraintLayout>
+</varta.cdac.app.core.platform.CheckableConstraintLayout>

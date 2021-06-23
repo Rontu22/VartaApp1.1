@@ -13,31 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.action
+package varta.cdac.app.features.home.room.detail.timeline.action
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Success
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.bottomsheet.BottomSheetQuickReactionsItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetActionItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetMessagePreviewItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetQuickReactionsItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetSendStateItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.format.EventDetailsFormatter
-import im.vector.app.features.home.room.detail.timeline.image.buildImageContentRendererData
-import im.vector.app.features.home.room.detail.timeline.item.E2EDecoration
-import im.vector.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
-import im.vector.app.features.home.room.detail.timeline.tools.linkify
-import im.vector.app.features.media.ImageContentRenderer
+import varta.cdac.app.EmojiCompatFontProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.date.DateFormatKind
+import varta.cdac.app.core.date.VectorDateFormatter
+import varta.cdac.app.core.epoxy.bottomSheetDividerItem
+import varta.cdac.app.core.epoxy.bottomsheet.BottomSheetQuickReactionsItem
+import varta.cdac.app.core.epoxy.bottomsheet.bottomSheetActionItem
+import varta.cdac.app.core.epoxy.bottomsheet.bottomSheetMessagePreviewItem
+import varta.cdac.app.core.epoxy.bottomsheet.bottomSheetQuickReactionsItem
+import varta.cdac.app.core.epoxy.bottomsheet.bottomSheetSendStateItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.format.EventDetailsFormatter
+import varta.cdac.app.features.home.room.detail.timeline.image.buildImageContentRendererData
+import varta.cdac.app.features.home.room.detail.timeline.item.E2EDecoration
+import varta.cdac.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
+import varta.cdac.app.features.home.room.detail.timeline.tools.linkify
+import varta.cdac.app.features.media.ImageContentRenderer
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.session.room.send.SendState

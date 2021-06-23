@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.os.Build
 import android.os.Bundle
@@ -25,13 +25,13 @@ import android.view.inputmethod.EditorInfo
 import androidx.autofill.HintConstants
 import androidx.core.view.isVisible
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentLoginSigninToAny2Binding
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.SocialLoginButtonsView
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.extensions.toReducedUrl
+import varta.cdac.app.databinding.FragmentLoginSigninToAny2Binding
+import varta.cdac.app.features.login.LoginMode
+import varta.cdac.app.features.login.SocialLoginButtonsView
 import io.reactivex.Observable
 import io.reactivex.rxkotlin.subscribeBy
 import org.matrix.android.sdk.api.failure.Failure

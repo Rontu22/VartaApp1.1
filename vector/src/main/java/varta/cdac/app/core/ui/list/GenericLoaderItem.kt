@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.list
+package varta.cdac.app.core.ui.list
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
 
 /**
  * A generic list item header left aligned with notice color.

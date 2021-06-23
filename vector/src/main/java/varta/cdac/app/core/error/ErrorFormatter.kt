@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.error
+package varta.cdac.app.core.error
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.call.dialpad.DialPadLookup
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.call.dialpad.DialPadLookup
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.failure.MatrixError
 import org.matrix.android.sdk.api.failure.isInvalidPassword

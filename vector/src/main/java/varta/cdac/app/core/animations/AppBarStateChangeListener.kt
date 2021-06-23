@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.core.animations
+package varta.cdac.app.core.animations
 
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.appbar.AppBarLayout.OnOffsetChangedListener

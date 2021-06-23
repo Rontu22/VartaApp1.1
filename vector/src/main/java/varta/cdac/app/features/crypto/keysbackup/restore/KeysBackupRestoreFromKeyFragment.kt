@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package varta.cdac.app.features.crypto.keysbackup.restore
 
 import android.app.Activity
 import android.os.Bundle
@@ -22,11 +22,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import androidx.core.widget.doOnTextChanged
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.startImportTextFromFileIntent
-import im.vector.app.databinding.FragmentKeysBackupRestoreFromKeyBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.startImportTextFromFileIntent
+import varta.cdac.app.databinding.FragmentKeysBackupRestoreFromKeyBinding
 
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import javax.inject.Inject

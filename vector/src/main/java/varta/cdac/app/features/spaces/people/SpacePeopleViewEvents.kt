@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package varta.cdac.app.features.spaces.people
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class SpacePeopleViewEvents : VectorViewEvents {
     data class OpenRoom(val roomId: String) : SpacePeopleViewEvents()

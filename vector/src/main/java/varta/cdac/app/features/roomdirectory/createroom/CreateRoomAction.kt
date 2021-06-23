@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package varta.cdac.app.features.roomdirectory.createroom
 
 import android.net.Uri
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class CreateRoomAction : VectorViewModelAction {
     data class SetAvatar(val imageUri: Uri?) : CreateRoomAction()

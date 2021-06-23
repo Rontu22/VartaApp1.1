@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.notifications
+package varta.cdac.app.features.notifications
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -22,12 +22,12 @@ import android.os.HandlerThread
 import androidx.annotation.WorkerThread
 import androidx.core.app.NotificationCompat
 import androidx.core.app.Person
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.FirstThrottler
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.ActiveSessionDataSource
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.FirstThrottler
+import varta.cdac.app.features.settings.VectorPreferences
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.content.ContentUrlResolver

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devtools
+package varta.cdac.app.features.settings.devtools
 
 import android.app.Activity
 import android.os.Bundle
@@ -32,12 +32,12 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.tabs.TabLayoutMediator
-import im.vector.app.R
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.selectTxtFileToWrite
-import im.vector.app.databinding.FragmentDevtoolKeyrequestsBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.selectTxtFileToWrite
+import varta.cdac.app.databinding.FragmentDevtoolKeyrequestsBinding
 
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import javax.inject.Inject

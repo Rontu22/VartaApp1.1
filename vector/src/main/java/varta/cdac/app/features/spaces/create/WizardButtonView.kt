@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package varta.cdac.app.features.spaces.create
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -25,9 +25,9 @@ import android.util.TypedValue
 import androidx.appcompat.content.res.AppCompatResources.getDrawable
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.withStyledAttributes
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.ViewSpaceTypeButtonBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.databinding.ViewSpaceTypeButtonBinding
 
 class WizardButtonView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyle: Int = 0)
     : ConstraintLayout(context, attrs, defStyle) {

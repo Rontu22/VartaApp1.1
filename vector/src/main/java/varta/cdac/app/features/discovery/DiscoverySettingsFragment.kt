@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
 import android.app.Activity
 import android.os.Bundle
@@ -24,17 +24,17 @@ import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.observeEvent
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.ensureProtocol
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
-import im.vector.app.features.discovery.change.SetIdentityServerFragment
-import im.vector.app.features.settings.VectorSettingsActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.observeEvent
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.ensureProtocol
+import varta.cdac.app.databinding.FragmentGenericRecyclerBinding
+import varta.cdac.app.features.discovery.change.SetIdentityServerFragment
+import varta.cdac.app.features.settings.VectorSettingsActivity
 
 import org.matrix.android.sdk.api.session.identity.SharedState
 import org.matrix.android.sdk.api.session.identity.ThreePid

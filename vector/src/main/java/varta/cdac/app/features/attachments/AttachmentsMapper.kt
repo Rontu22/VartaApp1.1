@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package varta.cdac.app.features.attachments
 
 import im.vector.lib.multipicker.entity.MultiPickerAudioType
 import im.vector.lib.multipicker.entity.MultiPickerBaseMediaType

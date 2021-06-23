@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package varta.cdac.app.features.usercode
 
 import android.content.Context
 import android.content.Intent
@@ -27,14 +27,14 @@ import androidx.fragment.app.Fragment
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.onPermissionDeniedSnackbar
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.matrixto.MatrixToBottomSheet
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.commitTransaction
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.utils.onPermissionDeniedSnackbar
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.matrixto.MatrixToBottomSheet
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 import kotlin.reflect.KClass

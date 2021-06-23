@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,19 +23,19 @@ import android.view.ViewGroup
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.isVisible
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.extensions.observeK
-import im.vector.app.core.extensions.replaceChildFragment
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.FragmentHomeDrawerBinding
-// import im.vector.app.features.grouplist.GroupListFragment
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.VectorSettingsActivity
-import im.vector.app.features.spaces.SpaceListFragment
-import im.vector.app.features.usercode.UserCodeActivity
-import im.vector.app.features.workers.signout.SignOutUiWorker
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.observeK
+import varta.cdac.app.core.extensions.replaceChildFragment
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.startSharePlainTextIntent
+import varta.cdac.app.databinding.FragmentHomeDrawerBinding
+// import varta.cdac.app.features.grouplist.GroupListFragment
+import varta.cdac.app.features.settings.VectorPreferences
+import varta.cdac.app.features.settings.VectorSettingsActivity
+import varta.cdac.app.features.spaces.SpaceListFragment
+import varta.cdac.app.features.usercode.UserCodeActivity
+import varta.cdac.app.features.workers.signout.SignOutUiWorker
 
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.util.toMatrixItem

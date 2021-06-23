@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import im.vector.app.databinding.FragmentLoginResetPasswordSuccess2Binding
+import varta.cdac.app.databinding.FragmentLoginResetPasswordSuccess2Binding
 
 import javax.inject.Inject
 

@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.troubleshoot
+package varta.cdac.app.features.settings.troubleshoot
 
 import android.content.Context
 import android.content.Intent
 import androidx.activity.result.ActivityResultLauncher
 import androidx.core.app.NotificationManagerCompat
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.startNotificationSettingsIntent
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.startNotificationSettingsIntent
 import javax.inject.Inject
 
 /**

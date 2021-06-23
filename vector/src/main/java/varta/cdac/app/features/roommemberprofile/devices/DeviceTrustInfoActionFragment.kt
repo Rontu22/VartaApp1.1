@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roommemberprofile.devices
+package varta.cdac.app.features.roommemberprofile.devices
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,11 +22,11 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.BottomSheetGenericListBinding
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.databinding.BottomSheetGenericListBinding
 
 import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
 import javax.inject.Inject

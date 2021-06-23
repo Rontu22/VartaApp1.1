@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devtools
+package varta.cdac.app.features.settings.devtools
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class AccountDataAction : VectorViewModelAction {
     data class DeleteAccountData(val type: String) : AccountDataAction()

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.terms
+package varta.cdac.app.features.terms
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,14 +25,14 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentReviewTermsBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.databinding.FragmentReviewTermsBinding
 
 import org.matrix.android.sdk.api.session.terms.TermsService
 import javax.inject.Inject

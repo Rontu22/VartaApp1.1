@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.content.ComponentName
 import android.net.Uri
@@ -23,9 +23,9 @@ import androidx.browser.customtabs.CustomTabsServiceConnection
 import androidx.browser.customtabs.CustomTabsSession
 import androidx.viewbinding.ViewBinding
 import com.airbnb.mvrx.withState
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.features.login.hasSso
-import im.vector.app.features.login.ssoIdentityProviders
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.features.login.hasSso
+import varta.cdac.app.features.login.ssoIdentityProviders
 
 abstract class AbstractSSOLoginFragment2<VB: ViewBinding> : AbstractLoginFragment2<VB>() {
 

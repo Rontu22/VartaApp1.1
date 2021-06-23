@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
 import android.content.Context
 import android.content.Intent
@@ -26,20 +26,20 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleLoadingBinding
-import im.vector.app.features.roomdirectory.RoomDirectorySharedAction
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
-import im.vector.app.features.roomdirectory.createroom.CreateRoomArgs
-import im.vector.app.features.roomdirectory.createroom.CreateRoomFragment
-import im.vector.app.features.roomprofile.RoomProfileArgs
-import im.vector.app.features.roomprofile.alias.RoomAliasFragment
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.addFragmentToBackstack
+import varta.cdac.app.core.extensions.commitTransaction
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleLoadingBinding
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedAction
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedActionViewModel
+import varta.cdac.app.features.roomdirectory.createroom.CreateRoomArgs
+import varta.cdac.app.features.roomdirectory.createroom.CreateRoomFragment
+import varta.cdac.app.features.roomprofile.RoomProfileArgs
+import varta.cdac.app.features.roomprofile.alias.RoomAliasFragment
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
 import android.app.KeyguardManager
 import android.content.Context
@@ -35,22 +35,22 @@ import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.PERMISSIONS_FOR_AUDIO_IP_CALL
-import im.vector.app.core.utils.PERMISSIONS_FOR_VIDEO_IP_CALL
-import im.vector.app.core.utils.allGranted
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.databinding.ActivityCallBinding
-import im.vector.app.features.call.dialpad.CallDialPadBottomSheet
-import im.vector.app.features.call.dialpad.DialPadFragment
-import im.vector.app.features.call.utils.EglUtils
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.RoomDetailActivity
-import im.vector.app.features.home.room.detail.RoomDetailArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_AUDIO_IP_CALL
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_VIDEO_IP_CALL
+import varta.cdac.app.core.utils.allGranted
+import varta.cdac.app.core.utils.checkPermissions
+import varta.cdac.app.databinding.ActivityCallBinding
+import varta.cdac.app.features.call.dialpad.CallDialPadBottomSheet
+import varta.cdac.app.features.call.dialpad.DialPadFragment
+import varta.cdac.app.features.call.utils.EglUtils
+import varta.cdac.app.features.call.webrtc.WebRtcCall
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.RoomDetailActivity
+import varta.cdac.app.features.home.room.detail.RoomDetailArgs
 import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.extensions.orFalse

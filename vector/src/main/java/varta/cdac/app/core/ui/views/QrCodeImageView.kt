@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.graphics.Color
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
-import im.vector.app.core.qrcode.toBitMatrix
-import im.vector.app.core.qrcode.toBitmap
+import varta.cdac.app.core.qrcode.toBitMatrix
+import varta.cdac.app.core.qrcode.toBitmap
 
 class QrCodeImageView @JvmOverloads constructor(
         context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0

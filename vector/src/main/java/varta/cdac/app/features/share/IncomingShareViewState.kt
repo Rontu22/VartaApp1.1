@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package varta.cdac.app.features.share
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState

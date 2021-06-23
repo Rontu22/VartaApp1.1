@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.qrcode
+package varta.cdac.app.features.qrcode
 
 import android.app.Activity
 import android.content.Intent
@@ -23,11 +23,11 @@ import androidx.activity.result.ActivityResultLauncher
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.Result
 import com.google.zxing.ResultMetadataType
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
 
 class QrCodeScannerActivity : VectorBaseActivity<ActivitySimpleBinding>() {
 

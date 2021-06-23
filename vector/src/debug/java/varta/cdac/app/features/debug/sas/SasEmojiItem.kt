@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.sas
+package varta.cdac.app.features.debug.sas
 
 import android.annotation.SuppressLint
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
 import org.matrix.android.sdk.api.session.crypto.verification.EmojiRepresentation
 import me.gujun.android.span.image
 import me.gujun.android.span.span
 
-@EpoxyModelClass(layout = im.vector.app.R.layout.item_sas_emoji)
+@EpoxyModelClass(layout = varta.cdac.app.R.layout.item_sas_emoji)
 abstract class SasEmojiItem : VectorEpoxyModel<SasEmojiItem.Holder>() {
 
     @EpoxyAttribute
@@ -50,9 +50,9 @@ abstract class SasEmojiItem : VectorEpoxyModel<SasEmojiItem.Holder>() {
     }
 
     class Holder : VectorEpoxyHolder() {
-        val indexView by bind<TextView>(im.vector.app.R.id.sas_emoji_index)
-        val emojiView by bind<TextView>(im.vector.app.R.id.sas_emoji)
-        val textView by bind<TextView>(im.vector.app.R.id.sas_emoji_text)
-        val idView by bind<TextView>(im.vector.app.R.id.sas_emoji_text_id)
+        val indexView by bind<TextView>(varta.cdac.app.R.id.sas_emoji_index)
+        val emojiView by bind<TextView>(varta.cdac.app.R.id.sas_emoji)
+        val textView by bind<TextView>(varta.cdac.app.R.id.sas_emoji_text)
+        val idView by bind<TextView>(varta.cdac.app.R.id.sas_emoji_text_id)
     }
 }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,10 +24,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.activityViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetCallControlsBinding
-import im.vector.app.features.call.audio.CallAudioManager
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetCallControlsBinding
+import varta.cdac.app.features.call.audio.CallAudioManager
 
 import me.gujun.android.span.span
 

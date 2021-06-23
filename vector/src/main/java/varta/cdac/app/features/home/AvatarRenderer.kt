@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
@@ -32,14 +32,14 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.DrawableImageViewTarget
 import com.bumptech.glide.request.target.Target
-import im.vector.app.core.contacts.MappedContact
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.glide.AvatarPlaceholder
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.glide.GlideRequest
-import im.vector.app.core.glide.GlideRequests
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
+import varta.cdac.app.core.contacts.MappedContact
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.glide.AvatarPlaceholder
+import varta.cdac.app.core.glide.GlideApp
+import varta.cdac.app.core.glide.GlideRequest
+import varta.cdac.app.core.glide.GlideRequests
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
 import jp.wasabeef.glide.transformations.BlurTransformation
 import jp.wasabeef.glide.transformations.ColorFilterTransformation
 import org.matrix.android.sdk.api.auth.login.LoginProfileInfo

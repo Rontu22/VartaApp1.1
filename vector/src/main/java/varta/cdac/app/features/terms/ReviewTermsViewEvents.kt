@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.terms
+package varta.cdac.app.features.terms
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class ReviewTermsViewEvents : VectorViewEvents {
     data class Loading(val message: CharSequence? = null) : ReviewTermsViewEvents()

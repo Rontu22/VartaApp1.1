@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roommemberprofile
+package varta.cdac.app.features.roommemberprofile
 
 import android.content.Context
 import android.content.Intent
@@ -23,15 +23,15 @@ import android.widget.Toast
 import com.google.android.material.appbar.MaterialToolbar
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.room.RequireActiveMembershipViewEvents
-import im.vector.app.features.room.RequireActiveMembershipViewModel
-import im.vector.app.features.room.RequireActiveMembershipViewState
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.room.RequireActiveMembershipViewEvents
+import varta.cdac.app.features.room.RequireActiveMembershipViewModel
+import varta.cdac.app.features.room.RequireActiveMembershipViewState
 import javax.inject.Inject
 
 class RoomMemberProfileActivity :

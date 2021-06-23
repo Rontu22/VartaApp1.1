@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.gplay.features.settings.troubleshoot
+package varta.cdac.app.gplay.features.settings.troubleshoot
 
 import android.content.Intent
 import androidx.activity.result.ActivityResultLauncher
 import androidx.appcompat.app.AppCompatActivity
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.troubleshoot.TroubleshootTest
-import im.vector.app.push.fcm.FcmHelper
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.pushers.PushersManager
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.session.coroutineScope
+import varta.cdac.app.features.settings.troubleshoot.TroubleshootTest
+import varta.cdac.app.push.fcm.FcmHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

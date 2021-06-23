@@ -16,7 +16,7 @@
 
 @file:Suppress("UNUSED_PARAMETER")
 
-package im.vector.app.features.notifications
+package varta.cdac.app.features.notifications
 
 import android.annotation.SuppressLint
 import android.annotation.TargetApi
@@ -45,19 +45,19 @@ import androidx.core.content.getSystemService
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.IconCompat
 import androidx.fragment.app.Fragment
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.startNotificationChannelSettingsIntent
-import im.vector.app.features.call.VectorCallActivity
-import im.vector.app.features.call.service.CallHeadsUpActionReceiver
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.home.room.detail.RoomDetailActivity
-import im.vector.app.features.home.room.detail.RoomDetailArgs
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.troubleshoot.TestNotificationReceiver
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.startNotificationChannelSettingsIntent
+import varta.cdac.app.features.call.VectorCallActivity
+import varta.cdac.app.features.call.service.CallHeadsUpActionReceiver
+import varta.cdac.app.features.call.webrtc.WebRtcCall
+import varta.cdac.app.features.home.HomeActivity
+import varta.cdac.app.features.home.room.detail.RoomDetailActivity
+import varta.cdac.app.features.home.room.detail.RoomDetailArgs
+import varta.cdac.app.features.settings.VectorPreferences
+import varta.cdac.app.features.settings.troubleshoot.TestNotificationReceiver
+import varta.cdac.app.features.themes.ThemeUtils
 import timber.log.Timber
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package varta.cdac.app.features.call.conference
 
-import im.vector.app.R
-import im.vector.app.core.network.await
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.ensureProtocol
-import im.vector.app.core.utils.toBase32String
-import im.vector.app.features.call.conference.jwt.JitsiJWTFactory
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.settings.VectorLocale
-import im.vector.app.features.themes.ThemeProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.network.await
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.ensureProtocol
+import varta.cdac.app.core.utils.toBase32String
+import varta.cdac.app.features.call.conference.jwt.JitsiJWTFactory
+import varta.cdac.app.features.raw.wellknown.getElementWellknown
+import varta.cdac.app.features.settings.VectorLocale
+import varta.cdac.app.features.themes.ThemeProvider
 import okhttp3.Request
 import org.jitsi.meet.sdk.JitsiMeetUserInfo
 import org.matrix.android.sdk.api.extensions.tryOrNull

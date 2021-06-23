@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package varta.cdac.app.features.rageshake
 
 import android.content.Context
 import android.os.Build
 import androidx.core.content.edit
-import im.vector.app.core.di.DefaultSharedPreferences
-import im.vector.app.core.resources.VersionCodeProvider
-import im.vector.app.features.version.VersionProvider
+import varta.cdac.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.core.resources.VersionCodeProvider
+import varta.cdac.app.features.version.VersionProvider
 import org.matrix.android.sdk.api.Matrix
 import timber.log.Timber
 import java.io.PrintWriter

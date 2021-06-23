@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.picker
+package varta.cdac.app.features.roomdirectory.picker
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,18 +24,18 @@ import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentRoomDirectoryPickerBinding
-import im.vector.app.features.roomdirectory.RoomDirectoryAction
-import im.vector.app.features.roomdirectory.RoomDirectoryData
-import im.vector.app.features.roomdirectory.RoomDirectoryServer
-import im.vector.app.features.roomdirectory.RoomDirectorySharedAction
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
-import im.vector.app.features.roomdirectory.RoomDirectoryViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentRoomDirectoryPickerBinding
+import varta.cdac.app.features.roomdirectory.RoomDirectoryAction
+import varta.cdac.app.features.roomdirectory.RoomDirectoryData
+import varta.cdac.app.features.roomdirectory.RoomDirectoryServer
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedAction
+import varta.cdac.app.features.roomdirectory.RoomDirectorySharedActionViewModel
+import varta.cdac.app.features.roomdirectory.RoomDirectoryViewModel
 import timber.log.Timber
 import javax.inject.Inject
 

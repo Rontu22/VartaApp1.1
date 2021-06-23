@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import android.net.Uri
 import android.view.View
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.room.model.message.MessageStickerContent

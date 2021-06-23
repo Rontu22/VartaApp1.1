@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package varta.cdac.app.features.spaces.create
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.setFragmentResult
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetSpaceCreatePrivateWarningBinding
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetSpaceCreatePrivateWarningBinding
 
 class BetaWarningBottomSheet : VectorBaseBottomSheetDialogFragment<BottomSheetSpaceCreatePrivateWarningBinding>() {
 

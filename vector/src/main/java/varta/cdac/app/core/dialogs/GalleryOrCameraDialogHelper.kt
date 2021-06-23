@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package varta.cdac.app.core.dialogs
 
 import android.app.Activity
 import android.net.Uri
@@ -22,15 +22,15 @@ import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.yalantis.ucrop.UCrop
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper.Listener
-import im.vector.app.core.extensions.insertBeforeLast
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.features.media.createUCropWithDefaultSettings
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.GalleryOrCameraDialogHelper.Listener
+import varta.cdac.app.core.extensions.insertBeforeLast
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import varta.cdac.app.core.utils.checkPermissions
+import varta.cdac.app.core.utils.registerForPermissionsResult
+import varta.cdac.app.features.media.createUCropWithDefaultSettings
 import im.vector.lib.multipicker.MultiPicker
 import im.vector.lib.multipicker.entity.MultiPickerImageType
 import java.io.File

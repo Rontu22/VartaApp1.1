@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysbackup.settings
+package varta.cdac.app.features.crypto.keysbackup.settings
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class KeyBackupSettingsAction : VectorViewModelAction {
     object Init : KeyBackupSettingsAction()

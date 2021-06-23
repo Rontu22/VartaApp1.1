@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.transfer
+package varta.cdac.app.features.call.transfer
 
 import android.content.Context
 import android.content.Intent
@@ -23,15 +23,15 @@ import android.os.Parcelable
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.tabs.TabLayoutMediator
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityCallTransferBinding
-import im.vector.app.features.contactsbook.ContactsBookViewModel
-import im.vector.app.features.contactsbook.ContactsBookViewState
-import im.vector.app.features.userdirectory.UserListViewModel
-import im.vector.app.features.userdirectory.UserListViewState
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityCallTransferBinding
+import varta.cdac.app.features.contactsbook.ContactsBookViewModel
+import varta.cdac.app.features.contactsbook.ContactsBookViewState
+import varta.cdac.app.features.userdirectory.UserListViewModel
+import varta.cdac.app.features.userdirectory.UserListViewState
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

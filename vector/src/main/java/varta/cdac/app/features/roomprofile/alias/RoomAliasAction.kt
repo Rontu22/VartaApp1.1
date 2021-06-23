@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.alias
+package varta.cdac.app.features.roomprofile.alias
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.room.model.RoomDirectoryVisibility
 
 sealed class RoomAliasAction : VectorViewModelAction {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.animation
+package varta.cdac.app.features.home.room.detail.timeline.animation
 
 import androidx.recyclerview.widget.DefaultItemAnimator
 

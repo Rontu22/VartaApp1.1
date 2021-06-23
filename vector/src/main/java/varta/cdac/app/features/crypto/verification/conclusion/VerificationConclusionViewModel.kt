@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.verification.conclusion
+package varta.cdac.app.features.crypto.verification.conclusion
 
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.MvRxViewModelFactory
 import com.airbnb.mvrx.ViewModelContext
-import im.vector.app.core.platform.EmptyAction
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
+import varta.cdac.app.core.platform.EmptyAction
+import varta.cdac.app.core.platform.EmptyViewEvents
+import varta.cdac.app.core.platform.VectorViewModel
 import org.matrix.android.sdk.api.session.crypto.verification.CancelCode
 import org.matrix.android.sdk.api.session.crypto.verification.safeValueOf
 

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2.created
+package varta.cdac.app.features.login2.created
 
 import android.net.Uri
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class AccountCreatedAction : VectorViewModelAction {
     data class SetDisplayName(val displayName: String) : AccountCreatedAction()

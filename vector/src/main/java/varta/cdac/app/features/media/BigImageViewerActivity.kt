@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package varta.cdac.app.features.media
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.net.toUri
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityBigImageViewerBinding
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityBigImageViewerBinding
 
 import javax.inject.Inject
 

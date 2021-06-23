@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package varta.cdac.app
 
 import android.app.Activity
 import android.view.View

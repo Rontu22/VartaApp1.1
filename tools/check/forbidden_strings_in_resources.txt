@@ -76,10 +76,10 @@ layout_constraintLeft_
 ### Use Preference from androidx library (androidx.preference.PreferenceScreen)
 <PreferenceScreen
 
-### Use im.vector.app.core.preference.VectorSwitchPreference to support multiline of the title
+### Use varta.cdac.app.core.preference.VectorSwitchPreference to support multiline of the title
 <SwitchPreference
 
-### Use im.vector.app.core.preference.VectorPreference to support multiline of the title
+### Use varta.cdac.app.core.preference.VectorPreference to support multiline of the title
 <Preference\n
 
 ### Use androidx.recyclerview.widget.RecyclerView because EpoxyRecyclerViews add behavior we do not want to

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.hard
+package varta.cdac.app.features.signout.hard
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySignedOutBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySignedOutBinding
+import varta.cdac.app.features.MainActivity
+import varta.cdac.app.features.MainActivityArgs
 
 import org.matrix.android.sdk.api.failure.GlobalError
 import timber.log.Timber

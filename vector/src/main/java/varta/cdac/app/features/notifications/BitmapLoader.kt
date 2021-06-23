@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package varta.cdac.app.features.notifications
 
 import android.content.Context
 import android.graphics.Bitmap

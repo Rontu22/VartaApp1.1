@@ -37,7 +37,7 @@
                     app:layout_constraintTop_toTopOf="parent"
                     tools:src="@sample/room_round_avatars" />
 
-                <im.vector.app.core.ui.views.ShieldImageView
+                <varta.cdac.app.core.ui.views.ShieldImageView
                     android:id="@+id/roomSettingsDecorationToolbarAvatarImageView"
                     android:layout_width="24dp"
                     android:layout_height="24dp"

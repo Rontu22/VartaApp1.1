@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.network
+package varta.cdac.app.core.network
 
 import android.content.Context
 import android.net.ConnectivityManager

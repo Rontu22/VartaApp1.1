@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.reactions
+package varta.cdac.app.features.home.room.detail.timeline.reactions
 
 import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.onClick
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.onClick
 
 /**
  * Item displaying an emoji reaction (single line with emoji, author, time)

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.sync.widget
+package varta.cdac.app.features.sync.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.utils.isAirplaneModeOn
-import im.vector.app.databinding.ViewSyncStateBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.utils.isAirplaneModeOn
+import varta.cdac.app.databinding.ViewSyncStateBinding
 
 import org.matrix.android.sdk.api.session.sync.SyncState
 

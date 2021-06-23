@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import im.vector.app.R
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginServerSelectionBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.databinding.FragmentLoginServerSelectionBinding
 
 import me.gujun.android.span.span
 import javax.inject.Inject

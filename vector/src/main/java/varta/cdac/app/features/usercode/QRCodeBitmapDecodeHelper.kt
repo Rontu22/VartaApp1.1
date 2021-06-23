@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package varta.cdac.app.features.usercode
 
 import android.graphics.Bitmap
 import com.google.zxing.BarcodeFormat

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.roompreview
+package varta.cdac.app.features.roomdirectory.roompreview
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.roomdirectory.JoinState
+import varta.cdac.app.features.roomdirectory.JoinState
 import org.matrix.android.sdk.api.util.MatrixItem
 
 data class RoomPreviewViewState(

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.features.home.room.detail.timeline.item.SendStateDecoration
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.features.home.room.detail.timeline.item.SendStateDecoration
+import varta.cdac.app.features.themes.ThemeUtils
 
 class SendStateImageView @JvmOverloads constructor(
         context: Context,

@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp">
 
-    <im.vector.app.core.ui.views.QrCodeImageView
+    <varta.cdac.app.core.ui.views.QrCodeImageView
         android:id="@+id/itemShareQrCodeImage"
         android:layout_width="300dp"
         android:layout_height="300dp"

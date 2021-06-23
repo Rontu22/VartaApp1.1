@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.view.View
 import android.view.ViewGroup
@@ -23,12 +23,12 @@ import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.features.home.room.detail.RoomDetailAction
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.features.home.room.detail.RoomDetailAction
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
 import org.matrix.android.sdk.api.session.room.model.message.MessageOptionsContent
 import kotlin.math.roundToInt
 

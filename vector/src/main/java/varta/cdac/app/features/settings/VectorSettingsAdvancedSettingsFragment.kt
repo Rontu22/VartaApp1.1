@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import androidx.preference.Preference
 import androidx.preference.SeekBarPreference
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.features.rageshake.RageShake
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.preference.VectorSwitchPreference
+import varta.cdac.app.features.rageshake.RageShake
 
 class VectorSettingsAdvancedSettingsFragment : VectorSettingsBaseFragment() {
 

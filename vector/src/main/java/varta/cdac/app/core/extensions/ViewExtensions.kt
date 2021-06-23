@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 import android.text.InputType
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import androidx.appcompat.widget.SearchView
-import im.vector.app.R
+import varta.cdac.app.R
 
 /**
  * Remove left margin of a SearchView

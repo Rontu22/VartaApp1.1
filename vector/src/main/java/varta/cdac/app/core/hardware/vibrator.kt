@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.hardware
+package varta.cdac.app.core.hardware
 
 import android.content.Context
 import android.os.Build

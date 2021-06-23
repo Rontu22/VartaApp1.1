@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
 import com.airbnb.mvrx.Async
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo

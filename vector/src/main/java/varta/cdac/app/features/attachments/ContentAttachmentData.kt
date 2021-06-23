@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package varta.cdac.app.features.attachments
 
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 import org.matrix.android.sdk.api.util.MimeTypes

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package varta.cdac.app.core.epoxy
 
 import android.widget.CompoundButton
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.checkbox.MaterialCheckBox
-import im.vector.app.R
+import varta.cdac.app.R
 
 @EpoxyModelClass(layout = R.layout.item_checkbox)
 abstract class CheckBoxItem : VectorEpoxyModel<CheckBoxItem.Holder>() {

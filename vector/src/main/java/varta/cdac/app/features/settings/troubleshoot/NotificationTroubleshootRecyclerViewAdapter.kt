@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.troubleshoot
+package varta.cdac.app.features.settings.troubleshoot
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.R
-import im.vector.app.databinding.ItemNotificationTroubleshootBinding
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ItemNotificationTroubleshootBinding
+import varta.cdac.app.features.themes.ThemeUtils
 
 class NotificationTroubleshootRecyclerViewAdapter(val tests: ArrayList<TroubleshootTest>)
     : RecyclerView.Adapter<NotificationTroubleshootRecyclerViewAdapter.ViewHolder>() {

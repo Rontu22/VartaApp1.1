@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.filtered
+package varta.cdac.app.features.home.room.filtered
 
 import android.widget.Button
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.features.home.room.list.widget.NotifsFabMenuView
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.features.home.room.list.widget.NotifsFabMenuView
 
 @EpoxyModelClass(layout = R.layout.item_room_filter_footer)
 abstract class FilteredRoomFooterItem : VectorEpoxyModel<FilteredRoomFooterItem.Holder>() {

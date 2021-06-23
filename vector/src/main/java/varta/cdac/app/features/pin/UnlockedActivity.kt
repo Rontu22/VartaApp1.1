@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package varta.cdac.app.features.pin
 
 /**
  * Tag class for activities that should not be protected by PIN code.

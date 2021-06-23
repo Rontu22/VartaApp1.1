@@ -7,7 +7,7 @@
     android:background="?colorSurface"
     android:orientation="vertical">
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsSoundDevice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="Speaker" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsSwitchCamera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="Front" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsOpenDialPad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsToggleSDHD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="Front" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsToggleHoldResume"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsTransfer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

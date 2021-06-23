@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package varta.cdac.app.features.crypto.recover
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
 import com.nulabinc.zxcvbn.Strength
-import im.vector.app.core.platform.WaitingViewData
+import varta.cdac.app.core.platform.WaitingViewData
 import org.matrix.android.sdk.api.session.securestorage.SsssKeyCreationInfo
 
 data class BootstrapViewState(

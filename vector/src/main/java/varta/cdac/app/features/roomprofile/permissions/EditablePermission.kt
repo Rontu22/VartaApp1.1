@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.permissions
+package varta.cdac.app.features.roomprofile.permissions
 
 import androidx.annotation.StringRes
-import im.vector.app.R
+import varta.cdac.app.R
 import org.matrix.android.sdk.api.session.events.model.EventType
 
 /**

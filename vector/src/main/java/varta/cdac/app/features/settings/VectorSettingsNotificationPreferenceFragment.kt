@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.app.Activity
 import android.content.Context
@@ -26,18 +26,18 @@ import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.SwitchPreference
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.preference.VectorEditTextPreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.preference.VectorPreferenceCategory
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.utils.isIgnoringBatteryOptimizations
-import im.vector.app.core.utils.requestDisablingBatteryOptimization
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.push.fcm.FcmHelper
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.preference.VectorEditTextPreference
+import varta.cdac.app.core.preference.VectorPreference
+import varta.cdac.app.core.preference.VectorPreferenceCategory
+import varta.cdac.app.core.preference.VectorSwitchPreference
+import varta.cdac.app.core.pushers.PushersManager
+import varta.cdac.app.core.utils.isIgnoringBatteryOptimizations
+import varta.cdac.app.core.utils.requestDisablingBatteryOptimization
+import varta.cdac.app.features.notifications.NotificationUtils
+import varta.cdac.app.push.fcm.FcmHelper
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.pushrules.RuleIds

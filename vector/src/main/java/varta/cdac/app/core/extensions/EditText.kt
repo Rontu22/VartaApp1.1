@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 import android.text.Editable
 import android.text.InputType
@@ -23,8 +23,8 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import androidx.annotation.DrawableRes
-import im.vector.app.R
-import im.vector.app.core.platform.SimpleTextWatcher
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.SimpleTextWatcher
 
 fun EditText.setupAsSearch(@DrawableRes searchIconRes: Int = R.drawable.ic_search,
                            @DrawableRes clearIconRes: Int = R.drawable.ic_x_gray) {

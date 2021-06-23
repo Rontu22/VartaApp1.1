@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package varta.cdac.app.features.spaces.create
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
-import im.vector.app.R
-import im.vector.app.core.epoxy.TextListener
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formEditableSquareAvatarItem
-import im.vector.app.features.form.formMultiLineEditTextItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomdirectory.createroom.RoomAliasErrorFormatter
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.TextListener
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.features.form.formEditTextItem
+import varta.cdac.app.features.form.formEditableSquareAvatarItem
+import varta.cdac.app.features.form.formMultiLineEditTextItem
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.roomdirectory.createroom.RoomAliasErrorFormatter
 import org.matrix.android.sdk.api.session.room.alias.RoomAliasError
 import org.matrix.android.sdk.api.util.MatrixItem
 import javax.inject.Inject

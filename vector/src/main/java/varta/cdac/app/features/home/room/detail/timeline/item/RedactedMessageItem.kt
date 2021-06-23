@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import varta.cdac.app.R
 
 @EpoxyModelClass(layout = R.layout.item_timeline_event_base)
 abstract class RedactedMessageItem : AbsMessageItem<RedactedMessageItem.Holder>() {

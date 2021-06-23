@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.login.LoginConfig
+import varta.cdac.app.core.platform.VectorViewModelAction
+import varta.cdac.app.features.login.LoginConfig
 import org.matrix.android.sdk.api.auth.data.Credentials
 import org.matrix.android.sdk.api.auth.data.SsoIdentityProvider
 import org.matrix.android.sdk.api.auth.registration.RegisterThreePid

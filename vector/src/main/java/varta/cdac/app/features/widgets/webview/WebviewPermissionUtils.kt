@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.widgets.webview
+package varta.cdac.app.features.widgets.webview
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.webkit.PermissionRequest
 import androidx.annotation.StringRes
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
+import varta.cdac.app.R
 
 object WebviewPermissionUtils {
 

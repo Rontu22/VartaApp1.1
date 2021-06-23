@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package varta.cdac.app.features.notifications
 
 /**
  * Data class to hold information about a group of notifications for a room

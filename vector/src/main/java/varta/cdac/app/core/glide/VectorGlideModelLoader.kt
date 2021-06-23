@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.glide
+package varta.cdac.app.core.glide
 
 import android.content.Context
 import com.bumptech.glide.Priority
@@ -25,10 +25,10 @@ import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import com.bumptech.glide.signature.ObjectKey
-import im.vector.app.core.extensions.vectorComponent
-import im.vector.app.core.files.LocalFilesHelper
-import im.vector.app.features.media.ImageContentRenderer
-import im.vector.app.features.session.coroutineScope
+import varta.cdac.app.core.extensions.vectorComponent
+import varta.cdac.app.core.files.LocalFilesHelper
+import varta.cdac.app.features.media.ImageContentRenderer
+import varta.cdac.app.features.session.coroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

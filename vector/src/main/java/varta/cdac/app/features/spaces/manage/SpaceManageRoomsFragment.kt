@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -31,13 +31,13 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.jakewharton.rxbinding3.appcompat.queryTextChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentSpaceAddRoomsBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.FragmentSpaceAddRoomsBinding
 import io.reactivex.rxkotlin.subscribeBy
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo
 import java.util.concurrent.TimeUnit

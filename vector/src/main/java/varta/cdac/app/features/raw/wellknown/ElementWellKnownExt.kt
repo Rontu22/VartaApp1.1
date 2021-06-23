@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.raw.wellknown
+package varta.cdac.app.features.raw.wellknown
 
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.raw.RawService

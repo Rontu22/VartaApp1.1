@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.terms
+package varta.cdac.app.features.terms
 
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.SimpleFragmentActivity
 import org.matrix.android.sdk.api.session.terms.TermsService
 import javax.inject.Inject
 

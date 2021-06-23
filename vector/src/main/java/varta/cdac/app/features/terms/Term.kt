@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.terms
+package varta.cdac.app.features.terms
 
 data class Term(
         val url: String,

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.core.content.withStyledAttributes
 import androidx.core.widget.NestedScrollView
-import im.vector.app.R
+import varta.cdac.app.R
 
 private const val DEFAULT_MAX_HEIGHT = 200
 

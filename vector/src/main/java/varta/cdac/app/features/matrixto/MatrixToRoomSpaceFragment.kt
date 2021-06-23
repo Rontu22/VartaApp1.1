@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.matrixto
+package varta.cdac.app.features.matrixto
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,12 +28,12 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.ButtonStateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentMatrixToRoomSpaceCardBinding
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.core.platform.ButtonStateView
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentMatrixToRoomSpaceCardBinding
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.room.model.Membership
 import org.matrix.android.sdk.api.session.room.model.RoomType
 import javax.inject.Inject

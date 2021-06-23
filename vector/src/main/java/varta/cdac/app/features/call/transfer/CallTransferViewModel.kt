@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.transfer
+package varta.cdac.app.features.call.transfer
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.ActivityViewModelContext
@@ -23,12 +23,12 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.call.dialpad.DialPadLookup
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.createdirect.DirectRoomHelper
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.call.dialpad.DialPadLookup
+import varta.cdac.app.features.call.webrtc.WebRtcCall
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.createdirect.DirectRoomHelper
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.call.CallState

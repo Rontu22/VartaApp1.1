@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
 import org.webrtc.CameraVideoCapturer
 import timber.log.Timber

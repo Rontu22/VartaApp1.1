@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package varta.cdac.app.features.crypto.keysbackup.restore
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import im.vector.app.R
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.LiveEvent
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.WaitingViewData
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.LiveEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.MatrixCallback

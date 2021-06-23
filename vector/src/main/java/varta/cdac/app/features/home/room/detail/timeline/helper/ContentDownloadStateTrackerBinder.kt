@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
 import android.graphics.drawable.Drawable
 import androidx.vectordrawable.graphics.drawable.Animatable2Compat
 import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.ScreenScope
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.item.MessageFileItem
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.ScreenScope
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.features.home.room.detail.timeline.MessageColorProvider
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageFileItem
 import org.matrix.android.sdk.api.session.file.ContentDownloadStateTracker
 import javax.inject.Inject
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package varta.cdac.app.features.crypto.recover
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,11 +25,11 @@ import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import com.jakewharton.rxbinding3.widget.editorActionEvents
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentBootstrapEnterPassphraseBinding
-import im.vector.app.features.settings.VectorLocale
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentBootstrapEnterPassphraseBinding
+import varta.cdac.app.features.settings.VectorLocale
 import io.reactivex.android.schedulers.AndroidSchedulers
 
 import java.util.concurrent.TimeUnit

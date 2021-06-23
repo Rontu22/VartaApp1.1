@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.room
+package varta.cdac.app.features.room
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class RequireActiveMembershipViewEvents : VectorViewEvents {
     data class RoomLeft(val leftMessage: String?) : RequireActiveMembershipViewEvents()

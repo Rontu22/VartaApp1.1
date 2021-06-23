@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft.epoxy
+package varta.cdac.app.features.signout.soft.epoxy
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
 
 @EpoxyModelClass(layout = R.layout.item_login_header)
 abstract class LoginHeaderItem : VectorEpoxyModel<LoginHeaderItem.Holder>() {

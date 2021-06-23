@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.gplay.features.settings.troubleshoot
+package varta.cdac.app.gplay.features.settings.troubleshoot
 
 import android.content.Intent
 import androidx.activity.result.ActivityResultLauncher
@@ -22,12 +22,12 @@ import androidx.lifecycle.Observer
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import org.matrix.android.sdk.api.session.pushers.PusherState
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.settings.troubleshoot.TroubleshootTest
-import im.vector.app.push.fcm.FcmHelper
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.pushers.PushersManager
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.settings.troubleshoot.TroubleshootTest
+import varta.cdac.app.push.fcm.FcmHelper
 import javax.inject.Inject
 
 /**

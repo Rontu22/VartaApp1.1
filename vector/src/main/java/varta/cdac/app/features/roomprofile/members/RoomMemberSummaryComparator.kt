@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.members
+package varta.cdac.app.features.roomprofile.members
 
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import javax.inject.Inject

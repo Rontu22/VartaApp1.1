@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.transfer
+package varta.cdac.app.features.call.transfer
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.features.call.dialpad.DialPadFragment
-import im.vector.app.features.settings.VectorLocale
-import im.vector.app.features.userdirectory.UserListFragment
-import im.vector.app.features.userdirectory.UserListFragmentArgs
+import varta.cdac.app.core.extensions.toMvRxBundle
+import varta.cdac.app.features.call.dialpad.DialPadFragment
+import varta.cdac.app.features.settings.VectorLocale
+import varta.cdac.app.features.userdirectory.UserListFragment
+import varta.cdac.app.features.userdirectory.UserListFragmentArgs
 
 class CallTransferPagerAdapter(
         private val fragmentActivity: FragmentActivity

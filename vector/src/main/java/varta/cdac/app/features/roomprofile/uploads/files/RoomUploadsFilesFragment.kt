@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads.files
+package varta.cdac.app.features.roomprofile.uploads.files
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,15 +26,15 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.trackItemsVisibilityChange
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentGenericStateViewRecyclerBinding
-import im.vector.app.features.roomprofile.uploads.RoomUploadsAction
-import im.vector.app.features.roomprofile.uploads.RoomUploadsViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.trackItemsVisibilityChange
+import varta.cdac.app.core.platform.StateView
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentGenericStateViewRecyclerBinding
+import varta.cdac.app.features.roomprofile.uploads.RoomUploadsAction
+import varta.cdac.app.features.roomprofile.uploads.RoomUploadsViewModel
 
 import org.matrix.android.sdk.api.session.room.uploads.UploadEvent
 import javax.inject.Inject

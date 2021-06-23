@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.qrcode
+package varta.cdac.app.core.qrcode
 
 import android.graphics.Bitmap
 import android.graphics.Color

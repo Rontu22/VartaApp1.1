@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import androidx.annotation.CallSuper
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.databinding.ActivityBinding
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.databinding.ActivityBinding
 
 import org.matrix.android.sdk.api.session.Session
 

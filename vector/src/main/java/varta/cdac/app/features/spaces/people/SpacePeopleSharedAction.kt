@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package varta.cdac.app.features.spaces.people
 
-import im.vector.app.core.platform.VectorSharedAction
+import varta.cdac.app.core.platform.VectorSharedAction
 
 sealed class SpacePeopleSharedAction : VectorSharedAction {
     object Dismiss : SpacePeopleSharedAction()

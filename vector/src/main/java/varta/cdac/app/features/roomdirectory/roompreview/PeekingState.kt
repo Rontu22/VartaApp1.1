@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.roompreview
+package varta.cdac.app.features.roomdirectory.roompreview
 
 enum class PeekingState {
     FOUND,

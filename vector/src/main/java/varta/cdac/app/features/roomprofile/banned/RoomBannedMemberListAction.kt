@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.banned
+package varta.cdac.app.features.roomprofile.banned
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 
 sealed class RoomBannedMemberListAction : VectorViewModelAction {

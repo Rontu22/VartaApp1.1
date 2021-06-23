@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.themes
+package varta.cdac.app.features.themes
 
 import androidx.annotation.StyleRes
-import im.vector.app.R
+import varta.cdac.app.R
 
 /**
  * Class to manage Activity other possible themes.

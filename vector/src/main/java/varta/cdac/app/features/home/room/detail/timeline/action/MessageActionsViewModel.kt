@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.action
+package varta.cdac.app.features.home.room.detail.timeline.action
 
 import com.airbnb.mvrx.FragmentViewModelContext
 import com.airbnb.mvrx.MvRxViewModelFactory
@@ -23,19 +23,19 @@ import dagger.Lazy
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.canReact
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.detail.timeline.format.NoticeEventFormatter
-import im.vector.app.features.html.EventHtmlRenderer
-import im.vector.app.features.html.PillsPostProcessor
-import im.vector.app.features.html.VectorHtmlCompressor
-import im.vector.app.features.powerlevel.PowerLevelsObservableFactory
-import im.vector.app.features.reactions.data.EmojiDataSource
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.canReact
+import varta.cdac.app.core.platform.EmptyViewEvents
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.room.detail.timeline.format.NoticeEventFormatter
+import varta.cdac.app.features.html.EventHtmlRenderer
+import varta.cdac.app.features.html.PillsPostProcessor
+import varta.cdac.app.features.html.VectorHtmlCompressor
+import varta.cdac.app.features.powerlevel.PowerLevelsObservableFactory
+import varta.cdac.app.features.reactions.data.EmojiDataSource
+import varta.cdac.app.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.keysbackup.KeysBackupState
 import org.matrix.android.sdk.api.session.events.model.EventType

@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.RoomGroupingMethod
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericHeaderItem
-import im.vector.app.features.grouplist.groupSummaryItem
-import im.vector.app.features.grouplist.homeSpaceSummaryItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.list.UnreadCounterBadgeView
-import im.vector.app.group
-import im.vector.app.space
+import varta.cdac.app.R
+import varta.cdac.app.RoomGroupingMethod
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.core.ui.list.genericHeaderItem
+import varta.cdac.app.features.grouplist.groupSummaryItem
+import varta.cdac.app.features.grouplist.homeSpaceSummaryItem
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.list.UnreadCounterBadgeView
+import varta.cdac.app.group
+import varta.cdac.app.space
 import org.matrix.android.sdk.api.session.group.model.GroupSummary
 import org.matrix.android.sdk.api.session.room.model.Membership
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package varta.cdac.app.features.html
 
 import org.commonmark.node.AbstractVisitor
 import org.commonmark.node.Code

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package varta.cdac.app.features.signout.soft
 
 import android.content.Context
 import android.content.Intent
@@ -23,13 +23,13 @@ import androidx.fragment.app.FragmentManager
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.login.LoginActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.features.MainActivity
+import varta.cdac.app.features.MainActivityArgs
+import varta.cdac.app.features.login.LoginActivity
 
 import org.matrix.android.sdk.api.failure.GlobalError
 import org.matrix.android.sdk.api.session.Session

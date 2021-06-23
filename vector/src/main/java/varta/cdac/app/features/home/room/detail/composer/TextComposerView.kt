@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer
+package varta.cdac.app.features.home.room.detail.composer
 
 import android.content.Context
 import android.net.Uri
@@ -31,8 +31,8 @@ import androidx.transition.Fade
 import androidx.transition.Transition
 import androidx.transition.TransitionManager
 import androidx.transition.TransitionSet
-import im.vector.app.R
-import im.vector.app.databinding.ComposerLayoutBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ComposerLayoutBinding
 
 /**
  * Encapsulate the timeline composer UX.

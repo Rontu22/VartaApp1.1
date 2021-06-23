@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.intent
+package varta.cdac.app.core.intent
 
 import android.content.Context
 import android.net.Uri
 import android.webkit.MimeTypeMap
-import im.vector.app.core.utils.getFileExtension
+import varta.cdac.app.core.utils.getFileExtension
 import timber.log.Timber
 import java.util.Locale
 

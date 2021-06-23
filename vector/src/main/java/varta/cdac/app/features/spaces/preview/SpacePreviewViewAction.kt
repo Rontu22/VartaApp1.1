@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package varta.cdac.app.features.spaces.preview
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class SpacePreviewViewAction : VectorViewModelAction {
     object ViewReady : SpacePreviewViewAction()

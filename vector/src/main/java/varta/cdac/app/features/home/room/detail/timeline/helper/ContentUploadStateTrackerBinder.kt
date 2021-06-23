@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
 import android.annotation.SuppressLint
 import android.view.View
@@ -22,13 +22,13 @@ import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.ScreenScope
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.ScreenScope
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.utils.TextUtils
+import varta.cdac.app.features.home.room.detail.timeline.MessageColorProvider
 import org.matrix.android.sdk.api.session.content.ContentUploadStateTracker
 import org.matrix.android.sdk.api.session.room.send.SendState
 import javax.inject.Inject

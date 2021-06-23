@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.tools
+package varta.cdac.app.features.home.room.detail.timeline.tools
 
 import android.text.SpannableStringBuilder
 import android.text.style.ClickableSpan
 import android.view.MotionEvent
 import android.widget.TextView
 import androidx.core.text.toSpannable
-import im.vector.app.core.linkify.VectorLinkify
-import im.vector.app.core.utils.EvenBetterLinkMovementMethod
-import im.vector.app.core.utils.isValidUrl
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.html.PillImageSpan
+import varta.cdac.app.core.linkify.VectorLinkify
+import varta.cdac.app.core.utils.EvenBetterLinkMovementMethod
+import varta.cdac.app.core.utils.isValidUrl
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.html.PillImageSpan
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.members
+package varta.cdac.app.features.roomprofile.members
 
 import androidx.annotation.StringRes
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.platform.GenericIdArgs
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.GenericIdArgs
+import varta.cdac.app.features.roomprofile.RoomProfileArgs
 import org.matrix.android.sdk.api.crypto.RoomEncryptionTrustLevel
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary

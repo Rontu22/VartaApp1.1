@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import android.content.Context
 import android.util.AttributeSet
@@ -23,10 +23,10 @@ import android.widget.Button
 import android.widget.FrameLayout
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.databinding.ViewButtonStateBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.databinding.ViewButtonStateBinding
 
 class ButtonStateView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyle: Int = 0)
     : FrameLayout(context, attrs, defStyle) {

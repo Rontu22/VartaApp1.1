@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.FragmentViewModelContext
@@ -23,15 +23,15 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.AppStateHandler
-import im.vector.app.RoomGroupingMethod
-import im.vector.app.core.di.HasScreenInjector
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.call.dialpad.DialPadLookup
-import im.vector.app.features.call.lookup.CallProtocolsChecker
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.createdirect.DirectRoomHelper
-import im.vector.app.features.ui.UiStateRepository
+import varta.cdac.app.AppStateHandler
+import varta.cdac.app.RoomGroupingMethod
+import varta.cdac.app.core.di.HasScreenInjector
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.call.dialpad.DialPadLookup
+import varta.cdac.app.features.call.lookup.CallProtocolsChecker
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.createdirect.DirectRoomHelper
+import varta.cdac.app.features.ui.UiStateRepository
 import io.reactivex.schedulers.Schedulers
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

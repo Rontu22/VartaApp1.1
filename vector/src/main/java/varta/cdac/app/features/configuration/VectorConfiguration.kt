@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.configuration
+package varta.cdac.app.features.configuration
 
 import android.content.Context
 import android.content.res.Configuration
 import android.os.Build
 import android.os.LocaleList
 import androidx.annotation.RequiresApi
-import im.vector.app.features.settings.FontScale
-import im.vector.app.features.settings.VectorLocale
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.features.settings.FontScale
+import varta.cdac.app.features.settings.VectorLocale
+import varta.cdac.app.features.themes.ThemeUtils
 import timber.log.Timber
 import java.util.Locale
 import javax.inject.Inject

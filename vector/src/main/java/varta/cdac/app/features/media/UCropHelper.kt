@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package varta.cdac.app.features.media
 
 import android.graphics.Color
 import android.net.Uri
 import com.yalantis.ucrop.UCrop
 import com.yalantis.ucrop.UCropActivity
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.ColorProvider
 
 fun createUCropWithDefaultSettings(colorProvider: ColorProvider,
                                    source: Uri,

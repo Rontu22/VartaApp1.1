@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package varta.cdac.app.features.userdirectory
 
 import androidx.paging.PagedList
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.core.contacts.MappedContact
+import varta.cdac.app.core.contacts.MappedContact
 import org.matrix.android.sdk.api.session.user.model.User
 
 data class UserListViewState(

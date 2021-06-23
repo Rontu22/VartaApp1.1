@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package varta.cdac.app.features.attachments.preview
 
 import android.app.Activity.RESULT_CANCELED
 import android.app.Activity.RESULT_OK
@@ -39,17 +39,17 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.yalantis.ucrop.UCrop
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.insertBeforeLast
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.OnSnapPositionChangeListener
-import im.vector.app.core.utils.SnapOnScrollListener
-import im.vector.app.core.utils.attachSnapHelperWithListener
-import im.vector.app.databinding.FragmentAttachmentsPreviewBinding
-import im.vector.app.features.media.createUCropWithDefaultSettings
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.insertBeforeLast
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.OnSnapPositionChangeListener
+import varta.cdac.app.core.utils.SnapOnScrollListener
+import varta.cdac.app.core.utils.attachSnapHelperWithListener
+import varta.cdac.app.databinding.FragmentAttachmentsPreviewBinding
+import varta.cdac.app.features.media.createUCropWithDefaultSettings
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

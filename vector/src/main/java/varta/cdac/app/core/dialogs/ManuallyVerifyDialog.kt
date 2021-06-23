@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package varta.cdac.app.core.dialogs
 
 import android.app.Activity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.databinding.DialogDeviceVerifyBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.DialogDeviceVerifyBinding
 import org.matrix.android.sdk.api.extensions.getFingerprintHumanReadable
 import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
 

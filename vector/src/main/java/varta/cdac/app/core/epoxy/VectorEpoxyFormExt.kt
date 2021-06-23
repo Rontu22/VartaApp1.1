@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package varta.cdac.app.core.epoxy
 
 import android.text.TextWatcher
 import android.widget.CompoundButton

@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.crosssigning
+package varta.cdac.app.features.settings.crosssigning
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericButtonItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.list.genericPositiveButtonItem
-import im.vector.app.core.ui.list.genericWithValueItem
-import im.vector.app.core.utils.DimensionConverter
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericButtonItem
+import varta.cdac.app.core.ui.list.genericItem
+import varta.cdac.app.core.ui.list.genericPositiveButtonItem
+import varta.cdac.app.core.ui.list.genericWithValueItem
+import varta.cdac.app.core.utils.DimensionConverter
 import me.gujun.android.span.span
 import javax.inject.Inject
 

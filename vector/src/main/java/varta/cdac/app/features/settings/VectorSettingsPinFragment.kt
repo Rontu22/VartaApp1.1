@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.SwitchPreference
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.notifications.NotificationDrawerManager
-import im.vector.app.features.pin.PinCodeStore
-import im.vector.app.features.pin.PinMode
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.preference.VectorPreference
+import varta.cdac.app.features.navigation.Navigator
+import varta.cdac.app.features.notifications.NotificationDrawerManager
+import varta.cdac.app.features.pin.PinCodeStore
+import varta.cdac.app.features.pin.PinMode
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

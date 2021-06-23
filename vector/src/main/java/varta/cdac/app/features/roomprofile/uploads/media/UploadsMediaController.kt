@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads.media
+package varta.cdac.app.features.roomprofile.uploads.media
 
 import android.view.View
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.epoxy.VisibilityState
-import im.vector.app.core.epoxy.squareLoadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.media.ImageContentRenderer
-import im.vector.app.features.media.VideoContentRenderer
-import im.vector.app.features.roomprofile.uploads.RoomUploadsViewState
+import varta.cdac.app.core.epoxy.squareLoadingItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.features.media.ImageContentRenderer
+import varta.cdac.app.features.media.VideoContentRenderer
+import varta.cdac.app.features.roomprofile.uploads.RoomUploadsViewState
 import org.matrix.android.sdk.api.session.room.model.message.MessageImageContent
 import org.matrix.android.sdk.api.session.room.model.message.MessageType
 import org.matrix.android.sdk.api.session.room.model.message.MessageVideoContent

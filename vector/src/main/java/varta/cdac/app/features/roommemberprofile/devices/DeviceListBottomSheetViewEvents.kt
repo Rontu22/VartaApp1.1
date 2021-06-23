@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roommemberprofile.devices
+package varta.cdac.app.features.roommemberprofile.devices
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 /**
  * Transient events for device list screen

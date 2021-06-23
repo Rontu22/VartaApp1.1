@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.push
+package varta.cdac.app.features.settings.push
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class PushGatewayAction : VectorViewModelAction {
     object Refresh : PushGatewayAction()

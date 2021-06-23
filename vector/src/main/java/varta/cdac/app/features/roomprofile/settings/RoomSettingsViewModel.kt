@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings
+package varta.cdac.app.features.roomprofile.settings
 
 import androidx.core.net.toFile
 import com.airbnb.mvrx.ActivityViewModelContext
@@ -24,9 +24,9 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.powerlevel.PowerLevelsObservableFactory
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.features.powerlevel.PowerLevelsObservableFactory
 import io.reactivex.Completable
 import io.reactivex.Observable
 import org.matrix.android.sdk.api.extensions.tryOrNull

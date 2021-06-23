@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roomprofile
+package varta.cdac.app.features.roomprofile
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -30,25 +30,25 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.animations.AppBarStateChangeListener
-import im.vector.app.core.animations.MatrixItemAppBarStateChangeListener
-import im.vector.app.core.dialogs.withColoredButton
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.copyOnLongClick
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.FragmentMatrixProfileBinding
-import im.vector.app.databinding.ViewStubRoomProfileHeaderBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.list.actions.RoomListActionsArgs
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsBottomSheet
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedAction
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.animations.AppBarStateChangeListener
+import varta.cdac.app.core.animations.MatrixItemAppBarStateChangeListener
+import varta.cdac.app.core.dialogs.withColoredButton
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.copyOnLongClick
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.copyToClipboard
+import varta.cdac.app.core.utils.startSharePlainTextIntent
+import varta.cdac.app.databinding.FragmentMatrixProfileBinding
+import varta.cdac.app.databinding.ViewStubRoomProfileHeaderBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.list.actions.RoomListActionsArgs
+import varta.cdac.app.features.home.room.list.actions.RoomListQuickActionsBottomSheet
+import varta.cdac.app.features.home.room.list.actions.RoomListQuickActionsSharedAction
+import varta.cdac.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 import org.matrix.android.sdk.api.util.toMatrixItem

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package varta.cdac.app.features.share
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 

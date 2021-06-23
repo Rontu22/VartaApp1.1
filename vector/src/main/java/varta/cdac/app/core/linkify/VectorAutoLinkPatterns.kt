@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.linkify
+package varta.cdac.app.core.linkify
 
 /**
  * Better support for geo URi

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package varta.cdac.app.features.devtools
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.noResultItem
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericItem
 import me.gujun.android.span.span
 import org.json.JSONObject
 import javax.inject.Inject

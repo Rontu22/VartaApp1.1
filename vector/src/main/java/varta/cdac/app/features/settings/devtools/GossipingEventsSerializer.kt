@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devtools
+package varta.cdac.app.features.settings.devtools
 
-import im.vector.app.core.resources.DateProvider
+import varta.cdac.app.core.resources.DateProvider
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.EventType

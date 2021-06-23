@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package varta.cdac.app.features.signout.soft
 
 import com.airbnb.epoxy.EpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.signout.soft.epoxy.loginCenterButtonItem
-import im.vector.app.features.signout.soft.epoxy.loginErrorWithRetryItem
-import im.vector.app.features.signout.soft.epoxy.loginHeaderItem
-import im.vector.app.features.signout.soft.epoxy.loginPasswordFormItem
-import im.vector.app.features.signout.soft.epoxy.loginRedButtonItem
-import im.vector.app.features.signout.soft.epoxy.loginTextItem
-import im.vector.app.features.signout.soft.epoxy.loginTitleItem
-import im.vector.app.features.signout.soft.epoxy.loginTitleSmallItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.toReducedUrl
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.login.LoginMode
+import varta.cdac.app.features.signout.soft.epoxy.loginCenterButtonItem
+import varta.cdac.app.features.signout.soft.epoxy.loginErrorWithRetryItem
+import varta.cdac.app.features.signout.soft.epoxy.loginHeaderItem
+import varta.cdac.app.features.signout.soft.epoxy.loginPasswordFormItem
+import varta.cdac.app.features.signout.soft.epoxy.loginRedButtonItem
+import varta.cdac.app.features.signout.soft.epoxy.loginTextItem
+import varta.cdac.app.features.signout.soft.epoxy.loginTitleItem
+import varta.cdac.app.features.signout.soft.epoxy.loginTitleSmallItem
 import javax.inject.Inject
 
 class SoftLogoutController @Inject constructor(

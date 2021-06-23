@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.permalink
+package varta.cdac.app.features.permalink
 
 import android.content.Intent
 import android.os.Bundle
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.FragmentProgressBinding
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.home.LoadingFragment
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.FragmentProgressBinding
+import varta.cdac.app.features.home.HomeActivity
+import varta.cdac.app.features.home.LoadingFragment
 import javax.inject.Inject
 
 class PermalinkHandlerActivity : VectorBaseActivity<FragmentProgressBinding>() {

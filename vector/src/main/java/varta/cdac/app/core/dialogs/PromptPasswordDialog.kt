@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package varta.cdac.app.core.dialogs
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -22,11 +22,11 @@ import android.text.Editable
 import android.view.KeyEvent
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.databinding.DialogPromptPasswordBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.platform.SimpleTextWatcher
+import varta.cdac.app.databinding.DialogPromptPasswordBinding
 
 class PromptPasswordDialog {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.glide
+package varta.cdac.app.core.glide
 
 import com.bumptech.glide.load.Option
 import org.matrix.android.sdk.internal.crypto.attachments.ElementToDecrypt
 
-const val ElementToDecryptOptionKey = "im.vector.app.core.glide.ElementToDecrypt"
+const val ElementToDecryptOptionKey = "varta.cdac.app.core.glide.ElementToDecrypt"
 
 val ELEMENT_TO_DECRYPT = Option.memory(
         ElementToDecryptOptionKey, ElementToDecrypt("", "", ""))

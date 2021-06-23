@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package varta.cdac.app.features.media
 
 import android.graphics.drawable.Drawable
 import android.net.Uri
@@ -31,14 +31,14 @@ import com.bumptech.glide.request.target.CustomViewTarget
 import com.bumptech.glide.request.target.Target
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView.ORIENTATION_USE_EXIF
 import com.github.piasy.biv.view.BigImageView
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.files.LocalFilesHelper
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.glide.GlideRequest
-import im.vector.app.core.glide.GlideRequests
-import im.vector.app.core.ui.model.Size
-import im.vector.app.core.utils.DimensionConverter
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.files.LocalFilesHelper
+import varta.cdac.app.core.glide.GlideApp
+import varta.cdac.app.core.glide.GlideRequest
+import varta.cdac.app.core.glide.GlideRequests
+import varta.cdac.app.core.ui.model.Size
+import varta.cdac.app.core.utils.DimensionConverter
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.session.content.ContentUrlResolver

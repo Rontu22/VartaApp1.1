@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package varta.cdac.app.features.reactions
 
 import android.graphics.Typeface
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
+import varta.cdac.app.EmojiCompatFontProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
 import javax.inject.Inject
 
 class EmojiSearchResultController @Inject constructor(

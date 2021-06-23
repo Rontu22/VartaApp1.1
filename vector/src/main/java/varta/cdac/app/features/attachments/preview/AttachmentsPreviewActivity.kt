@@ -15,17 +15,17 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package varta.cdac.app.features.attachments.preview
 
 import android.content.Context
 import android.content.Intent
 import com.google.android.material.appbar.MaterialToolbar
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.themes.ActivityOtherThemes
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.themes.ActivityOtherThemes
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 
 class AttachmentsPreviewActivity : VectorBaseActivity<ActivitySimpleBinding>(), ToolbarConfigurable {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.contacts
+package varta.cdac.app.core.contacts
 
 import android.content.Context
 import android.database.Cursor

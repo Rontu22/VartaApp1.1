@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug
+package varta.cdac.app.features.debug
 
 import androidx.appcompat.app.AppCompatActivity
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -22,9 +22,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import im.vector.app.BuildConfig
-import im.vector.app.databinding.FragmentLoginSplash2Binding
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.databinding.FragmentLoginSplash2Binding
+import varta.cdac.app.features.settings.VectorPreferences
 import javax.inject.Inject
 
 /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.navigation
+package varta.cdac.app.features.navigation
 
 import android.app.Activity
 import android.content.Context
@@ -22,14 +22,14 @@ import android.content.Intent
 import android.view.View
 import androidx.activity.result.ActivityResultLauncher
 import androidx.core.util.Pair
-import im.vector.app.features.crypto.recover.SetupMode
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.media.AttachmentData
-import im.vector.app.features.pin.PinMode
-import im.vector.app.features.roomdirectory.RoomDirectoryData
-import im.vector.app.features.roomdirectory.roompreview.RoomPreviewData
-import im.vector.app.features.settings.VectorSettingsActivity
-import im.vector.app.features.share.SharedData
+import varta.cdac.app.features.crypto.recover.SetupMode
+import varta.cdac.app.features.login.LoginConfig
+import varta.cdac.app.features.media.AttachmentData
+import varta.cdac.app.features.pin.PinMode
+import varta.cdac.app.features.roomdirectory.RoomDirectoryData
+import varta.cdac.app.features.roomdirectory.roompreview.RoomPreviewData
+import varta.cdac.app.features.settings.VectorSettingsActivity
+import varta.cdac.app.features.share.SharedData
 import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoom
 import org.matrix.android.sdk.api.session.terms.TermsService
 import org.matrix.android.sdk.api.session.widgets.model.Widget

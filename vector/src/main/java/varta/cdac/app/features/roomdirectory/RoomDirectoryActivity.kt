@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package varta.cdac.app.features.roomdirectory
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.popBackstack
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.roomdirectory.createroom.CreateRoomFragment
-import im.vector.app.features.roomdirectory.createroom.CreateRoomArgs
-import im.vector.app.features.roomdirectory.picker.RoomDirectoryPickerFragment
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.extensions.addFragmentToBackstack
+import varta.cdac.app.core.extensions.popBackstack
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.roomdirectory.createroom.CreateRoomFragment
+import varta.cdac.app.features.roomdirectory.createroom.CreateRoomArgs
+import varta.cdac.app.features.roomdirectory.picker.RoomDirectoryPickerFragment
 import javax.inject.Inject
 
 class RoomDirectoryActivity : VectorBaseActivity<ActivitySimpleBinding>() {

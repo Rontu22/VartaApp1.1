@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextWithColoredPart
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginServerSelection2Binding
-import im.vector.app.features.login.EMS_LINK
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextWithColoredPart
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.databinding.FragmentLoginServerSelection2Binding
+import varta.cdac.app.features.login.EMS_LINK
 import javax.inject.Inject
 
 /**

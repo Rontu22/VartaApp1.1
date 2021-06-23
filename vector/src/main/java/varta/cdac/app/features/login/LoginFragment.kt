@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.os.Build
 import android.os.Bundle
@@ -29,12 +29,12 @@ import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentLoginBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.extensions.toReducedUrl
+import varta.cdac.app.databinding.FragmentLoginBinding
 import io.reactivex.Observable
 import io.reactivex.rxkotlin.subscribeBy
 

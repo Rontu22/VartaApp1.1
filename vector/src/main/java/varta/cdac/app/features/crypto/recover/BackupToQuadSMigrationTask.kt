@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package varta.cdac.app.features.crypto.recover
 
-import im.vector.app.R
-import im.vector.app.core.platform.ViewModelTask
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.ViewModelTask
+import varta.cdac.app.core.platform.WaitingViewData
+import varta.cdac.app.core.resources.StringProvider
 import org.matrix.android.sdk.api.NoOpMatrixCallback
 import org.matrix.android.sdk.api.listeners.ProgressListener
 import org.matrix.android.sdk.api.session.Session

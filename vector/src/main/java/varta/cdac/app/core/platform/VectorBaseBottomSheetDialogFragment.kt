@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import android.app.Dialog
 import android.content.Context
@@ -34,9 +34,9 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.jakewharton.rxbinding3.view.clicks
-import im.vector.app.core.di.DaggerScreenComponent
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.utils.DimensionConverter
+import varta.cdac.app.core.di.DaggerScreenComponent
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.utils.DimensionConverter
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable

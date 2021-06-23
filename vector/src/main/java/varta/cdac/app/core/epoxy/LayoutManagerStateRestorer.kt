@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package varta.cdac.app.core.epoxy
 
 import android.os.Bundle
 import android.os.Parcelable
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.core.platform.DefaultListUpdateCallback
-import im.vector.app.core.platform.Restorable
+import varta.cdac.app.core.platform.DefaultListUpdateCallback
+import varta.cdac.app.core.platform.Restorable
 import java.util.concurrent.atomic.AtomicReference
 
 private const val LAYOUT_MANAGER_STATE = "LAYOUT_MANAGER_STATE"

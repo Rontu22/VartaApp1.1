@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.bottomsheet
+package varta.cdac.app.core.ui.bottomsheet
 
 import com.airbnb.mvrx.MvRxState
-import im.vector.app.core.platform.EmptyAction
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
+import varta.cdac.app.core.platform.EmptyAction
+import varta.cdac.app.core.platform.EmptyViewEvents
+import varta.cdac.app.core.platform.VectorViewModel
 
 abstract class BottomSheetGenericViewModel<State : MvRxState>(initialState: State) :
         VectorViewModel<State, EmptyAction, EmptyViewEvents>(initialState) {

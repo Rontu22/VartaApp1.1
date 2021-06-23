@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.core.epoxy.TimelineEmptyItem
-import im.vector.app.core.epoxy.TimelineEmptyItem_
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineEventVisibilityHelper
+import varta.cdac.app.core.epoxy.TimelineEmptyItem
+import varta.cdac.app.core.epoxy.TimelineEmptyItem_
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.features.home.room.detail.timeline.helper.TimelineEventVisibilityHelper
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
 import timber.log.Timber

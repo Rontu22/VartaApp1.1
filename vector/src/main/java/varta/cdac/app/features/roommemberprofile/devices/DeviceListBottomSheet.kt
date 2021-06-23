@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roommemberprofile.devices
+package varta.cdac.app.features.roommemberprofile.devices
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -27,13 +27,13 @@ import androidx.fragment.app.Fragment
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetWithFragmentsBinding
-import im.vector.app.features.crypto.verification.VerificationBottomSheet
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.commitTransaction
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetWithFragmentsBinding
+import varta.cdac.app.features.crypto.verification.VerificationBottomSheet
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 import kotlin.reflect.KClass

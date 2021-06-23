@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.telecom
+package varta.cdac.app.features.call.telecom
 
 import android.content.ComponentName
 import android.content.Intent
@@ -29,7 +29,7 @@ import android.telecom.PhoneAccountHandle
 import android.telecom.StatusHints
 import android.telecom.TelecomManager
 import androidx.annotation.RequiresApi
-import im.vector.app.core.services.CallService
+import varta.cdac.app.core.services.CallService
 
 /**
  * No active calls in other apps

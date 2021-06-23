@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.lookup
+package varta.cdac.app.features.call.lookup
 
-import im.vector.app.features.session.coroutineScope
+import varta.cdac.app.features.session.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.tryOrNull

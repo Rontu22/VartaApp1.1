@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package varta.cdac.app.features.attachments.preview
 
 import com.airbnb.mvrx.MvRxState
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

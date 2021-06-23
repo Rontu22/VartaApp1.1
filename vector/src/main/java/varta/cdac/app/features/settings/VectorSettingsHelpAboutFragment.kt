@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import androidx.preference.Preference
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.utils.FirstThrottler
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.core.utils.displayInWebView
-import im.vector.app.core.utils.openAppSettingsPage
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.features.version.VersionProvider
-import im.vector.app.openOssLicensesMenuActivity
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.preference.VectorPreference
+import varta.cdac.app.core.utils.FirstThrottler
+import varta.cdac.app.core.utils.copyToClipboard
+import varta.cdac.app.core.utils.displayInWebView
+import varta.cdac.app.core.utils.openAppSettingsPage
+import varta.cdac.app.core.utils.openUrlInChromeCustomTab
+import varta.cdac.app.features.version.VersionProvider
+import varta.cdac.app.openOssLicensesMenuActivity
 import org.matrix.android.sdk.api.Matrix
 import javax.inject.Inject
 

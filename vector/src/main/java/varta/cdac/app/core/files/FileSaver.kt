@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.files
+package varta.cdac.app.core.files
 
 import android.app.DownloadManager
 import android.content.ContentValues

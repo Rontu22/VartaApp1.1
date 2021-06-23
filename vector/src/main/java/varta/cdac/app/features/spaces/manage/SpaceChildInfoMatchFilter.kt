@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
 import io.reactivex.functions.Predicate
 import org.matrix.android.sdk.api.extensions.orFalse

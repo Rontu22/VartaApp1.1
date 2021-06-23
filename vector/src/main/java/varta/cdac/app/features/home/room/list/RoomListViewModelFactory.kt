@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
-import im.vector.app.AppStateHandler
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.AppStateHandler
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject
 import javax.inject.Provider

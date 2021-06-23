@@ -95,7 +95,7 @@
         app:layout_constraintStart_toEndOf="@+id/itemPublicRoomMembersCount"
         tools:text="@sample/rooms.json/data/alias" />
 
-    <im.vector.app.core.platform.ButtonStateView
+    <varta.cdac.app.core.platform.ButtonStateView
         android:id="@+id/itemPublicRoomButtonState"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

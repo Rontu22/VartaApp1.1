@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.RelativeLayout
-import im.vector.app.R
-import im.vector.app.databinding.ViewCurrentCallsBinding
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ViewCurrentCallsBinding
+import varta.cdac.app.features.call.webrtc.WebRtcCall
+import varta.cdac.app.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.session.call.CallState
 
 class CurrentCallsView @JvmOverloads constructor(

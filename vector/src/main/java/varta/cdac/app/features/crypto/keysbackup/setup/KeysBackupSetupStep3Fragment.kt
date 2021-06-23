@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.setup
+package varta.cdac.app.features.crypto.keysbackup.setup
 
 import android.app.Activity
 import android.net.Uri
@@ -28,14 +28,14 @@ import androidx.lifecycle.lifecycleScope
 import arrow.core.Try
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.core.utils.selectTxtFileToWrite
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.FragmentKeysBackupSetupStep3Binding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.LiveEvent
+import varta.cdac.app.core.utils.copyToClipboard
+import varta.cdac.app.core.utils.selectTxtFileToWrite
+import varta.cdac.app.core.utils.startSharePlainTextIntent
+import varta.cdac.app.databinding.FragmentKeysBackupSetupStep3Binding
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

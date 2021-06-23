@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.terms
+package varta.cdac.app.features.login.terms
 
 import com.airbnb.epoxy.TypedEpoxyController
 import org.matrix.android.sdk.internal.auth.registration.LocalizedFlowDataLoginTerms

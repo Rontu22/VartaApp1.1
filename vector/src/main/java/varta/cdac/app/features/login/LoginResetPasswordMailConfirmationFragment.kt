@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,8 +23,8 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Success
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.databinding.FragmentLoginResetPasswordMailConfirmationBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.FragmentLoginResetPasswordMailConfirmationBinding
 
 import org.matrix.android.sdk.api.failure.is401
 import javax.inject.Inject

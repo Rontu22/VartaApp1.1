@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.roompreview
+package varta.cdac.app.features.roomdirectory.roompreview
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class RoomPreviewAction : VectorViewModelAction {
     object Join : RoomPreviewAction()

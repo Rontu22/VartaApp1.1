@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.notifications
+package varta.cdac.app.features.notifications
 
 import androidx.core.app.NotificationCompat
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
-import im.vector.app.features.home.room.detail.timeline.format.NoticeEventFormatter
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
+import varta.cdac.app.features.home.room.detail.timeline.format.NoticeEventFormatter
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.content.ContentUrlResolver
 import org.matrix.android.sdk.api.session.crypto.MXCryptoError

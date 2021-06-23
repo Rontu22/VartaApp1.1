@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
-import im.vector.app.features.home.room.detail.timeline.item.WidgetTileTimelineItem
-import im.vector.app.features.home.room.detail.timeline.item.WidgetTileTimelineItem_
+import varta.cdac.app.ActiveSessionDataSource
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
+import varta.cdac.app.features.home.room.detail.timeline.item.WidgetTileTimelineItem
+import varta.cdac.app.features.home.room.detail.timeline.item.WidgetTileTimelineItem_
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.toModel

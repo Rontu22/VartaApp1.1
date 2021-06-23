@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package varta.cdac.app.features.createdirect
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState

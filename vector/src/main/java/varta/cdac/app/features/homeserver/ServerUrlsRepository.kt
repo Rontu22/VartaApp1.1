@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.homeserver
+package varta.cdac.app.features.homeserver
 
 import android.content.Context
 import androidx.core.content.edit
-import im.vector.app.R
-import im.vector.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.di.DefaultSharedPreferences
 
 /**
  * Object to store and retrieve home and identity server urls

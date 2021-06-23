@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.picker
+package varta.cdac.app.features.roomdirectory.picker
 
 import android.text.InputType
 import android.view.KeyEvent
@@ -26,22 +26,22 @@ import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.join
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericButtonItem
-import im.vector.app.core.ui.list.verticalMarginItem
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.discovery.settingsContinueCancelItem
-import im.vector.app.features.discovery.settingsInformationItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.roomdirectory.RoomDirectoryData
-import im.vector.app.features.roomdirectory.RoomDirectoryServer
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.dividerItem
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.join
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericButtonItem
+import varta.cdac.app.core.ui.list.verticalMarginItem
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.features.discovery.settingsContinueCancelItem
+import varta.cdac.app.features.discovery.settingsInformationItem
+import varta.cdac.app.features.form.formEditTextItem
+import varta.cdac.app.features.roomdirectory.RoomDirectoryData
+import varta.cdac.app.features.roomdirectory.RoomDirectoryServer
 import org.matrix.android.sdk.api.failure.Failure
 import javax.inject.Inject
 import javax.net.ssl.HttpsURLConnection

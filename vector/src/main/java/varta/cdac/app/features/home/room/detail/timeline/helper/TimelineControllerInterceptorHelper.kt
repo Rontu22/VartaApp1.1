@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.VisibilityState
-import im.vector.app.core.epoxy.LoadingItem_
-import im.vector.app.core.epoxy.TimelineEmptyItem_
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.home.room.detail.UnreadState
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.item.CallTileTimelineItem
-import im.vector.app.features.home.room.detail.timeline.item.DaySeparatorItem
-import im.vector.app.features.home.room.detail.timeline.item.ItemWithEvents
-import im.vector.app.features.home.room.detail.timeline.item.TimelineReadMarkerItem_
+import varta.cdac.app.core.epoxy.LoadingItem_
+import varta.cdac.app.core.epoxy.TimelineEmptyItem_
+import varta.cdac.app.core.resources.UserPreferencesProvider
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.home.room.detail.UnreadState
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.item.CallTileTimelineItem
+import varta.cdac.app.features.home.room.detail.timeline.item.DaySeparatorItem
+import varta.cdac.app.features.home.room.detail.timeline.item.ItemWithEvents
+import varta.cdac.app.features.home.room.detail.timeline.item.TimelineReadMarkerItem_
 import org.matrix.android.sdk.api.session.room.timeline.Timeline
 import kotlin.reflect.KMutableProperty0
 

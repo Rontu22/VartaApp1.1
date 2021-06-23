@@ -16,7 +16,7 @@
  *
  */
 
-package im.vector.app.features.createdirect
+package varta.cdac.app.features.createdirect
 
 import android.content.Context
 import android.content.Intent
@@ -28,30 +28,30 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.utils.PERMISSIONS_FOR_MEMBERS_SEARCH
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.PERMISSION_REQUEST_CODE_LAUNCH_CAMERA
-import im.vector.app.core.utils.PERMISSION_REQUEST_CODE_READ_CONTACTS
-import im.vector.app.core.utils.allGranted
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedSnackbar
-import im.vector.app.features.contactsbook.ContactsBookFragment
-import im.vector.app.features.contactsbook.ContactsBookViewModel
-import im.vector.app.features.contactsbook.ContactsBookViewState
-import im.vector.app.features.userdirectory.UserListFragment
-import im.vector.app.features.userdirectory.UserListFragmentArgs
-import im.vector.app.features.userdirectory.UserListSharedAction
-import im.vector.app.features.userdirectory.UserListSharedActionViewModel
-import im.vector.app.features.userdirectory.UserListViewModel
-import im.vector.app.features.userdirectory.UserListViewState
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.extensions.addFragmentToBackstack
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.SimpleFragmentActivity
+import varta.cdac.app.core.platform.WaitingViewData
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_MEMBERS_SEARCH
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import varta.cdac.app.core.utils.PERMISSION_REQUEST_CODE_LAUNCH_CAMERA
+import varta.cdac.app.core.utils.PERMISSION_REQUEST_CODE_READ_CONTACTS
+import varta.cdac.app.core.utils.allGranted
+import varta.cdac.app.core.utils.checkPermissions
+import varta.cdac.app.core.utils.onPermissionDeniedSnackbar
+import varta.cdac.app.features.contactsbook.ContactsBookFragment
+import varta.cdac.app.features.contactsbook.ContactsBookViewModel
+import varta.cdac.app.features.contactsbook.ContactsBookViewState
+import varta.cdac.app.features.userdirectory.UserListFragment
+import varta.cdac.app.features.userdirectory.UserListFragmentArgs
+import varta.cdac.app.features.userdirectory.UserListSharedAction
+import varta.cdac.app.features.userdirectory.UserListSharedActionViewModel
+import varta.cdac.app.features.userdirectory.UserListViewModel
+import varta.cdac.app.features.userdirectory.UserListViewState
 
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.session.room.failure.CreateRoomFailure

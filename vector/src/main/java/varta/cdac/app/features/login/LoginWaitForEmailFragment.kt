@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -22,8 +22,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
-import im.vector.app.R
-import im.vector.app.databinding.FragmentLoginWaitForEmailBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.FragmentLoginWaitForEmailBinding
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.failure.is401
 import javax.inject.Inject

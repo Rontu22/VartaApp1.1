@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package varta.cdac.app.features.devtools
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericButtonItem
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericButtonItem
 import javax.inject.Inject
 
 class RoomDevToolRootController @Inject constructor(

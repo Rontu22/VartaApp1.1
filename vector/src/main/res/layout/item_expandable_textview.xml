@@ -7,7 +7,7 @@
     android:background="?android:colorBackground"
     android:padding="16dp">
 
-    <im.vector.app.core.ui.views.NonScrollingTextView
+    <varta.cdac.app.core.ui.views.NonScrollingTextView
         android:id="@+id/expandableContent"
         style="@style/Widget.Vector.TextView.Body"
         android:layout_width="match_parent"

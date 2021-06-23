@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState

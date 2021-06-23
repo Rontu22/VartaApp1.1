@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package varta.cdac.app.features.spaces.create
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,12 +22,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.setFragmentResultListener
 import com.airbnb.mvrx.activityViewModel
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.databinding.FragmentSpaceCreateChoosePrivateModelBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.databinding.FragmentSpaceCreateChoosePrivateModelBinding
 import javax.inject.Inject
 
 class ChoosePrivateSpaceTypeFragment @Inject constructor(

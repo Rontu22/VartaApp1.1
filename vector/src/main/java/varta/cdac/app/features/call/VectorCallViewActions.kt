@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.call.audio.CallAudioManager
+import varta.cdac.app.core.platform.VectorViewModelAction
+import varta.cdac.app.features.call.audio.CallAudioManager
 
 sealed class VectorCallViewActions : VectorViewModelAction {
     object EndCall : VectorCallViewActions()

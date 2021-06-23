@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package varta.cdac.app.features.userdirectory
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class UserListAction : VectorViewModelAction {
     data class SearchUsers(val value: String) : UserListAction()

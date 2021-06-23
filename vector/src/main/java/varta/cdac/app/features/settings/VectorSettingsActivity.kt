@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.content.Context
 import android.content.Intent
@@ -21,12 +21,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityVectorSettingsBinding
-import im.vector.app.features.settings.devices.VectorSettingsDevicesFragment
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityVectorSettingsBinding
+import varta.cdac.app.features.settings.devices.VectorSettingsDevicesFragment
 
 import org.matrix.android.sdk.api.failure.GlobalError
 import org.matrix.android.sdk.api.session.Session

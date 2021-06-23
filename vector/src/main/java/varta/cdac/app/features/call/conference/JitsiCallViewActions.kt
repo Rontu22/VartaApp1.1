@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package varta.cdac.app.features.call.conference
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class JitsiCallViewActions : VectorViewModelAction {
     data class SwitchTo(val args: VectorJitsiActivity.Args,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.services
+package varta.cdac.app.core.services
 
 import android.app.NotificationChannel
 import android.content.Context
@@ -27,8 +27,8 @@ import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
 import androidx.core.content.getSystemService
-import im.vector.app.R
-import im.vector.app.features.notifications.NotificationUtils
+import varta.cdac.app.R
+import varta.cdac.app.features.notifications.NotificationUtils
 import org.matrix.android.sdk.api.extensions.orFalse
 import timber.log.Timber
 

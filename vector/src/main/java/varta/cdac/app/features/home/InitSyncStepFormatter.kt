@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
 import org.matrix.android.sdk.api.session.initsync.InitSyncStep
 import javax.inject.Inject
 

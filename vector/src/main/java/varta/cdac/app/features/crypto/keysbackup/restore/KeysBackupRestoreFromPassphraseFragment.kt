@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package varta.cdac.app.features.crypto.keysbackup.restore
 
 import android.os.Bundle
 import android.text.SpannableString
@@ -24,10 +24,10 @@ import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import androidx.core.text.set
 import androidx.core.widget.doOnTextChanged
-import im.vector.app.R
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentKeysBackupRestoreFromPassphraseBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentKeysBackupRestoreFromPassphraseBinding
 
 import javax.inject.Inject
 

@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
-import im.vector.app.R
-import im.vector.app.core.preference.PushRulePreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.utils.toast
+import varta.cdac.app.R
+import varta.cdac.app.core.preference.PushRulePreference
+import varta.cdac.app.core.preference.VectorPreference
+import varta.cdac.app.core.utils.toast
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.pushrules.RuleIds
 import org.matrix.android.sdk.api.pushrules.rest.PushRuleAndKind

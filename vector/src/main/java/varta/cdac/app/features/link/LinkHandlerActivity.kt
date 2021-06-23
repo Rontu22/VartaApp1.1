@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.link
+package varta.cdac.app.features.link
 
 import android.content.Intent
 import android.net.Uri
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.ActivityProgressBinding
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.permalink.PermalinkHandler
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.ActivityProgressBinding
+import varta.cdac.app.features.login.LoginConfig
+import varta.cdac.app.features.permalink.PermalinkHandler
 import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.permalinks.PermalinkService

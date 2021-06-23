@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import androidx.activity.result.ActivityResultLauncher
 import androidx.fragment.app.Fragment
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.utils.PERMISSIONS_FOR_AUDIO_IP_CALL
-import im.vector.app.core.utils.PERMISSIONS_FOR_VIDEO_IP_CALL
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_AUDIO_IP_CALL
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_VIDEO_IP_CALL
+import varta.cdac.app.core.utils.checkPermissions
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.widgets.model.WidgetType
 
 class StartCallActionsHandler(

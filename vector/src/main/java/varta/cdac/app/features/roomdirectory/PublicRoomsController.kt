@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package varta.cdac.app.features.roomdirectory
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.epoxy.VisibilityState
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.epoxy.noResultItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.MatrixPatterns
 import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
 import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoom

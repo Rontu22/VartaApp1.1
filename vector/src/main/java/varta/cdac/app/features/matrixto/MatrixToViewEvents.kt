@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.matrixto
+package varta.cdac.app.features.matrixto
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class MatrixToViewEvents : VectorViewEvents {
     data class NavigateToRoom(val roomId: String) : MatrixToViewEvents()

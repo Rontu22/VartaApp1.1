@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.call.audio.CallAudioManager
+import varta.cdac.app.features.call.audio.CallAudioManager
 import org.matrix.android.sdk.api.session.call.CallState
 import org.matrix.android.sdk.api.util.MatrixItem
 

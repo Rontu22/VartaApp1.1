@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.LiveData
@@ -22,11 +22,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.liveData
 import androidx.paging.PagedList
 import com.airbnb.mvrx.Async
-import im.vector.app.AppStateHandler
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.space
+import varta.cdac.app.AppStateHandler
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.RoomListDisplayMode
+import varta.cdac.app.space
 import io.reactivex.Observable
 import io.reactivex.disposables.Disposable
 import io.reactivex.rxkotlin.Observables

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.dialpad
+package varta.cdac.app.features.call.dialpad
 
 import android.content.ClipboardManager
 import android.content.res.ColorStateList
@@ -36,8 +36,8 @@ import androidx.core.widget.ImageViewCompat
 import androidx.fragment.app.Fragment
 import com.android.dialer.dialpadview.DialpadView
 import com.android.dialer.dialpadview.DigitsEditText
-import im.vector.app.R
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.features.themes.ThemeUtils
 
 class DialPadFragment : Fragment(), TextWatcher {
 

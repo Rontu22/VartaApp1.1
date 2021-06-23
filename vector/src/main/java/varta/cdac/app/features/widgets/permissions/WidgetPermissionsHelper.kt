@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.permissions
+package varta.cdac.app.features.widgets.permissions
 
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.integrationmanager.IntegrationManagerService

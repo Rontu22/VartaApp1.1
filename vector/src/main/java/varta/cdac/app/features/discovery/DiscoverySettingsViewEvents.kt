@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class DiscoverySettingsViewEvents : VectorViewEvents {
     data class Failure(val throwable: Throwable) : DiscoverySettingsViewEvents()

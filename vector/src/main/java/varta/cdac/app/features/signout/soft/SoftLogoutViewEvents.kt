@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.signout.soft
+package varta.cdac.app.features.signout.soft
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 /**
  * Transient events for SoftLogout

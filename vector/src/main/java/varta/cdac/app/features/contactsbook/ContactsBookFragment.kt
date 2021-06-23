@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package varta.cdac.app.features.contactsbook
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,17 +26,17 @@ import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.jakewharton.rxbinding3.widget.checkedChanges
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentContactsBookBinding
-import im.vector.app.features.userdirectory.PendingSelection
-import im.vector.app.features.userdirectory.UserListAction
-import im.vector.app.features.userdirectory.UserListSharedAction
-import im.vector.app.features.userdirectory.UserListSharedActionViewModel
-import im.vector.app.features.userdirectory.UserListViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentContactsBookBinding
+import varta.cdac.app.features.userdirectory.PendingSelection
+import varta.cdac.app.features.userdirectory.UserListAction
+import varta.cdac.app.features.userdirectory.UserListSharedAction
+import varta.cdac.app.features.userdirectory.UserListSharedActionViewModel
+import varta.cdac.app.features.userdirectory.UserListViewModel
 
 import org.matrix.android.sdk.api.session.identity.ThreePid
 import org.matrix.android.sdk.api.session.user.model.User

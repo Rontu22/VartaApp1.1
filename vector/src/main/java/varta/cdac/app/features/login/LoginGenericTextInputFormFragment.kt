@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.os.Build
 import android.os.Bundle
@@ -29,11 +29,11 @@ import com.airbnb.mvrx.args
 import com.google.i18n.phonenumbers.NumberParseException
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.isEmail
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.FragmentLoginGenericTextInputFormBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.isEmail
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.databinding.FragmentLoginGenericTextInputFormBinding
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.auth.registration.RegisterThreePid
 import org.matrix.android.sdk.api.failure.Failure

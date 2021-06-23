@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package varta.cdac.app.features.widgets
 
 import androidx.annotation.StringRes
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
+import varta.cdac.app.R
 import org.matrix.android.sdk.api.session.widgets.model.Widget
 import org.matrix.android.sdk.api.session.widgets.model.WidgetType
 

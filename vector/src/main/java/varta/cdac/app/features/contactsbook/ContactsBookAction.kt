@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package varta.cdac.app.features.contactsbook
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class ContactsBookAction : VectorViewModelAction {
     data class FilterWith(val filter: String) : ContactsBookAction()

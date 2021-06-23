@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
-import im.vector.app.core.platform.VectorSharedAction
+import varta.cdac.app.core.platform.VectorSharedAction
 
 /**
  * Supported navigation actions for [HomeActivity]

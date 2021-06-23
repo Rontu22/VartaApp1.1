@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package varta.cdac.app.features.pin
 
 enum class PinMode {
     CREATE,

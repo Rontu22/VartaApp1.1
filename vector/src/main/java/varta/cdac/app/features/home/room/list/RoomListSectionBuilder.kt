@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
-import im.vector.app.features.home.RoomListDisplayMode
+import varta.cdac.app.features.home.RoomListDisplayMode
 
 interface RoomListSectionBuilder {
     fun buildSections(mode: RoomListDisplayMode) : List<RoomsSection>

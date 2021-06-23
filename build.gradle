@@ -82,7 +82,7 @@ apply plugin: 'org.sonarqube'
 sonarqube {
     properties {
         property "sonar.projectName", "Element-Android"
-        property "sonar.projectKey", "im.vector.app.android"
+        property "sonar.projectKey", "varta.cdac.app.android"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.projectVersion", project(":vector").android.defaultConfig.versionName
         property "sonar.sourceEncoding", "UTF-8"

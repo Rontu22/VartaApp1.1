@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
 import android.net.Uri
 import android.os.Bundle
@@ -29,26 +29,26 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.intent.getFilenameFromUri
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentRoomSettingGenericBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.RoomProfileArgs
-import im.vector.app.features.roomprofile.settings.RoomSettingsAction
-import im.vector.app.features.roomprofile.settings.RoomSettingsViewEvents
-import im.vector.app.features.roomprofile.settings.RoomSettingsViewModel
-import im.vector.app.features.roomprofile.settings.RoomSettingsViewState
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleBottomSheet
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.GalleryOrCameraDialogHelper
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.intent.getFilenameFromUri
+import varta.cdac.app.core.platform.OnBackPressed
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.DrawableProvider
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.FragmentRoomSettingGenericBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.roomprofile.RoomProfileArgs
+import varta.cdac.app.features.roomprofile.settings.RoomSettingsAction
+import varta.cdac.app.features.roomprofile.settings.RoomSettingsViewEvents
+import varta.cdac.app.features.roomprofile.settings.RoomSettingsViewModel
+import varta.cdac.app.features.roomprofile.settings.RoomSettingsViewState
+import varta.cdac.app.features.roomprofile.settings.joinrule.RoomJoinRuleBottomSheet
+import varta.cdac.app.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
 import org.matrix.android.sdk.api.session.room.model.GuestAccess
 import org.matrix.android.sdk.api.session.room.model.RoomHistoryVisibility
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules

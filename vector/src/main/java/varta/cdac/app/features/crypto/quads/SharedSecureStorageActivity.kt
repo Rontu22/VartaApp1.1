@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.quads
+package varta.cdac.app.features.crypto.quads
 
 import android.app.Activity
 import android.content.Context
@@ -28,13 +28,13 @@ import androidx.fragment.app.FragmentOnAttachListener
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.features.crypto.recover.SetupMode
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.commitTransaction
+import varta.cdac.app.core.platform.SimpleFragmentActivity
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.features.crypto.recover.SetupMode
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 import kotlin.reflect.KClass

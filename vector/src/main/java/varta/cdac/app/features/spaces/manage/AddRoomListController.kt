@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package varta.cdac.app.features.spaces.manage
 
 import androidx.recyclerview.widget.DiffUtil
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.paging.PagedListEpoxyController
-import im.vector.app.R
-import im.vector.app.core.ui.list.GenericPillItem_
-import im.vector.app.core.utils.createUIHandler
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.list.RoomCategoryItem_
+import varta.cdac.app.R
+import varta.cdac.app.core.ui.list.GenericPillItem_
+import varta.cdac.app.core.utils.createUIHandler
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.list.RoomCategoryItem_
 import org.matrix.android.sdk.api.session.room.ResultBoundaries
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.util.toMatrixItem

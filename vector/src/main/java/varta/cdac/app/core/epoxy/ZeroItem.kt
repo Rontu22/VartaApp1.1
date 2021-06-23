@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package varta.cdac.app.core.epoxy
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import varta.cdac.app.R
 
 /**
  * Item of size (0, 0).

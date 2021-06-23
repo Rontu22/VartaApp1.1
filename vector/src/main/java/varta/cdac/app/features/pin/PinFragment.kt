@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package varta.cdac.app.features.pin
 
 import android.app.Activity
 import android.os.Bundle
@@ -28,14 +28,14 @@ import com.airbnb.mvrx.args
 import com.beautycoder.pflockscreen.PFFLockScreenConfiguration
 import com.beautycoder.pflockscreen.fragments.PFLockScreenFragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentPinBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.FragmentPinBinding
+import varta.cdac.app.features.MainActivity
+import varta.cdac.app.features.MainActivityArgs
+import varta.cdac.app.features.settings.VectorPreferences
 import kotlinx.parcelize.Parcelize
 import kotlinx.coroutines.launch
 import javax.inject.Inject

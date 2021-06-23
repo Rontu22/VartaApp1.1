@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package varta.cdac.app.features.rageshake
 
 import android.content.Context
 import android.content.Intent
@@ -25,10 +25,10 @@ import androidx.core.view.isVisible
 import androidx.core.widget.doOnTextChanged
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityBugReportBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityBugReportBinding
 import org.matrix.android.sdk.api.extensions.tryOrNull
 
 import timber.log.Timber

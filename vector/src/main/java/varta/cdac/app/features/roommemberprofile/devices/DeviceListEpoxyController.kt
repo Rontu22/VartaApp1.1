@@ -14,24 +14,24 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roommemberprofile.devices
+package varta.cdac.app.features.roommemberprofile.devices
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.ItemStyle
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.list.genericWithValueItem
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.ItemStyle
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.core.ui.list.genericItem
+import varta.cdac.app.core.ui.list.genericWithValueItem
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.features.settings.VectorPreferences
 import me.gujun.android.span.span
 import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
 import javax.inject.Inject

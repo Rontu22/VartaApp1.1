@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete
+package varta.cdac.app.features.autocomplete
 
 /**
  * Simple generic listener interface

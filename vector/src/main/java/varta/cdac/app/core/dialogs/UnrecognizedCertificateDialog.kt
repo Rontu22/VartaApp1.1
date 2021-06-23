@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.dialogs
+package varta.cdac.app.core.dialogs
 
 import android.app.Activity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.databinding.DialogSslFingerprintBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.databinding.DialogSslFingerprintBinding
 import org.matrix.android.sdk.internal.network.ssl.Fingerprint
 import timber.log.Timber
 import java.util.HashMap

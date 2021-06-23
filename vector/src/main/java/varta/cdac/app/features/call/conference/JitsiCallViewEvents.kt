@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package varta.cdac.app.features.call.conference
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 import org.jitsi.meet.sdk.JitsiMeetUserInfo
 
 sealed class JitsiCallViewEvents : VectorViewEvents {

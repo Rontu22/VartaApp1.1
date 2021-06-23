@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roommemberprofile.powerlevel
+package varta.cdac.app.features.roommemberprofile.powerlevel
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -22,9 +22,9 @@ import android.view.KeyEvent
 import androidx.annotation.StringRes
 import androidx.core.view.isVisible
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.databinding.DialogEditPowerLevelBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.databinding.DialogEditPowerLevelBinding
 
 import org.matrix.android.sdk.api.session.room.powerlevels.Role
 

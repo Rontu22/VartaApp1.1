@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.image
+package varta.cdac.app.features.home.room.detail.timeline.image
 
-import im.vector.app.features.media.ImageContentRenderer
+import varta.cdac.app.features.media.ImageContentRenderer
 import org.matrix.android.sdk.api.session.events.model.isImageMessage
 import org.matrix.android.sdk.api.session.events.model.isVideoMessage
 import org.matrix.android.sdk.api.session.events.model.toModel

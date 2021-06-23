@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.view.View
 import android.view.ViewStub
@@ -22,11 +22,11 @@ import androidx.annotation.CallSuper
 import androidx.annotation.IdRes
 import androidx.core.view.updateLayoutParams
 import com.airbnb.epoxy.EpoxyAttribute
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.platform.CheckableView
-import im.vector.app.core.utils.DimensionConverter
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.platform.CheckableView
+import varta.cdac.app.core.utils.DimensionConverter
 
 /**
  * Children must override getViewType()

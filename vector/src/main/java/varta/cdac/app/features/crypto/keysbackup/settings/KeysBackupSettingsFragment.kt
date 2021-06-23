@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.settings
+package varta.cdac.app.features.crypto.keysbackup.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,13 +22,13 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentKeysBackupSettingsBinding
-import im.vector.app.features.crypto.keysbackup.restore.KeysBackupRestoreActivity
-import im.vector.app.features.crypto.keysbackup.setup.KeysBackupSetupActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentKeysBackupSettingsBinding
+import varta.cdac.app.features.crypto.keysbackup.restore.KeysBackupRestoreActivity
+import varta.cdac.app.features.crypto.keysbackup.setup.KeysBackupSetupActivity
 
 import javax.inject.Inject
 

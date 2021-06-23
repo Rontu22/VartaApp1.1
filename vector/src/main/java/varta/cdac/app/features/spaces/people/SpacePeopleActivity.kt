@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package varta.cdac.app.features.spaces.people
 
 import android.content.Context
 import android.content.Intent
@@ -22,13 +22,13 @@ import android.os.Bundle
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.MvRx
-import im.vector.app.R
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.platform.GenericIdArgs
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleLoadingBinding
-import im.vector.app.features.spaces.share.ShareSpaceBottomSheet
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.commitTransaction
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.platform.GenericIdArgs
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleLoadingBinding
+import varta.cdac.app.features.spaces.share.ShareSpaceBottomSheet
 
 class SpacePeopleActivity : VectorBaseActivity<ActivitySimpleLoadingBinding>() {
 

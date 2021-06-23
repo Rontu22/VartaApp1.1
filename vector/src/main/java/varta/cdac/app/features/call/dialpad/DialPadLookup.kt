@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.dialpad
+package varta.cdac.app.features.call.dialpad
 
-import im.vector.app.features.call.lookup.pstnLookup
-import im.vector.app.features.call.lookup.sipNativeLookup
-import im.vector.app.features.call.vectorCallService
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.createdirect.DirectRoomHelper
+import varta.cdac.app.features.call.lookup.pstnLookup
+import varta.cdac.app.features.call.lookup.sipNativeLookup
+import varta.cdac.app.features.call.vectorCallService
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.createdirect.DirectRoomHelper
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject
 

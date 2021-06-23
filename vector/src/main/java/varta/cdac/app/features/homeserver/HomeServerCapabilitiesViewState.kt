@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.homeserver
+package varta.cdac.app.features.homeserver
 
 import com.airbnb.mvrx.MvRxState
 import org.matrix.android.sdk.api.session.homeserver.HomeServerCapabilities

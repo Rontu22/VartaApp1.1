@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package varta.cdac.app.features.usercode
 
 import com.airbnb.mvrx.MvRxState
 import org.matrix.android.sdk.api.util.MatrixItem

@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package varta.cdac.app.features.spaces.explore
 
 import android.view.View
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Incomplete
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.Action
-import im.vector.app.core.ui.list.genericEmptyWithActionItem
-import im.vector.app.core.ui.list.genericPillItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.list.spaceChildInfoItem
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.errorWithRetryItem
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.Action
+import varta.cdac.app.core.ui.list.genericEmptyWithActionItem
+import varta.cdac.app.core.ui.list.genericPillItem
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.list.spaceChildInfoItem
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.failure.MatrixError.Companion.M_UNRECOGNIZED

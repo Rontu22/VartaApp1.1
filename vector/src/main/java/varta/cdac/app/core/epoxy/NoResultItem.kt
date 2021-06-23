@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package varta.cdac.app.core.epoxy
 
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import varta.cdac.app.R
 
 @EpoxyModelClass(layout = R.layout.item_no_result)
 abstract class NoResultItem : VectorEpoxyModel<NoResultItem.Holder>() {

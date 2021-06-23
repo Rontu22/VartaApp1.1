@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package varta.cdac.app.features.roomdirectory
 
-import im.vector.app.core.platform.VectorSharedAction
+import varta.cdac.app.core.platform.VectorSharedAction
 
 /**
  * Supported navigation actions for [RoomDirectoryActivity]

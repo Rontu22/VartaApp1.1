@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package varta.cdac.app
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
 import arrow.core.Option
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.utils.BehaviorDataSource
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.ui.UiStateRepository
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.utils.BehaviorDataSource
+import varta.cdac.app.features.session.coroutineScope
+import varta.cdac.app.features.ui.UiStateRepository
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

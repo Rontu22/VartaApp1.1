@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.date
+package varta.cdac.app.core.date
 
 import android.content.Context
 import android.text.format.DateFormat
 import android.text.format.DateUtils
-import im.vector.app.core.resources.DateProvider
-import im.vector.app.core.resources.LocaleProvider
-import im.vector.app.core.resources.toTimestamp
+import varta.cdac.app.core.resources.DateProvider
+import varta.cdac.app.core.resources.LocaleProvider
+import varta.cdac.app.core.resources.toTimestamp
 import org.threeten.bp.LocalDateTime
 import org.threeten.bp.Period
 import org.threeten.bp.format.DateTimeFormatter

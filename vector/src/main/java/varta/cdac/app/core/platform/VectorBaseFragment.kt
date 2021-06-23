@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.core.platform
+package varta.cdac.app.core.platform
 
 import android.app.ProgressDialog
 import android.content.Context
@@ -36,14 +36,14 @@ import com.airbnb.mvrx.BaseMvRxFragment
 import com.bumptech.glide.util.Util.assertMainThread
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.jakewharton.rxbinding3.view.clicks
-import im.vector.app.R
-import im.vector.app.core.di.DaggerScreenComponent
-import im.vector.app.core.di.HasScreenInjector
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.dialogs.UnrecognizedCertificateDialog
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.features.navigation.Navigator
+import varta.cdac.app.R
+import varta.cdac.app.core.di.DaggerScreenComponent
+import varta.cdac.app.core.di.HasScreenInjector
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.dialogs.UnrecognizedCertificateDialog
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.toMvRxBundle
+import varta.cdac.app.features.navigation.Navigator
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable

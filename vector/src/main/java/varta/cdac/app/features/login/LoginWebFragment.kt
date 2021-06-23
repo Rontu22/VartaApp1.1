@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -32,11 +32,11 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.airbnb.mvrx.activityViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.utils.AssetReader
-import im.vector.app.databinding.FragmentLoginWebBinding
-import im.vector.app.features.signout.soft.SoftLogoutAction
-import im.vector.app.features.signout.soft.SoftLogoutViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.utils.AssetReader
+import varta.cdac.app.databinding.FragmentLoginWebBinding
+import varta.cdac.app.features.signout.soft.SoftLogoutAction
+import varta.cdac.app.features.signout.soft.SoftLogoutViewModel
 
 import org.matrix.android.sdk.api.auth.data.Credentials
 import org.matrix.android.sdk.internal.di.MoshiProvider

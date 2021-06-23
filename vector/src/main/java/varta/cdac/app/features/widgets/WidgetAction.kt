@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package varta.cdac.app.features.widgets
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class WidgetAction : VectorViewModelAction {
     data class OnWebViewStartedToLoad(val url: String) : WidgetAction()

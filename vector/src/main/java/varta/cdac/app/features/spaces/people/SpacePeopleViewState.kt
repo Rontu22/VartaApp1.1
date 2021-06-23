@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package varta.cdac.app.features.spaces.people
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.core.platform.GenericIdArgs
+import varta.cdac.app.core.platform.GenericIdArgs
 
 data class SpacePeopleViewState(
         val spaceId: String,

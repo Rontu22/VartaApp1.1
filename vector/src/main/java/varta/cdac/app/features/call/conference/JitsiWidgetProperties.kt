@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package varta.cdac.app.features.call.conference
 
 data class JitsiWidgetProperties(
         val domain: String,

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.error
+package varta.cdac.app.core.error
 
 import android.content.Context
 import androidx.annotation.StringRes
 import androidx.core.text.HtmlCompat
-import im.vector.app.R
+import varta.cdac.app.R
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.failure.MatrixError
 

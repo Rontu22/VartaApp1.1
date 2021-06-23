@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
 import android.content.Context
 import android.content.Intent
@@ -23,17 +23,17 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.matrixto.MatrixToBottomSheet
-import im.vector.app.features.spaces.explore.SpaceDirectoryArgs
-import im.vector.app.features.spaces.explore.SpaceDirectoryFragment
-import im.vector.app.features.spaces.explore.SpaceDirectoryState
-import im.vector.app.features.spaces.explore.SpaceDirectoryViewEvents
-import im.vector.app.features.spaces.explore.SpaceDirectoryViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.commitTransaction
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.matrixto.MatrixToBottomSheet
+import varta.cdac.app.features.spaces.explore.SpaceDirectoryArgs
+import varta.cdac.app.features.spaces.explore.SpaceDirectoryFragment
+import varta.cdac.app.features.spaces.explore.SpaceDirectoryState
+import varta.cdac.app.features.spaces.explore.SpaceDirectoryViewEvents
+import varta.cdac.app.features.spaces.explore.SpaceDirectoryViewModel
 import javax.inject.Inject
 
 class SpaceExploreActivity : VectorBaseActivity<ActivitySimpleBinding>(), SpaceDirectoryViewModel.Factory, MatrixToBottomSheet.InteractionListener {

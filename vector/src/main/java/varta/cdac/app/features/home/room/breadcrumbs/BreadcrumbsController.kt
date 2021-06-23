@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.breadcrumbs
+package varta.cdac.app.features.home.room.breadcrumbs
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.core.epoxy.zeroItem
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.core.epoxy.zeroItem
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject
 

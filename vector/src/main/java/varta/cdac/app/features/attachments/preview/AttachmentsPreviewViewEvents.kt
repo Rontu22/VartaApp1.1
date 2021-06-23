@@ -15,8 +15,8 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package varta.cdac.app.features.attachments.preview
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class AttachmentsPreviewViewEvents : VectorViewEvents

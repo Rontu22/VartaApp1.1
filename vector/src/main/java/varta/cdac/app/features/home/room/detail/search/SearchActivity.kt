@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.search
+package varta.cdac.app.features.home.room.detail.search
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.widget.SearchView
 import com.airbnb.mvrx.MvRx
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySearchBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySearchBinding
 
 class SearchActivity : VectorBaseActivity<ActivitySearchBinding>() {
 

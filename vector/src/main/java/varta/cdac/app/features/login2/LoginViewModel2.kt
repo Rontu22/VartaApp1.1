@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.content.Context
 import android.net.Uri
@@ -27,18 +27,18 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.configureAndStart
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.tryAsync
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.ensureTrailingSlash
-import im.vector.app.features.login.HomeServerConnectionConfigFactory
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.ReAuthHelper
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.extensions.configureAndStart
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.tryAsync
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.ensureTrailingSlash
+import varta.cdac.app.features.login.HomeServerConnectionConfigFactory
+import varta.cdac.app.features.login.LoginConfig
+import varta.cdac.app.features.login.LoginMode
+import varta.cdac.app.features.login.ReAuthHelper
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.auth.AuthenticationService

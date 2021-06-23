@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.group
+package varta.cdac.app.features.autocomplete.group
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.autocomplete.autocompleteMatrixItem
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.features.autocomplete.AutocompleteClickListener
+import varta.cdac.app.features.autocomplete.autocompleteMatrixItem
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.group.model.GroupSummary
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

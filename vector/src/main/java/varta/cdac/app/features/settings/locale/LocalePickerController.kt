@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.locale
+package varta.cdac.app.features.settings.locale
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.epoxy.profiles.profileSectionItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.safeCapitalize
-import im.vector.app.features.settings.VectorLocale
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.epoxy.noResultItem
+import varta.cdac.app.core.epoxy.profiles.profileSectionItem
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.utils.safeCapitalize
+import varta.cdac.app.features.settings.VectorLocale
+import varta.cdac.app.features.settings.VectorPreferences
 import java.util.Locale
 import javax.inject.Inject
 

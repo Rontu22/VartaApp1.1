@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.room
+package varta.cdac.app.features.room
 
 import com.airbnb.mvrx.MvRxState
-import im.vector.app.features.roommemberprofile.RoomMemberProfileArgs
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import varta.cdac.app.features.roommemberprofile.RoomMemberProfileArgs
+import varta.cdac.app.features.roomprofile.RoomProfileArgs
 
 data class RequireActiveMembershipViewState(
         val roomId: String? = null

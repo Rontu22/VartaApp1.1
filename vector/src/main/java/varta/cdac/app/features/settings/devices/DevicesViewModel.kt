@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices
+package varta.cdac.app.features.settings.devices
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.Async
@@ -29,11 +29,11 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.auth.ReAuthActivity
-import im.vector.app.features.login.ReAuthHelper
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.auth.ReAuthActivity
+import varta.cdac.app.features.login.ReAuthHelper
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import kotlinx.coroutines.Dispatchers

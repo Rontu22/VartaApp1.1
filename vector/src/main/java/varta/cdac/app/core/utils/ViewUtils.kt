@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package varta.cdac.app.core.utils
 
 import android.text.Editable
 import android.view.ViewGroup
 import androidx.core.view.children
 import com.google.android.material.textfield.TextInputLayout
-import im.vector.app.core.platform.SimpleTextWatcher
+import varta.cdac.app.core.platform.SimpleTextWatcher
 
 /**
  * Find all TextInputLayout in a ViewGroup and in all its descendants

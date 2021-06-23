@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
-import im.vector.app.features.home.room.filtered.FilteredRoomFooterItem
+import varta.cdac.app.features.home.room.filtered.FilteredRoomFooterItem
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo
 

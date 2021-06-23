@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.invite
+package varta.cdac.app.features.spaces.invite
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class SpaceInviteBottomSheetAction : VectorViewModelAction {
     object DoJoin : SpaceInviteBottomSheetAction()

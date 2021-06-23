@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package varta.cdac.app.features.html
 
 import io.noties.markwon.MarkwonVisitor
 import io.noties.markwon.SpannableBuilder

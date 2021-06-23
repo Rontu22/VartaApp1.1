@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads
+package varta.cdac.app.features.roomprofile.uploads
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import im.vector.app.features.roomprofile.uploads.files.RoomUploadsFilesFragment
-import im.vector.app.features.roomprofile.uploads.media.RoomUploadsMediaFragment
+import varta.cdac.app.features.roomprofile.uploads.files.RoomUploadsFilesFragment
+import varta.cdac.app.features.roomprofile.uploads.media.RoomUploadsMediaFragment
 
 class RoomUploadsPagerAdapter(
         private val fragment: Fragment

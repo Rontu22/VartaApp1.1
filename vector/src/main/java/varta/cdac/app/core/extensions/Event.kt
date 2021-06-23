@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
-import im.vector.app.core.resources.DateProvider
+import varta.cdac.app.core.resources.DateProvider
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.threeten.bp.LocalDateTime
 

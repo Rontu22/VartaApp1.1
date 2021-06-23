@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.command
+package varta.cdac.app.features.command
 
 import androidx.annotation.StringRes
-import im.vector.app.R
+import varta.cdac.app.R
 
 /**
  * Defines the command line operations

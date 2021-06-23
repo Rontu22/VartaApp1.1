@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package varta.cdac.app.core.preference
 
 import android.animation.Animator
 import android.animation.ArgbEvaluator
@@ -31,8 +31,8 @@ import androidx.core.animation.doOnEnd
 import androidx.core.widget.ImageViewCompat
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import im.vector.app.R
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.features.themes.ThemeUtils
 import timber.log.Timber
 
 /**

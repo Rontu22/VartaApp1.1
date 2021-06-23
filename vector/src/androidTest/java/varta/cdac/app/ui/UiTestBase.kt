@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui
+package varta.cdac.app.ui
 
 import androidx.test.espresso.Espresso.closeSoftKeyboard
 import androidx.test.espresso.Espresso.onView
@@ -25,10 +25,10 @@ import com.schibsted.spain.barista.assertion.BaristaEnabledAssertions.assertEnab
 import com.schibsted.spain.barista.assertion.BaristaVisibilityAssertions.assertDisplayed
 import com.schibsted.spain.barista.interaction.BaristaClickInteractions.clickOn
 import com.schibsted.spain.barista.interaction.BaristaEditTextInteractions.writeTo
-import im.vector.app.R
-import im.vector.app.espresso.tools.waitUntilActivityVisible
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.waitForView
+import varta.cdac.app.R
+import varta.cdac.app.espresso.tools.waitUntilActivityVisible
+import varta.cdac.app.features.home.HomeActivity
+import varta.cdac.app.waitForView
 
 class UiTestBase {
     fun createAccount(userId: String, password: String = "password", homeServerUrl: String = "http://10.0.2.2:8080") {

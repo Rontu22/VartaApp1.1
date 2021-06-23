@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.format
+package varta.cdac.app.features.home.room.detail.timeline.format
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
 import org.matrix.android.sdk.api.session.room.model.RoomHistoryVisibility
 import javax.inject.Inject
 

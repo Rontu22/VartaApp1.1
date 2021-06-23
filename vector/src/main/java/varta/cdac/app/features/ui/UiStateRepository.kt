@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.ui
+package varta.cdac.app.features.ui
 
-import im.vector.app.features.home.RoomListDisplayMode
+import varta.cdac.app.features.home.RoomListDisplayMode
 
 /**
  * This interface is used to persist UI state across application restart

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.emoji
+package varta.cdac.app.features.autocomplete.emoji
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.autocomplete.RecyclerViewPresenter
-import im.vector.app.features.reactions.data.EmojiDataSource
+import varta.cdac.app.features.autocomplete.AutocompleteClickListener
+import varta.cdac.app.features.autocomplete.RecyclerViewPresenter
+import varta.cdac.app.features.reactions.data.EmojiDataSource
 import javax.inject.Inject
 
 class AutocompleteEmojiPresenter @Inject constructor(context: Context,

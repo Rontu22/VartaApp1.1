@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.media
+package varta.cdac.app.features.media
 
 import android.content.Context
 import android.content.Intent
@@ -30,16 +30,16 @@ import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.transition.Transition
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.DaggerScreenComponent
-import im.vector.app.core.di.HasVectorInjector
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.di.VectorComponent
-import im.vector.app.core.intent.getMimeTypeFromUri
-import im.vector.app.core.utils.shareMedia
-import im.vector.app.features.themes.ActivityOtherThemes
-import im.vector.app.features.themes.ThemeUtils
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.DaggerScreenComponent
+import varta.cdac.app.core.di.HasVectorInjector
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.di.VectorComponent
+import varta.cdac.app.core.intent.getMimeTypeFromUri
+import varta.cdac.app.core.utils.shareMedia
+import varta.cdac.app.features.themes.ActivityOtherThemes
+import varta.cdac.app.features.themes.ThemeUtils
 import im.vector.lib.attachmentviewer.AttachmentCommands
 import im.vector.lib.attachmentviewer.AttachmentViewerActivity
 import kotlinx.coroutines.Dispatchers

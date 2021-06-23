@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions.widget
+package varta.cdac.app.features.reactions.widget
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -33,11 +33,11 @@ import androidx.annotation.ColorRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.content.withStyledAttributes
-import im.vector.app.EmojiCompatWrapper
-import im.vector.app.R
-import im.vector.app.core.di.HasScreenInjector
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.databinding.ReactionButtonBinding
+import varta.cdac.app.EmojiCompatWrapper
+import varta.cdac.app.R
+import varta.cdac.app.core.di.HasScreenInjector
+import varta.cdac.app.core.utils.TextUtils
+import varta.cdac.app.databinding.ReactionButtonBinding
 import javax.inject.Inject
 
 /**

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.content.Context
 import android.graphics.Typeface
@@ -21,9 +21,9 @@ import android.util.AttributeSet
 import android.view.View
 import android.widget.LinearLayout
 import androidx.core.content.withStyledAttributes
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.ViewPollResultLineBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.databinding.ViewPollResultLineBinding
 
 class PollResultLineView @JvmOverloads constructor(
         context: Context,

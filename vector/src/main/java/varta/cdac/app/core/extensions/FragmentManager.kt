@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 import androidx.fragment.app.FragmentTransaction
 import org.matrix.android.sdk.api.extensions.tryOrNull

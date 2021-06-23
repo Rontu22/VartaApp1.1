@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package varta.cdac.app.core.dialogs
 
 import android.app.Activity
 import android.text.Editable
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.databinding.DialogExportE2eKeysBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.platform.SimpleTextWatcher
+import varta.cdac.app.databinding.DialogExportE2eKeysBinding
 
 class ExportKeysDialog {
 

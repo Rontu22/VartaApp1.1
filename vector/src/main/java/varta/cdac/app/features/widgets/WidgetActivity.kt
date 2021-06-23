@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package varta.cdac.app.features.widgets
 
 import android.app.Activity
 import android.content.Context
@@ -23,16 +23,16 @@ import com.google.android.material.appbar.MaterialToolbar
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityWidgetBinding
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionBottomSheet
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionViewEvents
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionViewModel
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionViewState
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityWidgetBinding
+import varta.cdac.app.features.widgets.permissions.RoomWidgetPermissionBottomSheet
+import varta.cdac.app.features.widgets.permissions.RoomWidgetPermissionViewEvents
+import varta.cdac.app.features.widgets.permissions.RoomWidgetPermissionViewModel
+import varta.cdac.app.features.widgets.permissions.RoomWidgetPermissionViewState
 
 import org.matrix.android.sdk.api.session.events.model.Content
 import java.io.Serializable

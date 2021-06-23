@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.attachments
+package varta.cdac.app.features.attachments
 
 import android.app.Activity
 import android.content.Context
@@ -21,9 +21,9 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.activity.result.ActivityResultLauncher
-import im.vector.app.core.dialogs.PhotoOrVideoDialog
-import im.vector.app.core.platform.Restorable
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.core.dialogs.PhotoOrVideoDialog
+import varta.cdac.app.core.platform.Restorable
+import varta.cdac.app.features.settings.VectorPreferences
 import im.vector.lib.multipicker.MultiPicker
 import org.matrix.android.sdk.BuildConfig
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

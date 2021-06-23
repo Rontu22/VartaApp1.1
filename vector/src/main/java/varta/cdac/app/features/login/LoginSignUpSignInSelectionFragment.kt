@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,9 +22,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentLoginSignupSigninSelectionBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.toReducedUrl
+import varta.cdac.app.databinding.FragmentLoginSignupSigninSelectionBinding
 
 import javax.inject.Inject
 

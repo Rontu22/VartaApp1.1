@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package varta.cdac.app.features.crypto.recover
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -27,13 +27,13 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentBootstrapSaveKeyBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.startSharePlainTextIntent
+import varta.cdac.app.core.utils.toast
+import varta.cdac.app.databinding.FragmentBootstrapSaveKeyBinding
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

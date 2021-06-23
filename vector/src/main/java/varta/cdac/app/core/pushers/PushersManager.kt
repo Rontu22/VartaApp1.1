@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package varta.cdac.app.core.pushers
 
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.resources.AppNameProvider
-import im.vector.app.core.resources.LocaleProvider
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.resources.AppNameProvider
+import varta.cdac.app.core.resources.LocaleProvider
+import varta.cdac.app.core.resources.StringProvider
 import java.util.UUID
 import javax.inject.Inject
 import kotlin.math.abs

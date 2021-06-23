@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import androidx.annotation.StringRes
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.RoomGroupingMethod
+import varta.cdac.app.R
+import varta.cdac.app.RoomGroupingMethod
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.session.sync.SyncState
 import org.matrix.android.sdk.api.util.MatrixItem

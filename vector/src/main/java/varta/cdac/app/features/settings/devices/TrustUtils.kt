@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices
+package varta.cdac.app.features.settings.devices
 
 import org.matrix.android.sdk.api.crypto.RoomEncryptionTrustLevel
 import org.matrix.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package varta.cdac.app.features.discovery
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Async
@@ -22,15 +22,15 @@ import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.attributes.ButtonStyle
-import im.vector.app.core.epoxy.attributes.ButtonType
-import im.vector.app.core.epoxy.attributes.IconMode
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.getFormattedValue
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.attributes.ButtonStyle
+import varta.cdac.app.core.epoxy.attributes.ButtonType
+import varta.cdac.app.core.epoxy.attributes.IconMode
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.getFormattedValue
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.session.identity.SharedState
 import org.matrix.android.sdk.api.session.identity.ThreePid

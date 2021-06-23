@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.lifecycle
+package varta.cdac.app.features.lifecycle
 
 import android.app.Activity
 import android.app.Application
 import android.os.Bundle
-import im.vector.app.features.popup.PopupAlertManager
+import varta.cdac.app.features.popup.PopupAlertManager
 
 class VectorActivityLifecycleCallbacks constructor(private val popupAlertManager: PopupAlertManager) : Application.ActivityLifecycleCallbacks {
     override fun onActivityPaused(activity: Activity) {

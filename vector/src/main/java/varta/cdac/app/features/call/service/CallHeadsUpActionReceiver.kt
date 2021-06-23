@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.service
+package varta.cdac.app.features.call.service
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import im.vector.app.core.di.HasVectorInjector
-import im.vector.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.core.di.HasVectorInjector
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
 import timber.log.Timber
 
 class CallHeadsUpActionReceiver : BroadcastReceiver() {

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.push
+package varta.cdac.app.features.settings.push
 
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
 import org.matrix.android.sdk.api.session.pushers.Pusher
 
 @EpoxyModelClass(layout = R.layout.item_pushgateway)

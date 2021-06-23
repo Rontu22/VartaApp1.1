@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.webview
+package varta.cdac.app.features.webview
 
 import android.content.Context
 import android.content.Intent
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import androidx.annotation.CallSuper
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityVectorWebViewBinding
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityVectorWebViewBinding
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject
 

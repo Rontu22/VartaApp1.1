@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package varta.cdac.app.features.share
 
 import android.app.Activity
 import android.content.ClipDescription
@@ -30,17 +30,17 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentIncomingShareBinding
-import im.vector.app.features.attachments.AttachmentsHelper
-import im.vector.app.features.attachments.preview.AttachmentsPreviewActivity
-import im.vector.app.features.attachments.preview.AttachmentsPreviewArgs
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentIncomingShareBinding
+import varta.cdac.app.features.attachments.AttachmentsHelper
+import varta.cdac.app.features.attachments.preview.AttachmentsPreviewActivity
+import varta.cdac.app.features.attachments.preview.AttachmentsPreviewArgs
 
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

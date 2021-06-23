@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
 import androidx.annotation.StringRes
-import im.vector.app.AppStateHandler
-import im.vector.app.R
-import im.vector.app.RoomGroupingMethod
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.RoomListDisplayMode
+import varta.cdac.app.AppStateHandler
+import varta.cdac.app.R
+import varta.cdac.app.RoomGroupingMethod
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.RoomListDisplayMode
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.coroutines.CoroutineScope

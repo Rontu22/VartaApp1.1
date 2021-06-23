@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package varta.cdac.app.features.devtools
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,9 +23,9 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentDevtoolsEditorBinding
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentDevtoolsEditorBinding
 import javax.inject.Inject
 
 class RoomDevToolEditFragment @Inject constructor()

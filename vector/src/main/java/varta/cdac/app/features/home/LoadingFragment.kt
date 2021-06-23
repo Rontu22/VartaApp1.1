@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentLoadingBinding
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentLoadingBinding
 
 import javax.inject.Inject
 

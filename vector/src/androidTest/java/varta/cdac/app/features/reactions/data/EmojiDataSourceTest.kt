@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.reactions.data
+package varta.cdac.app.features.reactions.data
 
-import im.vector.app.InstrumentedTest
+import varta.cdac.app.InstrumentedTest
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.FixMethodOrder

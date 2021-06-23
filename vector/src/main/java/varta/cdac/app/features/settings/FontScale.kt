@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package varta.cdac.app.features.settings
 
 import android.content.Context
 import androidx.annotation.StringRes
 import androidx.core.content.edit
-import im.vector.app.R
-import im.vector.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.di.DefaultSharedPreferences
 
 /**
  * Object to manage the Font Scale choice of the user

@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.prevOrNull
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MergedTimelineEventVisibilityStateChangedListener
-import im.vector.app.features.home.room.detail.timeline.helper.RoomSummariesHolder
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineEventVisibilityHelper
-import im.vector.app.features.home.room.detail.timeline.helper.canBeMerged
-import im.vector.app.features.home.room.detail.timeline.helper.isRoomConfiguration
-import im.vector.app.features.home.room.detail.timeline.item.BasedMergedItem
-import im.vector.app.features.home.room.detail.timeline.item.MergedMembershipEventsItem
-import im.vector.app.features.home.room.detail.timeline.item.MergedMembershipEventsItem_
-import im.vector.app.features.home.room.detail.timeline.item.MergedRoomCreationItem
-import im.vector.app.features.home.room.detail.timeline.item.MergedRoomCreationItem_
-import im.vector.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.extensions.prevOrNull
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.MergedTimelineEventVisibilityStateChangedListener
+import varta.cdac.app.features.home.room.detail.timeline.helper.RoomSummariesHolder
+import varta.cdac.app.features.home.room.detail.timeline.helper.TimelineEventVisibilityHelper
+import varta.cdac.app.features.home.room.detail.timeline.helper.canBeMerged
+import varta.cdac.app.features.home.room.detail.timeline.helper.isRoomConfiguration
+import varta.cdac.app.features.home.room.detail.timeline.item.BasedMergedItem
+import varta.cdac.app.features.home.room.detail.timeline.item.MergedMembershipEventsItem
+import varta.cdac.app.features.home.room.detail.timeline.item.MergedMembershipEventsItem_
+import varta.cdac.app.features.home.room.detail.timeline.item.MergedRoomCreationItem
+import varta.cdac.app.features.home.room.detail.timeline.item.MergedRoomCreationItem_
+import varta.cdac.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.events.model.EventType

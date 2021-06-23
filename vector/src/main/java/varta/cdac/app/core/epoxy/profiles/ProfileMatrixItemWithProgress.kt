@@ -15,13 +15,13 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package varta.cdac.app.core.epoxy.profiles
 
 import android.widget.ProgressBar
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import varta.cdac.app.R
 
 @EpoxyModelClass(layout = R.layout.item_profile_matrix_item_progress)
 abstract class ProfileMatrixItemWithProgress : BaseProfileMatrixItem<ProfileMatrixItemWithProgress.Holder>() {

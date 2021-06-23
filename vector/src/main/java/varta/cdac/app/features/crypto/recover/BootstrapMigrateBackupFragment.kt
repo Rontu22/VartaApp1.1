@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package varta.cdac.app.features.crypto.recover
 
 import android.app.Activity
 import android.os.Bundle
@@ -31,15 +31,15 @@ import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import com.jakewharton.rxbinding3.widget.editorActionEvents
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.core.utils.startImportTextFromFileIntent
-import im.vector.app.databinding.FragmentBootstrapMigrateBackupBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.colorizeMatchingText
+import varta.cdac.app.core.utils.startImportTextFromFileIntent
+import varta.cdac.app.databinding.FragmentBootstrapMigrateBackupBinding
 import io.reactivex.android.schedulers.AndroidSchedulers
 
 import org.matrix.android.sdk.api.extensions.tryOrNull

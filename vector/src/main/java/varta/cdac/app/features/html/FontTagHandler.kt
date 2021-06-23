@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.html
+package varta.cdac.app.features.html
 
 import android.graphics.Color
 import android.text.style.BackgroundColorSpan

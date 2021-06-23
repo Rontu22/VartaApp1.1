@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package varta.cdac.app.features.home.room.detail.timeline.helper
 
-import im.vector.app.core.utils.DimensionConverter
+import varta.cdac.app.core.utils.DimensionConverter
 import javax.inject.Inject
 
 class AvatarSizeProvider @Inject constructor(private val dimensionConverter: DimensionConverter) {

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.quads
+package varta.cdac.app.features.crypto.quads
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.core.platform.WaitingViewData
+import varta.cdac.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.WaitingViewData
 
 sealed class SharedSecureStorageAction : VectorViewModelAction {
 

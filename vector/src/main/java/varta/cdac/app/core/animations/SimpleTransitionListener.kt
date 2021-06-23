@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.animations
+package varta.cdac.app.core.animations
 
 import androidx.transition.Transition
 

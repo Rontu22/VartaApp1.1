@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package varta.cdac.app.features.html
 
 import android.graphics.Color
 import android.os.Build
@@ -24,7 +24,7 @@ import android.text.Spanned
 import android.text.style.ForegroundColorSpan
 import android.text.style.StrikethroughSpan
 import android.text.style.UnderlineSpan
-import im.vector.app.InstrumentedTest
+import varta.cdac.app.InstrumentedTest
 import org.amshove.kluent.shouldBeEqualTo
 import org.amshove.kluent.shouldBeTrue
 import org.junit.FixMethodOrder

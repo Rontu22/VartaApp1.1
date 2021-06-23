@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import com.airbnb.mvrx.MvRx
-import im.vector.app.R
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.spaces.preview.SpacePreviewArgs
-import im.vector.app.features.spaces.preview.SpacePreviewFragment
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.commitTransaction
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.spaces.preview.SpacePreviewArgs
+import varta.cdac.app.features.spaces.preview.SpacePreviewFragment
 
 class SpacePreviewActivity : VectorBaseActivity<ActivitySimpleBinding>() {
 

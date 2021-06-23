@@ -9,7 +9,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/emojiPickerWholeListFragmentContainer"
-        android:name="im.vector.app.features.reactions.EmojiChooserFragment"
+        android:name="varta.cdac.app.features.reactions.EmojiChooserFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -17,10 +17,12 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/emojiPickerFilteredListFragmentContainer"
-        android:name="im.vector.app.features.reactions.EmojiSearchResultFragment"
+        android:name="varta.cdac.app.features.reactions.EmojiSearchResultFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
+        app:layout_anchor="@+id/emojiPickerWholeListFragmentContainer"
+        app:layout_anchorGravity="center"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:visibility="visible" />
 

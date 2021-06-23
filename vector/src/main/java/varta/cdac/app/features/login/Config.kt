@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 const val EMS_LINK = "https://element.io/matrix-services" +
         "?utm_source=element-android" +

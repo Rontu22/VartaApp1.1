@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices
+package varta.cdac.app.features.settings.devices
 
 import android.graphics.Typeface
 import android.view.ViewGroup
@@ -22,14 +22,14 @@ import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.ui.views.ShieldImageView
-import im.vector.app.core.utils.DimensionConverter
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.ui.views.ShieldImageView
+import varta.cdac.app.core.utils.DimensionConverter
 import me.gujun.android.span.span
 import org.matrix.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
 import org.matrix.android.sdk.internal.crypto.model.rest.DeviceInfo

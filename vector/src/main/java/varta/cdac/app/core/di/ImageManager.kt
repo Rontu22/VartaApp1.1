@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package varta.cdac.app.core.di
 
 import android.content.Context
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.model.GlideUrl
 import com.github.piasy.biv.BigImageViewer
 import com.github.piasy.biv.loader.glide.GlideImageLoader
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.core.glide.FactoryUrl
+import varta.cdac.app.ActiveSessionDataSource
+import varta.cdac.app.core.glide.FactoryUrl
 import org.matrix.android.sdk.api.session.Session
 import java.io.InputStream
 import javax.inject.Inject

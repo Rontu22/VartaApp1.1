@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import im.vector.app.core.utils.Debouncer
+import varta.cdac.app.core.utils.Debouncer
 
 /**
  * Show or hide the jumpToBottomView, depending on the scrolling and if the timeline is displaying the more recent event

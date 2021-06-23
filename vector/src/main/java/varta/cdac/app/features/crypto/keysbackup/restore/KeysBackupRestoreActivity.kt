@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package varta.cdac.app.features.crypto.keysbackup.restore
 
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.observeEvent
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.ui.views.KeysBackupBanner
-import im.vector.app.features.crypto.quads.SharedSecureStorageActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.addFragmentToBackstack
+import varta.cdac.app.core.extensions.observeEvent
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.SimpleFragmentActivity
+import varta.cdac.app.core.ui.views.KeysBackupBanner
+import varta.cdac.app.features.crypto.quads.SharedSecureStorageActivity
 import org.matrix.android.sdk.api.session.crypto.crosssigning.KEYBACKUP_SECRET_SSSS_NAME
 
 class KeysBackupRestoreActivity : SimpleFragmentActivity() {

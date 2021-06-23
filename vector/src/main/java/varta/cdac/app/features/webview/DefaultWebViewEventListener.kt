@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.webview
+package varta.cdac.app.features.webview
 
 import timber.log.Timber
 

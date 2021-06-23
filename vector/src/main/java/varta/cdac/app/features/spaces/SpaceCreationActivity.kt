@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package varta.cdac.app.features.spaces
 
 import android.content.Context
 import android.content.Intent
@@ -24,20 +24,20 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.features.spaces.create.ChoosePrivateSpaceTypeFragment
-import im.vector.app.features.spaces.create.ChooseSpaceTypeFragment
-import im.vector.app.features.spaces.create.CreateSpaceAction
-import im.vector.app.features.spaces.create.CreateSpaceDefaultRoomsFragment
-import im.vector.app.features.spaces.create.CreateSpaceDetailsFragment
-import im.vector.app.features.spaces.create.CreateSpaceEvents
-import im.vector.app.features.spaces.create.CreateSpaceState
-import im.vector.app.features.spaces.create.CreateSpaceViewModel
-import im.vector.app.features.spaces.create.SpaceTopology
-import im.vector.app.features.spaces.create.SpaceType
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.toMvRxBundle
+import varta.cdac.app.core.platform.SimpleFragmentActivity
+import varta.cdac.app.features.spaces.create.ChoosePrivateSpaceTypeFragment
+import varta.cdac.app.features.spaces.create.ChooseSpaceTypeFragment
+import varta.cdac.app.features.spaces.create.CreateSpaceAction
+import varta.cdac.app.features.spaces.create.CreateSpaceDefaultRoomsFragment
+import varta.cdac.app.features.spaces.create.CreateSpaceDetailsFragment
+import varta.cdac.app.features.spaces.create.CreateSpaceEvents
+import varta.cdac.app.features.spaces.create.CreateSpaceState
+import varta.cdac.app.features.spaces.create.CreateSpaceViewModel
+import varta.cdac.app.features.spaces.create.SpaceTopology
+import varta.cdac.app.features.spaces.create.SpaceType
 import javax.inject.Inject
 
 class SpaceCreationActivity : SimpleFragmentActivity(), CreateSpaceViewModel.Factory {

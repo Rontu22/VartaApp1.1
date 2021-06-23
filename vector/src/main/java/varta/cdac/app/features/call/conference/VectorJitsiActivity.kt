@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package varta.cdac.app.features.call.conference
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -34,11 +34,11 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.viewModel
 import com.facebook.react.modules.core.PermissionListener
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityJitsiBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityJitsiBinding
 import kotlinx.parcelize.Parcelize
 import org.jitsi.meet.sdk.BroadcastEvent
 import org.jitsi.meet.sdk.JitsiMeetActivityDelegate

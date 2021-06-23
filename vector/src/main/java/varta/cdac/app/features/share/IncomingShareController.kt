@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package varta.cdac.app.features.share
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Incomplete
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.list.RoomSummaryItemFactory
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.loadingItem
+import varta.cdac.app.core.epoxy.noResultItem
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.room.list.RoomSummaryItemFactory
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import javax.inject.Inject
 

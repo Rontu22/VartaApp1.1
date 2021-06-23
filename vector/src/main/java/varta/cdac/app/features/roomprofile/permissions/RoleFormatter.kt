@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.permissions
+package varta.cdac.app.features.roomprofile.permissions
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
 import org.matrix.android.sdk.api.session.room.powerlevels.Role
 import javax.inject.Inject
 

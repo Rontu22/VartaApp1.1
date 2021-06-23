@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package varta.cdac.app.features.call
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.features.call.audio.CallAudioManager
+import varta.cdac.app.core.platform.VectorViewEvents
+import varta.cdac.app.features.call.audio.CallAudioManager
 import org.matrix.android.sdk.api.session.call.TurnServerResponse
 
 sealed class VectorCallViewEvents : VectorViewEvents {

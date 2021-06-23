@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package varta.cdac.app.features.reactions
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.EmojiChooserFragmentBinding
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.EmojiChooserFragmentBinding
 
 import javax.inject.Inject
 

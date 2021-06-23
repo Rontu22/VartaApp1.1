@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package varta.cdac.app
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import im.vector.app.test.shared.createTimberTestRule
+import varta.cdac.app.test.shared.createTimberTestRule
 import org.junit.Rule
 
 interface InstrumentedTest {

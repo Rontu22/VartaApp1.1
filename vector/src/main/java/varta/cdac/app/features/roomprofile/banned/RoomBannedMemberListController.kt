@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.banned
+package varta.cdac.app.features.roomprofile.banned
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.epoxy.profiles.profileMatrixItemWithProgress
-import im.vector.app.core.extensions.join
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.members.RoomMemberSummaryFilter
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.dividerItem
+import varta.cdac.app.core.epoxy.profiles.buildProfileSection
+import varta.cdac.app.core.epoxy.profiles.profileMatrixItemWithProgress
+import varta.cdac.app.core.extensions.join
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.core.ui.list.genericFooterItem
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.roomprofile.members.RoomMemberSummaryFilter
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

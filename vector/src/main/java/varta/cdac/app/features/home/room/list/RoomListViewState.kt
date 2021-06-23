@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package varta.cdac.app.features.home.room.list
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.RoomGroupingMethod
-import im.vector.app.features.home.RoomListDisplayMode
+import varta.cdac.app.RoomGroupingMethod
+import varta.cdac.app.features.home.RoomListDisplayMode
 import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo
 

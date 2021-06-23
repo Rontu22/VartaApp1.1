@@ -44,7 +44,7 @@
             android:textColor="?vctr_content_secondary"
             app:layout_constraintBottom_toTopOf="@id/publicButton" />
 
-        <im.vector.app.features.spaces.create.WizardButtonView
+        <varta.cdac.app.features.spaces.create.WizardButtonView
             android:id="@+id/publicButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             app:subTitle="@string/space_type_public_desc"
             app:title="@string/space_type_public" />
 
-        <im.vector.app.features.spaces.create.WizardButtonView
+        <varta.cdac.app.features.spaces.create.WizardButtonView
             android:id="@+id/privateButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

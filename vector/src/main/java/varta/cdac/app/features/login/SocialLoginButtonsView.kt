@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package varta.cdac.app.features.login
 
 import android.content.Context
 import android.util.AttributeSet
@@ -24,7 +24,7 @@ import android.view.View
 import android.widget.LinearLayout
 import androidx.core.view.children
 import com.google.android.material.button.MaterialButton
-import im.vector.app.R
+import varta.cdac.app.R
 import org.matrix.android.sdk.api.auth.data.SsoIdentityProvider
 
 class SocialLoginButtonsView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyle: Int = 0)

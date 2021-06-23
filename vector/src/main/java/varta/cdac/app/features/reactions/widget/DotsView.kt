@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions.widget
+package varta.cdac.app.features.reactions.widget
 
 import android.animation.ArgbEvaluator
 import android.content.Context

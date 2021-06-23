@@ -6,7 +6,7 @@
     android:background="?colorSurface"
     android:orientation="vertical">
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/dialerChoiceDialPad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         app:tint="?vctr_content_primary"
         app:titleTextColor="?vctr_content_primary" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/dialerChoiceVoiceCall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

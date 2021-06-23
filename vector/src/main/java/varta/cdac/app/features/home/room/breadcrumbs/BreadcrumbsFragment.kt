@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.breadcrumbs
+package varta.cdac.app.features.home.room.breadcrumbs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,12 +22,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentBreadcrumbsBinding
-import im.vector.app.features.home.room.detail.RoomDetailSharedAction
-import im.vector.app.features.home.room.detail.RoomDetailSharedActionViewModel
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentBreadcrumbsBinding
+import varta.cdac.app.features.home.room.detail.RoomDetailSharedAction
+import varta.cdac.app.features.home.room.detail.RoomDetailSharedActionViewModel
 
 import javax.inject.Inject
 

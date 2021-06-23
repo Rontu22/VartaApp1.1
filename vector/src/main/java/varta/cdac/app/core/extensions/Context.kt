@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package varta.cdac.app.core.extensions
 
 import android.content.Context
-import im.vector.app.core.di.HasVectorInjector
-import im.vector.app.core.di.VectorComponent
+import varta.cdac.app.core.di.HasVectorInjector
+import varta.cdac.app.core.di.VectorComponent
 
 fun Context.vectorComponent(): VectorComponent {
     val appContext = applicationContext

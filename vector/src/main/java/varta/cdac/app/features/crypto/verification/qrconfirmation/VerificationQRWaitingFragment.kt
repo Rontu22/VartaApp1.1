@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification.qrconfirmation
+package varta.cdac.app.features.crypto.verification.qrconfirmation
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -22,10 +22,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.MvRx
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.BottomSheetVerificationChildFragmentBinding
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.BottomSheetVerificationChildFragmentBinding
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

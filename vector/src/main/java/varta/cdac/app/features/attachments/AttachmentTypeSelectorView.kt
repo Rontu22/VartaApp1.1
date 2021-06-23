@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package varta.cdac.app.features.attachments
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -36,13 +36,13 @@ import android.widget.PopupWindow
 import androidx.core.view.doOnNextLayout
 import com.amulyakhare.textdrawable.TextDrawable
 import com.amulyakhare.textdrawable.util.ColorGenerator
-import im.vector.app.R
-import im.vector.app.core.extensions.getMeasurements
-import im.vector.app.core.utils.PERMISSIONS_EMPTY
-import im.vector.app.core.utils.PERMISSIONS_FOR_PICKING_CONTACT
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.databinding.ViewAttachmentTypeSelectorBinding
-import im.vector.app.features.attachments.AttachmentTypeSelectorView.Callback
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.getMeasurements
+import varta.cdac.app.core.utils.PERMISSIONS_EMPTY
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_PICKING_CONTACT
+import varta.cdac.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import varta.cdac.app.databinding.ViewAttachmentTypeSelectorBinding
+import varta.cdac.app.features.attachments.AttachmentTypeSelectorView.Callback
 import kotlin.math.max
 
 private const val ANIMATION_DURATION = 250

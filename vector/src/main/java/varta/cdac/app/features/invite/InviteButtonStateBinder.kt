@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.invite
+package varta.cdac.app.features.invite
 
 import androidx.core.view.isInvisible
-import im.vector.app.core.platform.ButtonStateView
+import varta.cdac.app.core.platform.ButtonStateView
 import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
 
 object InviteButtonStateBinder {

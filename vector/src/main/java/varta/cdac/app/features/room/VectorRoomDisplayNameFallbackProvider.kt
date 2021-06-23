@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.room
+package varta.cdac.app.features.room
 
 import android.content.Context
-import im.vector.app.R
+import varta.cdac.app.R
 import org.matrix.android.sdk.api.RoomDisplayNameFallbackProvider
 
 class VectorRoomDisplayNameFallbackProvider(

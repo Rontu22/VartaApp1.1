@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.raw.wellknown
+package varta.cdac.app.features.raw.wellknown
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

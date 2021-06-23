@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import android.net.Uri
 import androidx.annotation.IdRes
@@ -32,29 +32,29 @@ import com.jakewharton.rxrelay2.PublishRelay
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.mvrx.runCatchingToAsync
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.call.conference.JitsiService
-import im.vector.app.features.call.lookup.CallProtocolsChecker
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.command.CommandParser
-import im.vector.app.features.command.ParsedCommand
-import im.vector.app.features.createdirect.DirectRoomHelper
-import im.vector.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy
-import im.vector.app.features.crypto.verification.SupportedVerificationMethodsProvider
-import im.vector.app.features.home.room.detail.composer.rainbow.RainbowGenerator
-import im.vector.app.features.home.room.detail.sticker.StickerPickerActionHandler
-import im.vector.app.features.home.room.detail.timeline.helper.RoomSummariesHolder
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineSettingsFactory
-import im.vector.app.features.home.room.detail.timeline.url.PreviewUrlRetriever
-import im.vector.app.features.home.room.typing.TypingHelper
-import im.vector.app.features.powerlevel.PowerLevelsObservableFactory
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.mvrx.runCatchingToAsync
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.call.conference.JitsiService
+import varta.cdac.app.features.call.lookup.CallProtocolsChecker
+import varta.cdac.app.features.call.webrtc.WebRtcCallManager
+import varta.cdac.app.features.command.CommandParser
+import varta.cdac.app.features.command.ParsedCommand
+import varta.cdac.app.features.createdirect.DirectRoomHelper
+import varta.cdac.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy
+import varta.cdac.app.features.crypto.verification.SupportedVerificationMethodsProvider
+import varta.cdac.app.features.home.room.detail.composer.rainbow.RainbowGenerator
+import varta.cdac.app.features.home.room.detail.sticker.StickerPickerActionHandler
+import varta.cdac.app.features.home.room.detail.timeline.helper.RoomSummariesHolder
+import varta.cdac.app.features.home.room.detail.timeline.helper.TimelineSettingsFactory
+import varta.cdac.app.features.home.room.detail.timeline.url.PreviewUrlRetriever
+import varta.cdac.app.features.home.room.typing.TypingHelper
+import varta.cdac.app.features.powerlevel.PowerLevelsObservableFactory
+import varta.cdac.app.features.session.coroutineScope
+import varta.cdac.app.features.settings.VectorPreferences
 import io.reactivex.Observable
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.schedulers.Schedulers

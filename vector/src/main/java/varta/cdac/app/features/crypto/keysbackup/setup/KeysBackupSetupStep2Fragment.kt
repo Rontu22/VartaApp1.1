@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.setup
+package varta.cdac.app.features.crypto.keysbackup.setup
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,11 +24,11 @@ import androidx.core.widget.doOnTextChanged
 import androidx.lifecycle.viewModelScope
 import androidx.transition.TransitionManager
 import com.nulabinc.zxcvbn.Zxcvbn
-import im.vector.app.R
-import im.vector.app.core.extensions.showPassword
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentKeysBackupSetupStep2Binding
-import im.vector.app.features.settings.VectorLocale
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.showPassword
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.databinding.FragmentKeysBackupSetupStep2Binding
+import varta.cdac.app.features.settings.VectorLocale
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject

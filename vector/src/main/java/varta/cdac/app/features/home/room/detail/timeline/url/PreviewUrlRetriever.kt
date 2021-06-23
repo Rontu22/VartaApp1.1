@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.url
+package varta.cdac.app.features.home.room.detail.timeline.url
 
-import im.vector.app.BuildConfig
+import varta.cdac.app.BuildConfig
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

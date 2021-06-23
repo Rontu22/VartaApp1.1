@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package varta.cdac.app.features.pin
 
 import android.os.SystemClock
 import androidx.lifecycle.Lifecycle
@@ -22,7 +22,7 @@ import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.OnLifecycleEvent
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.features.settings.VectorPreferences
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import timber.log.Timber

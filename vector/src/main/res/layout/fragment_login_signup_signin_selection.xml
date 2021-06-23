@@ -107,7 +107,7 @@
                     android:text="@string/login_social_continue"
                     android:textColor="?vctr_content_secondary" />
 
-                <im.vector.app.features.login.SocialLoginButtonsView
+                <varta.cdac.app.features.login.SocialLoginButtonsView
                     android:id="@+id/loginSignupSigninSocialLoginButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

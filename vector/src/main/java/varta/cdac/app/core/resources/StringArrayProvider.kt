@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.resources
+package varta.cdac.app.core.resources
 
 import android.content.res.Resources
 import androidx.annotation.ArrayRes

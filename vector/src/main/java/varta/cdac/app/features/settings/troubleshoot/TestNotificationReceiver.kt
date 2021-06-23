@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.troubleshoot
+package varta.cdac.app.features.settings.troubleshoot
 
 import android.content.BroadcastReceiver
 import android.content.Context

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features
+package varta.cdac.app.features
 
 import android.app.Activity
 import android.content.Intent
@@ -24,27 +24,27 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.startSyncing
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.deleteAllFiles
-import im.vector.app.databinding.ActivityMainBinding
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.home.ShortcutsHandler
-import im.vector.app.features.notifications.NotificationDrawerManager
-import im.vector.app.features.pin.PinCodeStore
-import im.vector.app.features.pin.PinLocker
-import im.vector.app.features.pin.UnlockedActivity
-import im.vector.app.features.popup.PopupAlertManager
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.signout.hard.SignedOutActivity
-import im.vector.app.features.signout.soft.SoftLogoutActivity
-import im.vector.app.features.signout.soft.SoftLogoutActivity2
-import im.vector.app.features.themes.ActivityOtherThemes
-import im.vector.app.features.ui.UiStateRepository
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.startSyncing
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.core.utils.deleteAllFiles
+import varta.cdac.app.databinding.ActivityMainBinding
+import varta.cdac.app.features.home.HomeActivity
+import varta.cdac.app.features.home.ShortcutsHandler
+import varta.cdac.app.features.notifications.NotificationDrawerManager
+import varta.cdac.app.features.pin.PinCodeStore
+import varta.cdac.app.features.pin.PinLocker
+import varta.cdac.app.features.pin.UnlockedActivity
+import varta.cdac.app.features.popup.PopupAlertManager
+import varta.cdac.app.features.settings.VectorPreferences
+import varta.cdac.app.features.signout.hard.SignedOutActivity
+import varta.cdac.app.features.signout.soft.SoftLogoutActivity
+import varta.cdac.app.features.signout.soft.SoftLogoutActivity2
+import varta.cdac.app.features.themes.ActivityOtherThemes
+import varta.cdac.app.features.ui.UiStateRepository
 import kotlinx.parcelize.Parcelize
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

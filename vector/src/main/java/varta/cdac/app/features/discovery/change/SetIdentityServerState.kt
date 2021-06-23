@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery.change
+package varta.cdac.app.features.discovery.change
 
 import com.airbnb.mvrx.MvRxState
 

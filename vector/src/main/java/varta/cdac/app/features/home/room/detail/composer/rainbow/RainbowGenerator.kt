@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.rainbow
+package varta.cdac.app.features.home.room.detail.composer.rainbow
 
-import im.vector.app.core.utils.splitEmoji
+import varta.cdac.app.core.utils.splitEmoji
 import javax.inject.Inject
 import kotlin.math.cos
 import kotlin.math.pow

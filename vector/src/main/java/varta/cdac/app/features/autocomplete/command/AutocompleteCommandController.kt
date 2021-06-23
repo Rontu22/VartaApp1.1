@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.command
+package varta.cdac.app.features.autocomplete.command
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.command.Command
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.autocomplete.AutocompleteClickListener
+import varta.cdac.app.features.command.Command
 import javax.inject.Inject
 
 class AutocompleteCommandController @Inject constructor(private val stringProvider: StringProvider) : TypedEpoxyController<List<Command>>() {

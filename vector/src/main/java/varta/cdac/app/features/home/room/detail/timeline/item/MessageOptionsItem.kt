@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -22,11 +22,11 @@ import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.button.MaterialButton
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.features.home.room.detail.RoomDetailAction
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.features.home.room.detail.RoomDetailAction
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
 import org.matrix.android.sdk.api.session.room.model.message.MessageOptionsContent
 
 @EpoxyModelClass(layout = R.layout.item_timeline_event_base)

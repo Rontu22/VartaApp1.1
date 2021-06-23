@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package varta.cdac.app.features.spaces.preview
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MvRxState

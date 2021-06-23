@@ -25,7 +25,7 @@
         android:layout_marginTop="@dimen/layout_vertical_margin"
         android:background="?vctr_list_separator_on_surface" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/bootstrapSetupSecureSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         app:rightIcon="@drawable/ic_arrow_right"
         app:tint="?colorSecondary" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/bootstrapSetupSecureUseSecurityKey"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/bootstrapSetupSecureUseSecurityPassphrase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

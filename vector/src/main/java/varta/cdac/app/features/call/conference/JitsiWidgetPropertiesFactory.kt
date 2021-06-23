@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package varta.cdac.app.features.call.conference
 
 import android.net.Uri
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.resources.StringProvider
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import java.net.URLDecoder
 import javax.inject.Inject

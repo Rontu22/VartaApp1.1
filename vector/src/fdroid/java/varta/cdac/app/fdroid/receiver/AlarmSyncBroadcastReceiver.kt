@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.fdroid.receiver
+package varta.cdac.app.fdroid.receiver
 
 import android.app.AlarmManager
 import android.app.PendingIntent
@@ -24,8 +24,8 @@ import android.content.Intent
 import android.os.Build
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
-import im.vector.app.core.di.HasVectorInjector
-import im.vector.app.core.services.VectorSyncService
+import varta.cdac.app.core.di.HasVectorInjector
+import varta.cdac.app.core.services.VectorSyncService
 import org.matrix.android.sdk.internal.session.sync.job.SyncService
 import timber.log.Timber
 

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.bottomsheet
+package varta.cdac.app.core.ui.bottomsheet
 
-import im.vector.app.core.epoxy.bottomsheet.BottomSheetRadioActionItem_
-import im.vector.app.core.platform.VectorSharedAction
+import varta.cdac.app.core.epoxy.bottomsheet.BottomSheetRadioActionItem_
+import varta.cdac.app.core.platform.VectorSharedAction
 
 /**
  * Parent class for a bottom sheet action

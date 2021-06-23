@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.session
+package varta.cdac.app.features.session
 
 import org.matrix.android.sdk.api.session.Session
 import kotlin.reflect.KProperty

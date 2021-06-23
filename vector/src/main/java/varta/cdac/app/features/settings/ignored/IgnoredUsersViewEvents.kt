@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.settings.ignored
+package varta.cdac.app.features.settings.ignored
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 /**
  * Transient events for Ignored users screen

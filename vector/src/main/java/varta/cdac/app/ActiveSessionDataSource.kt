@@ -15,10 +15,10 @@
  *
  */
 
-package im.vector.app
+package varta.cdac.app
 
 import arrow.core.Option
-import im.vector.app.core.utils.BehaviorDataSource
+import varta.cdac.app.core.utils.BehaviorDataSource
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject
 import javax.inject.Singleton

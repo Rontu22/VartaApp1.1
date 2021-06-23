@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
 import androidx.annotation.IntRange
 import androidx.core.content.ContextCompat
-import im.vector.app.R
-import im.vector.app.databinding.ViewPasswordStrengthBarBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ViewPasswordStrengthBarBinding
 
 /**
  * A password strength bar custom widget

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.services
+package varta.cdac.app.core.services
 
 import android.content.BroadcastReceiver
 import android.content.Context

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysbackup.setup
+package varta.cdac.app.features.crypto.keysbackup.setup
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.nulabinc.zxcvbn.Strength
-import im.vector.app.R
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.utils.LiveEvent
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.WaitingViewData
+import varta.cdac.app.core.utils.LiveEvent
 import org.matrix.android.sdk.api.MatrixCallback
 import org.matrix.android.sdk.api.listeners.ProgressListener
 import org.matrix.android.sdk.api.session.Session

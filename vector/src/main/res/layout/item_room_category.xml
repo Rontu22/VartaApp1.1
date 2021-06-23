@@ -31,7 +31,7 @@
         tools:drawableEnd="@drawable/ic_expand_more"
         tools:text="@string/room_participants_header_direct_chats" />
 
-    <im.vector.app.features.home.room.list.UnreadCounterBadgeView
+    <varta.cdac.app.features.home.room.list.UnreadCounterBadgeView
         android:id="@+id/roomCategoryUnreadCounterBadgeView"
         style="@style/Widget.Vector.TextView.Micro"
         android:layout_width="wrap_content"

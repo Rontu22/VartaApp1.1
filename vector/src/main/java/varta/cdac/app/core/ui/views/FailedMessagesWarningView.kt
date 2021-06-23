@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package varta.cdac.app.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.databinding.ViewFailedMessagesWarningBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ViewFailedMessagesWarningBinding
 
 class FailedMessagesWarningView @JvmOverloads constructor(
         context: Context,

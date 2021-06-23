@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.command
+package varta.cdac.app.features.autocomplete.command
 
 import android.text.Spannable
 import com.otaliastudios.autocomplete.AutocompletePolicy

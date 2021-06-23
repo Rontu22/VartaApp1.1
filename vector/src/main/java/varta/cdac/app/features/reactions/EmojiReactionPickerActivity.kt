@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package varta.cdac.app.features.reactions
 
 import android.app.Activity
 import android.content.Context
@@ -28,13 +28,13 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.tabs.TabLayout
 import com.jakewharton.rxbinding3.widget.queryTextChanges
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.observeEvent
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityEmojiReactionPickerBinding
-import im.vector.app.features.reactions.data.EmojiDataSource
+import varta.cdac.app.EmojiCompatFontProvider
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.observeEvent
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityEmojiReactionPickerBinding
+import varta.cdac.app.features.reactions.data.EmojiDataSource
 import io.reactivex.android.schedulers.AndroidSchedulers
 
 import timber.log.Timber

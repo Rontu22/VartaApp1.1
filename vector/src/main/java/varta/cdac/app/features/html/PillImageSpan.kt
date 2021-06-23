@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.features.html
+package varta.cdac.app.features.html
 
 import android.content.Context
 import android.graphics.Canvas
@@ -28,9 +28,9 @@ import androidx.annotation.UiThread
 import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.transition.Transition
 import com.google.android.material.chip.ChipDrawable
-import im.vector.app.R
-import im.vector.app.core.glide.GlideRequests
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.glide.GlideRequests
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.room.send.MatrixItemSpan
 import org.matrix.android.sdk.api.util.MatrixItem
 import java.lang.ref.WeakReference

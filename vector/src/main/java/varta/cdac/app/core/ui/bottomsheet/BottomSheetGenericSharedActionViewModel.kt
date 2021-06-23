@@ -14,10 +14,10 @@
  * limitations under the License.
  *
  */
-package im.vector.app.core.ui.bottomsheet
+package varta.cdac.app.core.ui.bottomsheet
 
-import im.vector.app.core.platform.VectorSharedAction
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import varta.cdac.app.core.platform.VectorSharedAction
+import varta.cdac.app.core.platform.VectorSharedActionViewModel
 
 /**
  * Activity shared view model to handle bottom sheet quick actions

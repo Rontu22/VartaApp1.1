@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.action
+package varta.cdac.app.features.home.room.detail.timeline.action
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import im.vector.app.R
-import im.vector.app.core.platform.VectorSharedAction
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorSharedAction
+import varta.cdac.app.features.home.room.detail.timeline.item.MessageInformationData
 import org.matrix.android.sdk.api.session.room.model.message.MessageContent
 import org.matrix.android.sdk.api.session.room.model.message.MessageWithAttachmentContent
 

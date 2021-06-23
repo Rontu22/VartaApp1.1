@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package varta.cdac.app.features.crypto.recover
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,11 +23,11 @@ import android.view.ViewGroup
 import androidx.core.text.toSpannable
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.databinding.FragmentBootstrapConclusionBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.colorizeMatchingText
+import varta.cdac.app.databinding.FragmentBootstrapConclusionBinding
 
 import javax.inject.Inject
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.format.NoticeEventFormatter
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.item.NoticeItem
-import im.vector.app.features.home.room.detail.timeline.item.NoticeItem_
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.format.NoticeEventFormatter
+import varta.cdac.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import varta.cdac.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import varta.cdac.app.features.home.room.detail.timeline.item.NoticeItem
+import varta.cdac.app.features.home.room.detail.timeline.item.NoticeItem_
 import javax.inject.Inject
 
 class NoticeItemFactory @Inject constructor(private val eventFormatter: NoticeEventFormatter,

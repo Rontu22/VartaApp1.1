@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package varta.cdac.app.features.home.room.detail
 
 import android.content.Context
 import android.content.Intent
@@ -24,20 +24,20 @@ import com.google.android.material.appbar.MaterialToolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.airbnb.mvrx.viewModel
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityRoomDetailBinding
-import im.vector.app.features.home.room.breadcrumbs.BreadcrumbsFragment
-import im.vector.app.features.room.RequireActiveMembershipAction
-import im.vector.app.features.room.RequireActiveMembershipViewEvents
-import im.vector.app.features.room.RequireActiveMembershipViewModel
-import im.vector.app.features.room.RequireActiveMembershipViewState
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionViewModel
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionViewState
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.core.extensions.replaceFragment
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivityRoomDetailBinding
+import varta.cdac.app.features.home.room.breadcrumbs.BreadcrumbsFragment
+import varta.cdac.app.features.room.RequireActiveMembershipAction
+import varta.cdac.app.features.room.RequireActiveMembershipViewEvents
+import varta.cdac.app.features.room.RequireActiveMembershipViewModel
+import varta.cdac.app.features.room.RequireActiveMembershipViewState
+import varta.cdac.app.features.widgets.permissions.RoomWidgetPermissionViewModel
+import varta.cdac.app.features.widgets.permissions.RoomWidgetPermissionViewState
 
 import javax.inject.Inject
 

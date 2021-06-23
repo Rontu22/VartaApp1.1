@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.ignored
+package varta.cdac.app.features.settings.ignored
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.noResultItem
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.user.model.User
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

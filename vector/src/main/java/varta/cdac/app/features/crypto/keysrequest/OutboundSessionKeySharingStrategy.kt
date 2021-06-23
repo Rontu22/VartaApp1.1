@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysrequest
+package varta.cdac.app.features.crypto.keysrequest
 
 enum class OutboundSessionKeySharingStrategy {
     /**

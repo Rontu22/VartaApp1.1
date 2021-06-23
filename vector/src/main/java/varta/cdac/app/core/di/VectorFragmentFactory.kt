@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.core.di
+package varta.cdac.app.core.di
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentFactory

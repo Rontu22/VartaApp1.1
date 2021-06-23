@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package varta.cdac.app.features.rageshake
 
 import android.content.Context
 import android.hardware.Sensor
@@ -23,11 +23,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.getSystemService
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.squareup.seismic.ShakeDetector
-import im.vector.app.R
-import im.vector.app.core.hardware.vibrate
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.VectorSettingsActivity
+import varta.cdac.app.R
+import varta.cdac.app.core.hardware.vibrate
+import varta.cdac.app.features.navigation.Navigator
+import varta.cdac.app.features.settings.VectorPreferences
+import varta.cdac.app.features.settings.VectorSettingsActivity
 import javax.inject.Inject
 
 class RageShake @Inject constructor(private val activity: AppCompatActivity,

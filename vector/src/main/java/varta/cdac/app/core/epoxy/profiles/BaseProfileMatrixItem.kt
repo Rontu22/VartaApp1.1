@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy.profiles
+package varta.cdac.app.core.epoxy.profiles
 
 import androidx.annotation.CallSuper
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.crypto.RoomEncryptionTrustLevel
 import org.matrix.android.sdk.api.util.MatrixItem
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.reactions
+package varta.cdac.app.features.reactions
 
 import android.content.Context
 import android.graphics.Canvas

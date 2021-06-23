@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.readreceipts
+package varta.cdac.app.features.home.room.detail.readreceipts
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -23,15 +23,15 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.args
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListWithTitleBinding
-import im.vector.app.features.home.room.detail.timeline.action.EventSharedAction
-import im.vector.app.features.home.room.detail.timeline.action.MessageSharedActionViewModel
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptData
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.platform.VectorBaseBottomSheetDialogFragment
+import varta.cdac.app.databinding.BottomSheetGenericListWithTitleBinding
+import varta.cdac.app.features.home.room.detail.timeline.action.EventSharedAction
+import varta.cdac.app.features.home.room.detail.timeline.action.MessageSharedActionViewModel
+import varta.cdac.app.features.home.room.detail.timeline.item.ReadReceiptData
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

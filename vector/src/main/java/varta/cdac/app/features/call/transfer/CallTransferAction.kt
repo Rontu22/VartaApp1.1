@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.transfer
+package varta.cdac.app.features.call.transfer
 
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class CallTransferAction : VectorViewModelAction {
     data class ConnectWithUserId(val consultFirst: Boolean, val selectedUserId: String) : CallTransferAction()

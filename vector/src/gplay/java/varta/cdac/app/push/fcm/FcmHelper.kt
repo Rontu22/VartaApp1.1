@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.push.fcm
+package varta.cdac.app.push.fcm
 
 import android.app.Activity
 import android.content.Context
@@ -22,11 +22,11 @@ import androidx.core.content.edit
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
 import com.google.firebase.messaging.FirebaseMessaging
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.DefaultSharedPreferences
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.features.settings.VectorPreferences
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ActiveSessionHolder
+import varta.cdac.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.core.pushers.PushersManager
+import varta.cdac.app.features.settings.VectorPreferences
 import timber.log.Timber
 
 /**

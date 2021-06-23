@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package varta.cdac.app.features.userdirectory
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

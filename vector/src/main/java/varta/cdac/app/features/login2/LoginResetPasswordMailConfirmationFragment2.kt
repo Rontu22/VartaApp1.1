@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login2
+package varta.cdac.app.features.login2
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.databinding.FragmentLoginResetPasswordMailConfirmation2Binding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.FragmentLoginResetPasswordMailConfirmation2Binding
 import org.matrix.android.sdk.api.failure.is401
 import javax.inject.Inject
 

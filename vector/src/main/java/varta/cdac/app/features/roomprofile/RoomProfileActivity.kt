@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roomprofile
+package varta.cdac.app.features.roomprofile
 
 import android.content.Context
 import android.content.Intent
@@ -23,24 +23,24 @@ import android.widget.Toast
 import com.google.android.material.appbar.MaterialToolbar
 import com.airbnb.mvrx.MvRx
 import com.airbnb.mvrx.viewModel
-import im.vector.app.R
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.home.room.detail.RoomDetailPendingActionStore
-import im.vector.app.features.room.RequireActiveMembershipViewEvents
-import im.vector.app.features.room.RequireActiveMembershipViewModel
-import im.vector.app.features.room.RequireActiveMembershipViewState
-import im.vector.app.features.roomprofile.banned.RoomBannedMemberListFragment
-import im.vector.app.features.roomprofile.members.RoomMemberListFragment
-import im.vector.app.features.roomprofile.settings.RoomSettingsFragment
-import im.vector.app.features.roomprofile.alias.RoomAliasFragment
-import im.vector.app.features.roomprofile.permissions.RoomPermissionsFragment
-import im.vector.app.features.roomprofile.uploads.RoomUploadsFragment
+import varta.cdac.app.R
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.extensions.addFragment
+import varta.cdac.app.core.extensions.addFragmentToBackstack
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.ToolbarConfigurable
+import varta.cdac.app.core.platform.VectorBaseActivity
+import varta.cdac.app.databinding.ActivitySimpleBinding
+import varta.cdac.app.features.home.room.detail.RoomDetailPendingActionStore
+import varta.cdac.app.features.room.RequireActiveMembershipViewEvents
+import varta.cdac.app.features.room.RequireActiveMembershipViewModel
+import varta.cdac.app.features.room.RequireActiveMembershipViewState
+import varta.cdac.app.features.roomprofile.banned.RoomBannedMemberListFragment
+import varta.cdac.app.features.roomprofile.members.RoomMemberListFragment
+import varta.cdac.app.features.roomprofile.settings.RoomSettingsFragment
+import varta.cdac.app.features.roomprofile.alias.RoomAliasFragment
+import varta.cdac.app.features.roomprofile.permissions.RoomPermissionsFragment
+import varta.cdac.app.features.roomprofile.uploads.RoomUploadsFragment
 import javax.inject.Inject
 
 class RoomProfileActivity :

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package varta.cdac.app.features.crypto.recover
 
 import androidx.lifecycle.viewModelScope
 import com.airbnb.mvrx.Fail
@@ -28,14 +28,14 @@ import com.nulabinc.zxcvbn.Zxcvbn
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.auth.ReAuthActivity
-import im.vector.app.features.login.ReAuthHelper
+import varta.cdac.app.R
+import varta.cdac.app.core.error.ErrorFormatter
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.platform.VectorViewModel
+import varta.cdac.app.core.platform.WaitingViewData
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.auth.ReAuthActivity
+import varta.cdac.app.features.login.ReAuthHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor

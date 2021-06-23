@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.list.actions
+package varta.cdac.app.features.home.room.list.actions
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetActionItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetRoomPreviewItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
+import varta.cdac.app.core.epoxy.bottomSheetDividerItem
+import varta.cdac.app.core.epoxy.bottomsheet.bottomSheetActionItem
+import varta.cdac.app.core.epoxy.bottomsheet.bottomSheetRoomPreviewItem
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

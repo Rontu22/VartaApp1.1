@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug
+package varta.cdac.app.features.debug
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import im.vector.app.R
-import im.vector.app.databinding.ActivityTestLinkifyBinding
-import im.vector.app.databinding.ItemTestLinkifyBinding
+import varta.cdac.app.R
+import varta.cdac.app.databinding.ActivityTestLinkifyBinding
+import varta.cdac.app.databinding.ItemTestLinkifyBinding
 
 class TestLinkifyActivity : AppCompatActivity() {
 

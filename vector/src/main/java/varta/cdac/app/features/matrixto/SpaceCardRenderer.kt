@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.matrixto
+package varta.cdac.app.features.matrixto
 
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.databinding.FragmentMatrixToRoomSpaceCardBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
-import im.vector.app.features.home.room.detail.timeline.tools.linkify
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.core.resources.StringProvider
+import varta.cdac.app.databinding.FragmentMatrixToRoomSpaceCardBinding
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
+import varta.cdac.app.features.home.room.detail.timeline.tools.linkify
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo
 import org.matrix.android.sdk.api.session.user.model.User

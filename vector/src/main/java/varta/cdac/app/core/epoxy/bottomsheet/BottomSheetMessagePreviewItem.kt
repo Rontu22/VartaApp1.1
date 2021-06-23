@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.core.epoxy.bottomsheet
+package varta.cdac.app.core.epoxy.bottomsheet
 
 import android.text.method.MovementMethod
 import android.widget.ImageView
@@ -22,15 +22,15 @@ import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.tools.findPillsAndProcess
-import im.vector.app.features.media.ImageContentRenderer
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.core.epoxy.VectorEpoxyModel
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.extensions.setTextOrHide
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.tools.findPillsAndProcess
+import varta.cdac.app.features.media.ImageContentRenderer
 import org.matrix.android.sdk.api.util.MatrixItem
 
 /**

@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.webrtc
+package varta.cdac.app.features.call.webrtc
 
 import android.content.Context
 import android.hardware.camera2.CameraManager
 import androidx.core.content.getSystemService
-import im.vector.app.core.services.CallService
-import im.vector.app.core.utils.CountUpTimer
-import im.vector.app.core.utils.TextUtils.formatDuration
-import im.vector.app.features.call.CameraEventsHandlerAdapter
-import im.vector.app.features.call.CameraProxy
-import im.vector.app.features.call.CameraType
-import im.vector.app.features.call.CaptureFormat
-import im.vector.app.features.call.VectorCallActivity
-import im.vector.app.features.call.lookup.sipNativeLookup
-import im.vector.app.features.call.utils.asWebRTC
-import im.vector.app.features.call.utils.awaitCreateAnswer
-import im.vector.app.features.call.utils.awaitCreateOffer
-import im.vector.app.features.call.utils.awaitSetLocalDescription
-import im.vector.app.features.call.utils.awaitSetRemoteDescription
-import im.vector.app.features.call.utils.mapToCallCandidate
-import im.vector.app.features.session.coroutineScope
+import varta.cdac.app.core.services.CallService
+import varta.cdac.app.core.utils.CountUpTimer
+import varta.cdac.app.core.utils.TextUtils.formatDuration
+import varta.cdac.app.features.call.CameraEventsHandlerAdapter
+import varta.cdac.app.features.call.CameraProxy
+import varta.cdac.app.features.call.CameraType
+import varta.cdac.app.features.call.CaptureFormat
+import varta.cdac.app.features.call.VectorCallActivity
+import varta.cdac.app.features.call.lookup.sipNativeLookup
+import varta.cdac.app.features.call.utils.asWebRTC
+import varta.cdac.app.features.call.utils.awaitCreateAnswer
+import varta.cdac.app.features.call.utils.awaitCreateOffer
+import varta.cdac.app.features.call.utils.awaitSetLocalDescription
+import varta.cdac.app.features.call.utils.awaitSetRemoteDescription
+import varta.cdac.app.features.call.utils.mapToCallCandidate
+import varta.cdac.app.features.session.coroutineScope
 import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
 import io.reactivex.subjects.ReplaySubject

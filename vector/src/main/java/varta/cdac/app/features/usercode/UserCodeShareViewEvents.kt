@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package varta.cdac.app.features.usercode
 
-import im.vector.app.core.platform.VectorViewEvents
+import varta.cdac.app.core.platform.VectorViewEvents
 
 sealed class UserCodeShareViewEvents : VectorViewEvents {
     object Dismiss : UserCodeShareViewEvents()

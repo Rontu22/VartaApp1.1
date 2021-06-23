@@ -35,7 +35,7 @@
                     app:layout_constraintTop_toTopOf="parent"
                     tools:src="@sample/room_round_avatars" />
 
-                <im.vector.app.core.ui.views.ShieldImageView
+                <varta.cdac.app.core.ui.views.ShieldImageView
                     android:id="@+id/roomToolbarDecorationImageView"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
@@ -92,7 +92,7 @@
         app:barrierDirection="top"
         app:constraint_referenced_ids="composerLayout,notificationAreaView,failedMessagesWarningView" />
 
-    <im.vector.app.features.sync.widget.SyncStateView
+    <varta.cdac.app.features.sync.widget.SyncStateView
         android:id="@+id/syncStateView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/appBarLayout" />
 
-    <im.vector.app.core.ui.views.CurrentCallsView
+    <varta.cdac.app.core.ui.views.CurrentCallsView
         android:id="@+id/activeCallView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
         app:layout_constraintTop_toBottomOf="@id/syncStateView"
         tools:visibility="visible" />
 
-    <im.vector.app.core.ui.views.ActiveConferenceView
+    <varta.cdac.app.core.ui.views.ActiveConferenceView
         android:id="@+id/activeConferenceView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/activeConferenceView">
 
-        <!--        <im.vector.app.features.home.room.detail.widget.RoomWidgetsBannerView-->
+        <!--        <varta.cdac.app.features.home.room.detail.widget.RoomWidgetsBannerView-->
         <!--            android:id="@+id/roomWidgetsBannerView"-->
         <!--            android:layout_width="match_parent"-->
         <!--            android:layout_height="wrap_content"-->
@@ -145,7 +145,7 @@
         <!--            android:visibility="gone"-->
         <!--            tools:visibility="visible" />-->
 
-        <im.vector.app.core.ui.views.JumpToReadMarkerView
+        <varta.cdac.app.core.ui.views.JumpToReadMarkerView
             android:id="@+id/jumpToReadMarkerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -154,7 +154,7 @@
 
     </FrameLayout>
 
-    <im.vector.app.core.ui.views.NotificationAreaView
+    <varta.cdac.app.core.ui.views.NotificationAreaView
         android:id="@+id/notificationAreaView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <im.vector.app.core.ui.views.FailedMessagesWarningView
+    <varta.cdac.app.core.ui.views.FailedMessagesWarningView
         android:id="@+id/failedMessagesWarningView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:visibility="visible" />
 
-    <im.vector.app.features.home.room.detail.composer.TextComposerView
+    <varta.cdac.app.features.home.room.detail.composer.TextComposerView
         android:id="@+id/composerLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -184,7 +184,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <im.vector.app.features.invite.VectorInviteView
+    <varta.cdac.app.features.invite.VectorInviteView
         android:id="@+id/inviteView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -224,7 +224,7 @@
 
     </com.google.android.material.card.MaterialCardView>
 
-    <im.vector.app.core.platform.BadgeFloatingActionButton
+    <varta.cdac.app.core.platform.BadgeFloatingActionButton
         android:id="@+id/jumpToBottomView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

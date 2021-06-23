@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.VectorEpoxyHolder
 
 @EpoxyModelClass(layout = R.layout.item_timeline_event_day_separator)
 abstract class DaySeparatorItem : EpoxyModelWithHolder<DaySeparatorItem.Holder>() {

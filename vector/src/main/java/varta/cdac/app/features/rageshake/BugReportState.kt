@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package varta.cdac.app.features.rageshake
 
 import com.airbnb.mvrx.MvRxState
 

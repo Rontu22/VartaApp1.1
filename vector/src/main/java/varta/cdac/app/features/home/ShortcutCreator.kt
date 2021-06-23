@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package varta.cdac.app.features.home
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -23,10 +23,10 @@ import androidx.annotation.WorkerThread
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
-import im.vector.app.BuildConfig
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.RoomDetailActivity
+import varta.cdac.app.BuildConfig
+import varta.cdac.app.core.glide.GlideApp
+import varta.cdac.app.core.utils.DimensionConverter
+import varta.cdac.app.features.home.room.detail.RoomDetailActivity
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package varta.cdac.app.features.roomprofile.settings.joinrule
 
 import android.os.Bundle
 import android.os.Parcelable
 import android.view.View
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.di.ScreenComponent
-import im.vector.app.core.ui.bottomsheet.BottomSheetGeneric
-import im.vector.app.core.ui.bottomsheet.BottomSheetGenericController
+import varta.cdac.app.core.di.ScreenComponent
+import varta.cdac.app.core.ui.bottomsheet.BottomSheetGeneric
+import varta.cdac.app.core.ui.bottomsheet.BottomSheetGenericController
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 import javax.inject.Inject

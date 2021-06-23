@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package varta.cdac.app.core.di
 
 import android.content.Context
 import android.content.SharedPreferences

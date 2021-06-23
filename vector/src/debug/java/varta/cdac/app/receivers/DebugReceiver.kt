@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.receivers
+package varta.cdac.app.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -22,8 +22,8 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import im.vector.app.core.di.DefaultSharedPreferences
-import im.vector.app.core.utils.lsFiles
+import varta.cdac.app.core.di.DefaultSharedPreferences
+import varta.cdac.app.core.utils.lsFiles
 import timber.log.Timber
 
 /**

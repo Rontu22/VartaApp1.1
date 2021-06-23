@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package varta.cdac.app.features.signout.soft
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -24,16 +24,16 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.withColoredButton
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
-import im.vector.app.features.login.AbstractLoginFragment
-import im.vector.app.features.login.LoginAction
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.LoginViewEvents
+import varta.cdac.app.R
+import varta.cdac.app.core.dialogs.withColoredButton
+import varta.cdac.app.core.extensions.cleanup
+import varta.cdac.app.core.extensions.configureWith
+import varta.cdac.app.core.extensions.hideKeyboard
+import varta.cdac.app.databinding.FragmentGenericRecyclerBinding
+import varta.cdac.app.features.login.AbstractLoginFragment
+import varta.cdac.app.features.login.LoginAction
+import varta.cdac.app.features.login.LoginMode
+import varta.cdac.app.features.login.LoginViewEvents
 
 import javax.inject.Inject
 

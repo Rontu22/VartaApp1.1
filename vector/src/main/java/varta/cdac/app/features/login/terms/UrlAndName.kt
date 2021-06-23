@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.terms
+package varta.cdac.app.features.login.terms
 
 data class UrlAndName(
         val url: String,

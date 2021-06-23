@@ -15,10 +15,10 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package varta.cdac.app.features.attachments.preview
 
 import android.net.Uri
-import im.vector.app.core.platform.VectorViewModelAction
+import varta.cdac.app.core.platform.VectorViewModelAction
 
 sealed class AttachmentsPreviewAction : VectorViewModelAction {
     object RemoveCurrentAttachment : AttachmentsPreviewAction()

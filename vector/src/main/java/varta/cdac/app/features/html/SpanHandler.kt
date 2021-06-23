@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.html
+package varta.cdac.app.features.html
 
-import im.vector.app.core.resources.ColorProvider
+import varta.cdac.app.core.resources.ColorProvider
 import io.noties.markwon.MarkwonVisitor
 import io.noties.markwon.SpannableBuilder
 import io.noties.markwon.html.HtmlTag

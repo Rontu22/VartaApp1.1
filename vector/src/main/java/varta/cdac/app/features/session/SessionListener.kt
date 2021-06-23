@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.session
+package varta.cdac.app.features.session
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import im.vector.app.core.extensions.postLiveEvent
-import im.vector.app.core.utils.LiveEvent
+import varta.cdac.app.core.extensions.postLiveEvent
+import varta.cdac.app.core.utils.LiveEvent
 import kotlinx.coroutines.cancelChildren
-import im.vector.app.features.call.vectorCallService
+import varta.cdac.app.features.call.vectorCallService
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.failure.GlobalError
 import org.matrix.android.sdk.api.session.Session

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery.change
+package varta.cdac.app.features.discovery.change
 
 import android.app.Activity
 import android.os.Bundle
@@ -28,15 +28,15 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.jakewharton.rxbinding3.widget.textChanges
-import im.vector.app.R
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.databinding.FragmentSetIdentityServerBinding
-import im.vector.app.features.discovery.DiscoverySharedViewModel
+import varta.cdac.app.R
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.registerStartForActivityResult
+import varta.cdac.app.core.extensions.toReducedUrl
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.resources.ColorProvider
+import varta.cdac.app.core.utils.colorizeMatchingText
+import varta.cdac.app.databinding.FragmentSetIdentityServerBinding
+import varta.cdac.app.features.discovery.DiscoverySharedViewModel
 
 import org.matrix.android.sdk.api.session.terms.TermsService
 import javax.inject.Inject

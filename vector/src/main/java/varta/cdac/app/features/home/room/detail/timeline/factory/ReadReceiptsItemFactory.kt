@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package varta.cdac.app.features.home.room.detail.timeline.factory
 
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptData
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptsItem
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptsItem_
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.features.home.room.detail.timeline.item.ReadReceiptData
+import varta.cdac.app.features.home.room.detail.timeline.item.ReadReceiptsItem
+import varta.cdac.app.features.home.room.detail.timeline.item.ReadReceiptsItem_
 import org.matrix.android.sdk.api.session.room.model.ReadReceipt
 import javax.inject.Inject
 

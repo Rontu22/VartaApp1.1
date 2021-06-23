@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package varta.cdac.app.features.attachments
 
 /**
  * Data class holding values of a picked contact

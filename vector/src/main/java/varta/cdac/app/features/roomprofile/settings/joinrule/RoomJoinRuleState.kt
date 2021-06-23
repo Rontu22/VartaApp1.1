@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package varta.cdac.app.features.roomprofile.settings.joinrule
 
-import im.vector.app.core.ui.bottomsheet.BottomSheetGenericState
+import varta.cdac.app.core.ui.bottomsheet.BottomSheetGenericState
 import org.matrix.android.sdk.api.session.room.model.GuestAccess
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 

@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package varta.cdac.app.features.crypto.keysbackup.restore
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.databinding.FragmentKeysBackupRestoreSuccessBinding
+import varta.cdac.app.R
+import varta.cdac.app.core.platform.VectorBaseFragment
+import varta.cdac.app.core.utils.LiveEvent
+import varta.cdac.app.databinding.FragmentKeysBackupRestoreSuccessBinding
 
 import javax.inject.Inject
 

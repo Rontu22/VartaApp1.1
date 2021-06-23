@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package varta.cdac.app.features.home.room.detail.timeline.item
 
 import android.graphics.Typeface
 import android.view.View
@@ -25,13 +25,13 @@ import androidx.annotation.IdRes
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.ui.views.SendStateImageView
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import varta.cdac.app.R
+import varta.cdac.app.core.epoxy.ClickListener
+import varta.cdac.app.core.epoxy.onClick
+import varta.cdac.app.core.ui.views.SendStateImageView
+import varta.cdac.app.features.home.AvatarRenderer
+import varta.cdac.app.features.home.room.detail.timeline.MessageColorProvider
+import varta.cdac.app.features.home.room.detail.timeline.TimelineEventController
 
 /**
  * Base timeline item that adds an optional information bar with the sender avatar, name, time, send state

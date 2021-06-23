@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package varta.cdac.app.features.userdirectory
 
 import com.airbnb.mvrx.ActivityViewModelContext
 import com.airbnb.mvrx.FragmentViewModelContext
@@ -24,9 +24,9 @@ import com.jakewharton.rxrelay2.BehaviorRelay
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.extensions.exhaustive
-import im.vector.app.core.extensions.toggle
-import im.vector.app.core.platform.VectorViewModel
+import varta.cdac.app.core.extensions.exhaustive
+import varta.cdac.app.core.extensions.toggle
+import varta.cdac.app.core.platform.VectorViewModel
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import org.matrix.android.sdk.api.MatrixPatterns
