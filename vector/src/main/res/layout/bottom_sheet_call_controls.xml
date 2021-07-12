@@ -28,6 +28,16 @@
         tools:actionDescription="Front" />
 
     <varta.cdac.app.core.ui.views.BottomSheetActionButton
+        android:id="@+id/addParticipentsDuringCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:actionTitle="Add Participants from contacts"
+        app:leftIcon="@drawable/ic_add_participants_during_video_call"
+        app:tint="?vctr_content_primary"
+        app:titleTextColor="?vctr_content_primary"
+        tools:actionDescription="Choose From contacts" />
+
+    <varta.cdac.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsOpenDialPad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
