@@ -53,6 +53,11 @@ class CallControlsBottomSheet : VectorBaseBottomSheetDialogFragment<BottomSheetC
             callViewModel.handle(VectorCallViewActions.ToggleCamera)
             dismiss()
         }
+        /// TODO : Add Participents During Call
+        views.addParticipentsDuringCall.views.bottomSheetActionClickableZone.debouncedClicks {
+            callViewModel.handle(VectorCallViewActions.InitiateCallTransfer)
+            dismiss()
+        }
 
         views.callControlsToggleSDHD.views.bottomSheetActionClickableZone.debouncedClicks {
             callViewModel.handle(VectorCallViewActions.ToggleHDSD)
