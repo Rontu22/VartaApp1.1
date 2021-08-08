@@ -349,6 +349,9 @@ class VectorCallActivity : VectorBaseActivity<ActivityCallBinding>(), CallContro
                     callback = dialPadCallback
                 }.show(supportFragmentManager, FRAGMENT_DIAL_PAD_TAG)
             }
+            is VectorCallViewEvents.ShowAddParticipentsScreen ->{
+                navigator.openAddParticipent(this,callArgs.callId)
+            }
             is VectorCallViewEvents.ShowCallTransferScreen -> {
                 navigator.openCallTransfer(this, callArgs.callId)
             }

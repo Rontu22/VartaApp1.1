@@ -304,10 +304,25 @@ class VectorCallViewModel @AssistedInject constructor(
                         VectorCallViewEvents.ShowCallTransferScreen
                 )
             }
+            VectorCallViewActions.AddParticipents ->{
+                _viewEvents.post(VectorCallViewEvents.ShowAddParticipentsScreen)
+                addParticipentsDuringCall()
+            }
             VectorCallViewActions.TransferCall         -> {
                 handleCallTransfer()
             }
         }.exhaustive
+    }
+
+    private fun addParticipentsDuringCall()
+    {
+        viewModelScope.launch {
+            val ongoingCall = call
+            val addParticipant = ongoingCall?.let { callManager.getTransfereeForCallId(it.callId) }
+            if (addParticipant != null) {
+                addParticipant.transferToCall(addParticipant)
+            }
+        }
     }
 
     private fun handleCallTransfer() {

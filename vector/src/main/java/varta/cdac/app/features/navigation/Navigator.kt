@@ -136,4 +136,6 @@ interface Navigator {
     fun openDevTools(context: Context, roomId: String)
 
     fun openCallTransfer(context: Context, callId: String)
+
+    fun openAddParticipent(context: Context,callId: String)
 }

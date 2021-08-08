@@ -498,6 +498,11 @@ class DefaultNavigator @Inject constructor(
         context.startActivity(intent)
     }
 
+    override fun openAddParticipent(context: Context, callId: String) {
+        val intent = CallTransferActivity.newIntent(context,callId)
+        context.startActivity(intent)
+    }
+
     private fun startActivity(context: Context, intent: Intent, buildTask: Boolean) {
         if (buildTask) {
             val stackBuilder = TaskStackBuilder.create(context)
