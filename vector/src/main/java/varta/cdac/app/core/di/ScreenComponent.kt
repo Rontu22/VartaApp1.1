@@ -28,6 +28,7 @@ import varta.cdac.app.features.MainActivity
 import varta.cdac.app.features.auth.ReAuthActivity
 import varta.cdac.app.features.call.CallControlsBottomSheet
 import varta.cdac.app.features.call.VectorCallActivity
+import varta.cdac.app.features.call.add_participent.AddParticipantActivity
 import varta.cdac.app.features.call.conference.VectorJitsiActivity
 import varta.cdac.app.features.call.transfer.CallTransferActivity
 import varta.cdac.app.features.createdirect.CreateDirectRoomActivity
@@ -165,6 +166,7 @@ interface ScreenComponent {
     fun inject(activity: SpaceCreationActivity)
     fun inject(activity: SpaceExploreActivity)
     fun inject(activity: SpaceManageActivity)
+    fun inject(activity: AddParticipantActivity)
 
     /* ==========================================================================================
      * BottomSheets

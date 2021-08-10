@@ -55,8 +55,8 @@ class CallControlsBottomSheet : VectorBaseBottomSheetDialogFragment<BottomSheetC
         }
         /// TODO : Add Participents During Call
         views.addParticipentsDuringCall.views.bottomSheetActionClickableZone.debouncedClicks {
-//            callViewModel.handle(VectorCallViewActions.InitiateCallTransfer)
-            callViewModel.handle(VectorCallViewActions.AddParticipents)
+            callViewModel.handle(VectorCallViewActions.InitiateCallTransfer)
+//            callViewModel.handle(VectorCallViewActions.AddParticipents)
             dismiss()
         }
 
