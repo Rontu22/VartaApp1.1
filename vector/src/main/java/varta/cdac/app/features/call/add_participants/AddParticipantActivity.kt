@@ -57,9 +57,9 @@ ContactsBookViewModel.Factory{
 
     override fun getCoordinatorLayout() = views.vectorCoordinatorLayoutAddParticipant
 
-//    override fun injectWith(injector: ScreenComponent) {
-//        injector.inject(this)
-//    }
+    override fun injectWith(injector: ScreenComponent) {
+        injector.inject(this)
+    }
 
 
 //    override fun injectWith(injector: ScreenComponent) {
