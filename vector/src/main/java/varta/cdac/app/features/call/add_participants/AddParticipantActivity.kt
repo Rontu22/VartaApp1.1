@@ -61,6 +61,7 @@ ContactsBookViewModel.Factory{
 //        injector.inject(this)
 //    }
 
+
 //    override fun injectWith(injector: ScreenComponent) {
 //        injector.inject(this)
 //    }
