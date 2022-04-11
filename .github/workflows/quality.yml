@@ -40,7 +40,7 @@ jobs:
       - name: Lint analysis of the SDK
         run: ./gradlew clean :matrix-sdk-android:lintRelease --stacktrace
       - name: Upload reports
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: linting-report-android-sdk
           path: matrix-sdk-android/build/reports/*.*
@@ -66,7 +66,7 @@ jobs:
       - name: Lint ${{ matrix.target }} release
         run: ./gradlew clean lint${{ matrix.target }}Release --stacktrace
       - name: Upload ${{ matrix.target }} linting report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         if: always()
         with:
           name: release-debug-linting-report-${{ matrix.target }}
