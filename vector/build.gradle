@@ -312,7 +312,7 @@ dependencies {
     def arch_version = '2.1.0'
     def lifecycle_version = '2.2.0'
     def rxbinding_version = '3.1.0'
-    def jjwt_version = '0.11.2'
+    def jjwt_version = '0.11.5'
 
     // Tests
     def kluent_version = '1.65'
